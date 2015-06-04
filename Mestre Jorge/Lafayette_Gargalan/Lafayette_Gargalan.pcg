@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Sargava the Lost Colony
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Ultimate Campaign
 VERSION:6.04.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -32,7 +32,7 @@ WEIGHT:75
 AGE:21
 GENDER:Male
 HANDED:Left
-SKINCOLOR:Cinza
+SKINCOLOR:Branco um pouco escuro
 EYECOLOR:Verdes
 HAIRCOLOR:Preto
 HAIRSTYLE:
@@ -144,8 +144,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
-SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+SKILL:Use Magic Device|OUTPUTORDER:62|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Aklo|LANGUAGE:Common|LANGUAGE:Draconic
@@ -175,9 +175,16 @@ ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Com
 USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
 ABILITY:Intelligence-Based Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skills ~ Int Based|APPLIEDTO:Craft (Weapons),Craft (Weapons),Spellcraft,Spellcraft|TYPE:IntBaseSkill
 USERPOOL:Intelligence-Based Skill|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bestial Wrath ~ Trait|TYPE:Trait.BasicTrait.ReligionTrait|DESC:When you strike hard, you strike deep.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paranoid ~ Trait|TYPE:Trait.BasicTrait.DrawbackTrait|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Bard|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
-USERPOOL:Traits|POOLPOINTS:2.0
+USERPOOL:Traits|POOLPOINTS:1.0
+ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Act|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Act) skill in place of your bonus in the Bluff or Disguise skills. When substituting in this way, you use your total Perform (Act) skill bonus, including class skill bonus, in place of your Bluff or Disguise skill bonus, whether or not you have ranks in that skill or if it is a class skill.
+ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Oratory|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Oratory) skill in place of your bonus in the Diplomacy or Sense Motive skills. When substituting in this way, you use your total Perform (Oratory) skill bonus, including class skill bonus, in place of your Diplomacy or Sense Motive skill bonus, whether or not you have ranks in that skill or if it is a class skill.
+USERPOOL:Versatile Performance|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
 WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
