@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Ultimate Campaign
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Ultimate Campaign
 VERSION:6.04.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -79,6 +79,7 @@ TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Masterpiece Activation]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
 
 # Character Region
 REGION:None
@@ -144,8 +145,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
-SKILL:Use Magic Device|OUTPUTORDER:62|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
+SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Aklo|LANGUAGE:Common|LANGUAGE:Draconic
@@ -177,8 +178,6 @@ ABILITY:Intelligence-Based Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skills
 USERPOOL:Intelligence-Based Skill|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bestial Wrath ~ Trait|TYPE:Trait.BasicTrait.ReligionTrait|DESC:When you strike hard, you strike deep.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paranoid ~ Trait|TYPE:Trait.BasicTrait.DrawbackTrait|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Bard|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Traits|POOLPOINTS:1.0
@@ -195,22 +194,25 @@ WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WE
 WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
 WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
 WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
-WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat]
-WEAPONPROF:[WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife]
-WEAPONPROF:[WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter]
-WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake]
+WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
 MONEY:9873.00
-EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:EQMOD=STEEL]
-EQUIPNAME:Kukri|OUTPUTORDER:2|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:EQMOD=STEEL]
+EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
+EQUIPNAME:Kukri|OUTPUTORDER:2|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri$EQMOD=STEEL]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
-EQUIPNAME:Pick (Light)|OUTPUTORDER:1|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:EQMOD=STEEL]
-EQUIPNAME:Scimitar|OUTPUTORDER:0|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:EQMOD=STEEL]
+EQUIPNAME:Pick (Light)|OUTPUTORDER:1|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick (Light)$EQMOD=STEEL]
+EQUIPNAME:Scimitar|OUTPUTORDER:1|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar$EQMOD=STEEL]
 EQUIPSET:Configuração Padrão|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.01|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Pick (Light)|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.03|VALUE:Kukri|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:One Hand|ID:0.2|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.2.01|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.2.02|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
@@ -221,6 +223,20 @@ CALCEQUIPSET:0.1
 DEITY:Sarenrae|DEITYDOMAINS:[DOMAIN:Fire|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Healing|DOMAIN:Sun|DOMAIN:Agathion Subdomain|DOMAIN:Day Subdomain|DOMAIN:Heroism Subdomain|DOMAIN:Light Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain]|ALIGNALLOW:|DESC:Goddess of the sun, redemption, honesty, healing|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Scimitar]|DEITYALIGN:NG
 
 # Character Spells Information
+SPELLNAME:Acute Senses|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Allegro|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Darkness|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Gallant Inspiration|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Know Direction|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Mending|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Message|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Saving Finale|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Summon Instrument|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Vanish|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Windy Escape|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
 
 # Character Description/Bio/History
 CHARACTERBIO:
