@@ -47,6 +47,7 @@ PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
 PORTRAIT:
+PORTRAITTHUMBNAILRECT:0,10,100,100
 
 # Character Attributes
 STAT:STR|SCORE:12
@@ -62,13 +63,13 @@ RACE:Fetchling
 CLASS:Bard|LEVEL:6|SKILLPOOL:0|SPELLBASE:CHA|CANCASTPERDAY:0,4,3
 CLASS:Fighter|LEVEL:2|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Bard=1|HITPOINTS:8|PRESTAT:DEX=-1|PRESTAT:STR=-3|PRESTAT:CHA=-2|PRESTAT:CON=-1|PRESTAT:INT=-3|PRESTAT:WIS=-2|SKILLSGAINED:8|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:2|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Bard=2|HITPOINTS:1|PRESTAT:DEX=1|SKILLSGAINED:8|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Bard=3|HITPOINTS:8|SKILLSGAINED:8|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Bard=4|HITPOINTS:8|SKILLSGAINED:8|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Bard=5|HITPOINTS:3|SKILLSGAINED:8|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Bard=6|HITPOINTS:8|PRESTAT:DEX=1|PRESTAT:STR=-1|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=2|HITPOINTS:7|PRESTAT:DEX=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=3|HITPOINTS:7|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=4|HITPOINTS:6|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=5|HITPOINTS:7|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=6|HITPOINTS:6|PRESTAT:DEX=1|PRESTAT:STR=-1|PRESTAT:INT=1|SKILLSGAINED:8|SKILLSREMAINING:0
 
 # Character Experience
 EXPERIENCE:51000
@@ -145,8 +146,8 @@ SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
-SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+SKILL:Use Magic Device|OUTPUTORDER:62|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Aklo|LANGUAGE:Common|LANGUAGE:Draconic
@@ -180,7 +181,7 @@ ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TY
 USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Bard|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
-USERPOOL:Traits|POOLPOINTS:1.0
+USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Act|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Act) skill in place of your bonus in the Bluff or Disguise skills. When substituting in this way, you use your total Perform (Act) skill bonus, including class skill bonus, in place of your Bluff or Disguise skill bonus, whether or not you have ranks in that skill or if it is a class skill.
 ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Oratory|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Oratory) skill in place of your bonus in the Diplomacy or Sense Motive skills. When substituting in this way, you use your total Perform (Oratory) skill bonus, including class skill bonus, in place of your Diplomacy or Sense Motive skill bonus, whether or not you have ranks in that skill or if it is a class skill.
 USERPOOL:Versatile Performance|POOLPOINTS:0.0
@@ -242,9 +243,9 @@ SPELLNAME:Windy Escape|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:
 CHARACTERBIO:
 CHARACTERDESC:
 CHARACTERCOMP:
-CHARACTERASSET:
+CHARACTERASSET:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling&nl;
 CHARACTERMAGIC:
-CHARACTERDMNOTES:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling
+CHARACTERDMNOTES:Dados de vida;&nl;8 8 8 7 7 6,5 6,5 6,5
 
 # Kits
 
