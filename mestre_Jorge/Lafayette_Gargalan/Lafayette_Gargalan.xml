@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>Jun 7, 2015</date>
-		<time>11:47:17 PM</time>
+		<date>Jun 8, 2015</date>
+		<time>1:19:00 AM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -1785,7 +1785,7 @@
 		<item>
 			<longname>Outfit (Traveler&#39;s)</longname>
 			<id></id>
-			<name>Traveler&#39;s Outfit</name>
+			<name>Outfit (Traveler&#39;s)</name>
 			<carried>1.0</carried>
 			<charges></charges>
 			<charges_used></charges_used>
@@ -2016,7 +2016,7 @@
 				</item>
 				<item>
 					<longname>Outfit (Traveler&#39;s)</longname>
-					<name>Traveler&#39;s Outfit</name>
+					<name>Outfit (Traveler&#39;s)</name>
 					<carried>1.0</carried>
 					<charges></charges>
 					<charges_used></charges_used>
@@ -2238,7 +2238,7 @@
 				</item>
 				<item>
 					<longname>Outfit (Traveler&#39;s)</longname>
-					<name>Traveler&#39;s Outfit</name>
+					<name>Outfit (Traveler&#39;s)</name>
 					<carried>1.0</carried>
 					<charges></charges>
 					<charges_used></charges_used>
@@ -2460,7 +2460,7 @@
 				</item>
 				<item>
 					<longname>Outfit (Traveler&#39;s)</longname>
-					<name>Traveler&#39;s Outfit</name>
+					<name>Outfit (Traveler&#39;s)</name>
 					<carried>1.0</carried>
 					<charges></charges>
 					<charges_used></charges_used>
