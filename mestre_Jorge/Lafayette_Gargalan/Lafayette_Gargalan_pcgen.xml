@@ -5,7 +5,7 @@
 <character>
 	<export>
 		<date>Jun 7, 2015</date>
-		<time>1:52:31 PM</time>
+		<time>11:47:17 PM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -195,7 +195,7 @@
 			<all>Darkvision (60 ft.), Low-Light Vision</all>
 		</vision>
 		<wealth>0</wealth>
-		<gold>0</gold>
+		<gold>7,798</gold>
 		<weight>
 			<weight_unit>75 lbs.</weight_unit>
 			<weight_nounit>75</weight_nounit>
@@ -423,12 +423,12 @@
 	  ====================================
 	  ====================================-->
 	<armor_class>
-		<total>14</total>
-		<listing>ABILITY +4, BASE +10</listing>
-		<flat>10</flat>
+		<total>18</total>
+		<listing>ABILITY +4, ARMOR +4, BASE +10</listing>
+		<flat>14</flat>
 		<touch>14</touch>
 		<base>10</base>
-		<armor_bonus>0</armor_bonus>
+		<armor_bonus>4</armor_bonus>
 		<shield_bonus>0</shield_bonus>
 		<stat_mod>4</stat_mod>
 		<size_mod>0</size_mod>
@@ -443,9 +443,9 @@
 		<sacred>0</sacred>
 		<profane>0</profane>
 		<miss_chance/>
-		<max_dex></max_dex>
-		<spell_failure>0</spell_failure>
-		<check_penalty>+0</check_penalty>
+		<max_dex>+4</max_dex>
+		<spell_failure>20</spell_failure>
+		<check_penalty>-2</check_penalty>
 		<spell_resistance>0</spell_resistance>
 	</armor_class>
 	<!--
@@ -458,8 +458,8 @@
 		<total>+6</total>
 		<dex_mod>+4</dex_mod>
 		<misc_mod>+2</misc_mod>
-		<spell_failure>0</spell_failure>
-		<check_penalty>+0</check_penalty>
+		<spell_failure>20</spell_failure>
+		<check_penalty>-2</check_penalty>
 		<spell_resistance>0</spell_resistance>
 		<hero_points>0</hero_points>
 	</initiative>
@@ -482,25 +482,25 @@
 			<unused>0</unused>
 			<eclipse_total>0</eclipse_total>
 		</skillpoints>
-		<list_mods>Appraise +6, Bluff (Perform (Act)) +14, Craft (Weapons) +8, Diplomacy (Perform (Oratory)) +14, Disguise (Perform (Act)) +14, Escape Artist +9, Perform (Act) +14, Perform (Dance) +14, Perform (Oratory) +14, Perform (Percussion Instruments) +14, Perform (Sing) +8, Sense Motive (Perform (Oratory)) +14, Spellcraft +9, Stealth +17, Use Magic Device +14</list_mods>
+		<list_mods>Appraise +6, Bluff (Perform (Act)) +14, Craft (Weapons) +8, Diplomacy (Perform (Oratory)) +14, Disguise (Perform (Act)) +14, Escape Artist +7, Perform (Act) +14, Perform (Dance) +14, Perform (Oratory) +14, Perform (Percussion Instruments) +14, Perform (Sing) +8, Sense Motive (Perform (Oratory)) +14, Spellcraft +9, Stealth +15, Use Magic Device +14</list_mods>
 			<max_class_skill_level>8</max_class_skill_level>
 		<max_cross_class_skill_level>8</max_cross_class_skill_level>
 		<skill>
 			<name>Acrobatics</name>
 			<ranks>0.0</ranks>
-			<mod>4<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>4</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>4<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Acrobatics</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>4</trained_total>
-			<exclusive_total>4</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -564,19 +564,19 @@
 		<skill>
 			<name>Climb</name>
 			<ranks>0.0</ranks>
-			<mod>1<!-- Mods from abilities, equipment, etc -->
+			<mod>-1<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>1</skill_mod>
+			<skill_mod>-1</skill_mod>
 			<ability_mod>1<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>STR</ability>
 			<synergy>Climb</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>1</trained_total>
-			<exclusive_total>1</exclusive_total>
+			<trained_total>-1</trained_total>
+			<exclusive_total>-1</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Strength.Base</type>
 		</skill>
@@ -697,38 +697,38 @@
 		<skill>
 			<name>Escape Artist</name>
 			<ranks>2.0</ranks>
-			<mod>7<!-- Mods from abilities, equipment, etc -->
+			<mod>5<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>9</skill_mod>
+			<skill_mod>7</skill_mod>
 			<ability_mod>4<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>1<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Escape Artist</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>9</trained_total>
-			<exclusive_total>9</exclusive_total>
+			<trained_total>7</trained_total>
+			<exclusive_total>7</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Dexterity.Base</type>
 		</skill>
 		<skill>
 			<name>Fly</name>
 			<ranks>0.0</ranks>
-			<mod>4<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>4</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>4<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Fly</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>4</trained_total>
-			<exclusive_total>4</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -906,19 +906,19 @@
 		<skill>
 			<name>Ride</name>
 			<ranks>0.0</ranks>
-			<mod>4<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>4</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>4<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Ride</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>4</trained_total>
-			<exclusive_total>4</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -982,19 +982,19 @@
 		<skill>
 			<name>Stealth</name>
 			<ranks>8.0</ranks>
-			<mod>9<!-- Mods from abilities, equipment, etc -->
+			<mod>7<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>17</skill_mod>
+			<skill_mod>15</skill_mod>
 			<ability_mod>4<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>5<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Stealth</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>17</trained_total>
-			<exclusive_total>17</exclusive_total>
+			<trained_total>15</trained_total>
+			<exclusive_total>15</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -1020,19 +1020,19 @@
 		<skill>
 			<name>Swim</name>
 			<ranks>0.0</ranks>
-			<mod>1<!-- Mods from abilities, equipment, etc -->
+			<mod>-1<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>1</skill_mod>
+			<skill_mod>-1</skill_mod>
 			<ability_mod>1<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>STR</ability>
 			<synergy>Swim</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>1</trained_total>
-			<exclusive_total>1</exclusive_total>
+			<trained_total>-1</trained_total>
+			<exclusive_total>-1</exclusive_total>
 			<classes>Bard.Fighter</classes>
 			<type>Strength.Base</type>
 		</skill>
@@ -1235,6 +1235,279 @@
 
 	<!-- Natural Attack -->
 
+	<!--	Request to remove the Double Weapon Block OS-133		-->
+		<weapon>
+			<common>
+				<name>
+					<short>*Kukri</short>
+					<long>*Kukri</long>
+					<output>*Kukri</output>
+				</name>
+				<category>Martial-Melee</category>
+				<critical>
+					<range>18-20</range>
+					<multiplier>2</multiplier>
+				</critical>
+				<to_hit>
+					<hit>+8/+3</hit>
+					<magic_hit>+0</magic_hit>
+					<total_hit>+8/+3</total_hit>
+				</to_hit>
+				<feat>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</feat>
+				<magic>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</magic>
+				<template>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</template>
+				<hand>Off-hand</hand>
+				<num_attacks>2</num_attacks>
+				<reach>5</reach>
+				<reachunit> ft.</reachunit>
+				<size>M</size>
+					<special_properties></special_properties>
+				<type>S</type>
+				<weight>2</weight>
+				<attacks>0</attacks>
+				<heft>MEDIUM</heft>
+				<range>0 ft.</range>
+				<sizemod>+0</sizemod>
+				<basehit>+10/+5</basehit>
+				<misc>+0</misc>
+				<damage>1d4</damage>
+				<damagebonus>+0</damagebonus>
+				<basedamagebonus>+0</basedamagebonus>
+				<thdamagebonus>+1</thdamagebonus>
+				<ohdamagebonus>+0</ohdamagebonus>
+				<rateoffire></rateoffire>
+				<islight>TRUE</islight>
+				<sequence>0</sequence>
+			</common>
+			<melee>
+				<invalidtext>
+					<tohit>N/A</tohit>
+					<damage>N/A</damage>
+				</invalidtext>
+				<hand>Off-hand</hand>
+				<w1_h1_p>
+					<!-- One weapon, 1 hand, primary hand -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4+1</damage>
+				</w1_h1_p>
+				<w1_h1_o>
+					<!-- One weapon, 1 handed, offhand -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4</damage>
+				</w1_h1_o>
+				<w1_h2>
+					<!-- One weapon, 2 handed -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4+1</damage>
+				</w1_h2>
+				<w2_p_oh>
+					<!-- Two weapons, this weapon in primary hand, other hand with heavy weapon -->
+					<to_hit>+6/+1</to_hit>
+					<damage>1d4+1</damage>
+				</w2_p_oh>
+				<w2_p_ol>
+					<!-- Two weapons, this weapon in primary hand, other hand with light weapon -->
+					<to_hit>+8/+3</to_hit>
+					<damage>1d4+1</damage>
+				</w2_p_ol>
+				<w2_o>
+					<!-- Two weapons, this weapon in off-hand -->
+					<to_hit>+8/+3</to_hit>
+					<damage>1d4</damage>
+				</w2_o>
+			</melee>
+		</weapon>
+	<!--	Request to remove the Double Weapon Block OS-133		-->
+		<weapon>
+			<common>
+				<name>
+					<short>*Light Pick</short>
+					<long>*Pick (Light)</long>
+					<output>*Light Pick</output>
+				</name>
+				<category>Martial-Melee</category>
+				<critical>
+					<range>20</range>
+					<multiplier>4</multiplier>
+				</critical>
+				<to_hit>
+					<hit>+8/+3</hit>
+					<magic_hit>+0</magic_hit>
+					<total_hit>+8/+3</total_hit>
+				</to_hit>
+				<feat>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</feat>
+				<magic>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</magic>
+				<template>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</template>
+				<hand>Primary</hand>
+				<num_attacks>2</num_attacks>
+				<reach>5</reach>
+				<reachunit> ft.</reachunit>
+				<size>M</size>
+					<special_properties></special_properties>
+				<type>P</type>
+				<weight>3</weight>
+				<attacks>0</attacks>
+				<heft>MEDIUM</heft>
+				<range>0 ft.</range>
+				<sizemod>+0</sizemod>
+				<basehit>+10/+5</basehit>
+				<misc>+0</misc>
+				<damage>1d4+1</damage>
+				<damagebonus>+1</damagebonus>
+				<basedamagebonus>+0</basedamagebonus>
+				<thdamagebonus>+1</thdamagebonus>
+				<ohdamagebonus>+0</ohdamagebonus>
+				<rateoffire></rateoffire>
+				<islight>TRUE</islight>
+				<sequence>1</sequence>
+			</common>
+			<melee>
+				<invalidtext>
+					<tohit>N/A</tohit>
+					<damage>N/A</damage>
+				</invalidtext>
+				<hand>Primary</hand>
+				<w1_h1_p>
+					<!-- One weapon, 1 hand, primary hand -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4+1</damage>
+				</w1_h1_p>
+				<w1_h1_o>
+					<!-- One weapon, 1 handed, offhand -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4</damage>
+				</w1_h1_o>
+				<w1_h2>
+					<!-- One weapon, 2 handed -->
+					<to_hit>+10/+5</to_hit>
+					<damage>1d4+1</damage>
+				</w1_h2>
+				<w2_p_oh>
+					<!-- Two weapons, this weapon in primary hand, other hand with heavy weapon -->
+					<to_hit>+6/+1</to_hit>
+					<damage>1d4+1</damage>
+				</w2_p_oh>
+				<w2_p_ol>
+					<!-- Two weapons, this weapon in primary hand, other hand with light weapon -->
+					<to_hit>+8/+3</to_hit>
+					<damage>1d4+1</damage>
+				</w2_p_ol>
+				<w2_o>
+					<!-- Two weapons, this weapon in off-hand -->
+					<to_hit>+8/+3</to_hit>
+					<damage>1d4</damage>
+				</w2_o>
+			</melee>
+		</weapon>
+	<!--	Request to remove the Double Weapon Block OS-133		-->
+		<weapon>
+			<common>
+				<name>
+					<short>Scimitar</short>
+					<long>Scimitar</long>
+					<output>Scimitar</output>
+				</name>
+				<category>Martial-Melee</category>
+				<critical>
+					<range>18-20</range>
+					<multiplier>2</multiplier>
+				</critical>
+				<to_hit>
+					<hit>+7/+2</hit>
+					<magic_hit>+0</magic_hit>
+					<total_hit>+7/+2</total_hit>
+				</to_hit>
+				<feat>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</feat>
+				<magic>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</magic>
+				<template>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</template>
+				<hand>Carried</hand>
+				<num_attacks>2</num_attacks>
+				<reach>5</reach>
+				<reachunit> ft.</reachunit>
+				<size>M</size>
+					<special_properties></special_properties>
+				<type>S</type>
+				<weight>4</weight>
+				<attacks>0</attacks>
+				<heft>MEDIUM</heft>
+				<range>0 ft.</range>
+				<sizemod>+0</sizemod>
+				<basehit>+7/+2</basehit>
+				<misc>+0</misc>
+				<damage>1d6+1</damage>
+				<damagebonus>+1</damagebonus>
+				<basedamagebonus>+0</basedamagebonus>
+				<thdamagebonus>+1</thdamagebonus>
+				<ohdamagebonus>+0</ohdamagebonus>
+				<rateoffire></rateoffire>
+				<islight>FALSE</islight>
+				<sequence>2</sequence>
+			</common>
+			<melee>
+				<invalidtext>
+					<tohit>N/A</tohit>
+					<damage>N/A</damage>
+				</invalidtext>
+				<hand>Carried</hand>
+				<w1_h1_p>
+					<!-- One weapon, 1 hand, primary hand -->
+					<to_hit>+7/+2</to_hit>
+					<damage>1d6+1</damage>
+				</w1_h1_p>
+				<w1_h1_o>
+					<!-- One weapon, 1 handed, offhand -->
+					<to_hit>+7/+2</to_hit>
+					<damage>1d6</damage>
+				</w1_h1_o>
+				<w1_h2>
+					<!-- One weapon, 2 handed -->
+					<to_hit>+7/+2</to_hit>
+					<damage>1d6+1</damage>
+				</w1_h2>
+				<w2_p_oh>
+					<!-- Two weapons, this weapon in primary hand, other hand with heavy weapon -->
+					<to_hit>+3/-2</to_hit>
+					<damage>1d6+1</damage>
+				</w2_p_oh>
+				<w2_p_ol>
+					<!-- Two weapons, this weapon in primary hand, other hand with light weapon -->
+					<to_hit>+5/+0</to_hit>
+					<damage>1d6+1</damage>
+				</w2_p_ol>
+				<w2_o>
+					<!-- Two weapons, this weapon in off-hand -->
+					<to_hit>+3/-2</to_hit>
+					<damage>1d6</damage>
+				</w2_o>
+			</melee>
+		</weapon>
 	</weapons>
 	<!--
 	  ====================================
@@ -1243,6 +1516,22 @@
 	  ====================================
 	  ====================================-->
 	<protection>
+		<armor>
+			<name>*Chain Shirt</name>
+			<acbonus>+4</acbonus>
+			<accheck>-2</accheck>
+			<baseac>+4</baseac>
+			<edr>+0</edr>
+			<maxdex>+4</maxdex>
+			<move></move>
+			<spellfail>20</spellfail>
+			<special_properties></special_properties>
+			<totalac>+4</totalac>
+			<type>Light</type>
+			<wt>25</wt>
+			<fulltype>ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.METAL</fulltype>
+			<location>Equipped</location>
+		</armor>
 	</protection>
 	<!--
 	  ====================================
@@ -1355,14 +1644,908 @@
 	  ====================================
 	  ====================================-->
 	<equipment>
+		<item>
+			<longname>Kukri</longname>
+			<id></id>
+			<name>Kukri</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>8</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+			<weight>2</weight>
+			<total_wt>2</total_wt>
+			<total_weight>2</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage>1d4</damage>
+			<damage_alt></damage_alt>
+			<crit_range>3</crit_range>
+			<crit_mult>x2</crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Kukri</prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Pick (Light)</longname>
+			<id></id>
+			<name>Light Pick</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>4</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.PIERCING.PICK.AXE.MELEEPIERCING.WEAPON GROUP AXES.METAL</type>
+			<weight>3</weight>
+			<total_wt>3</total_wt>
+			<total_weight>3</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage>1d4</damage>
+			<damage_alt></damage_alt>
+			<crit_range>1</crit_range>
+			<crit_mult>x4</crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Pick (Light)</prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.32</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Chain Shirt</longname>
+			<id></id>
+			<name>Chain Shirt</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>100</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.METAL</type>
+			<weight>25</weight>
+			<total_wt>25</total_wt>
+			<total_weight>25</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>4</acmod>
+			<maxdex>4</maxdex>
+			<accheck>-2</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>20</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Chain Shirt</prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Outfit (Traveler&#39;s)</longname>
+			<id></id>
+			<name>Traveler&#39;s Outfit</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>0</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>GOODS.CLOTHING.RESIZABLE.STARTING</type>
+			<weight>5</weight>
+			<total_wt>5</total_wt>
+			<total_weight>5</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.91</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Scimitar</longname>
+			<id></id>
+			<name>Scimitar</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>15</cost>
+			<equipped>N</equipped>
+			<location>Carried</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>WEAPON.RESIZABLE.MELEE.ONEHANDED.MARTIAL.STANDARD.SLASHING.SWORD.BLADEHEAVY.WEAPON GROUP BLADES HEAVY.METAL</type>
+			<weight>4</weight>
+			<total_wt>4</total_wt>
+			<total_weight>4</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage>1d6</damage>
+			<damage_alt></damage_alt>
+			<crit_range>3</crit_range>
+			<crit_mult>x2</crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Scimitar</prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.35</source>
+			<quality></quality>
+		</item>
 		<total>
-			<weight>0 lbs.</weight>
-			<value>0 gp</value>
+			<weight>39 lbs.</weight>
+			<value>127 gp</value>
 			<load>Light</load>
 			<capacity>130</capacity>
 		</total>
 		<equipmentsets>
 		<equipmentset name="Default Set">
+				<item>
+					<longname>Kukri</longname>
+					<name>Kukri</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>8</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+					<weight>2</weight>
+					<total_wt>2</total_wt>
+					<total_weight>2</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Kukri</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Pick (Light)</longname>
+					<name>Light Pick</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>4</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.PIERCING.PICK.AXE.MELEEPIERCING.WEAPON GROUP AXES.METAL</type>
+					<weight>3</weight>
+					<total_wt>3</total_wt>
+					<total_weight>3</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>1</crit_range>
+					<crit_mult>x4</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Pick (Light)</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.32</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Chain Shirt</longname>
+					<name>Chain Shirt</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>100</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.METAL</type>
+					<weight>25</weight>
+					<total_wt>25</total_wt>
+					<total_weight>25</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>4</acmod>
+					<maxdex>4</maxdex>
+					<accheck>-2</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>20</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Chain Shirt</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Outfit (Traveler&#39;s)</longname>
+					<name>Traveler&#39;s Outfit</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>0</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>GOODS.CLOTHING.RESIZABLE.STARTING</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.91</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Scimitar</longname>
+					<name>Scimitar</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>15</cost>
+					<equipped>N</equipped>
+					<location>Carried</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.ONEHANDED.MARTIAL.STANDARD.SLASHING.SWORD.BLADEHEAVY.WEAPON GROUP BLADES HEAVY.METAL</type>
+					<weight>4</weight>
+					<total_wt>4</total_wt>
+					<total_weight>4</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d6</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Scimitar</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.35</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+			</equipmentset>
+		<equipmentset name="Scimitar">
+				<item>
+					<longname>Kukri</longname>
+					<name>Kukri</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>8</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+					<weight>2</weight>
+					<total_wt>2</total_wt>
+					<total_weight>2</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Kukri</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Pick (Light)</longname>
+					<name>Light Pick</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>4</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.PIERCING.PICK.AXE.MELEEPIERCING.WEAPON GROUP AXES.METAL</type>
+					<weight>3</weight>
+					<total_wt>3</total_wt>
+					<total_weight>3</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>1</crit_range>
+					<crit_mult>x4</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Pick (Light)</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.32</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Chain Shirt</longname>
+					<name>Chain Shirt</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>100</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.METAL</type>
+					<weight>25</weight>
+					<total_wt>25</total_wt>
+					<total_weight>25</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>4</acmod>
+					<maxdex>4</maxdex>
+					<accheck>-2</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>20</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Chain Shirt</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Outfit (Traveler&#39;s)</longname>
+					<name>Traveler&#39;s Outfit</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>0</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>GOODS.CLOTHING.RESIZABLE.STARTING</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.91</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Scimitar</longname>
+					<name>Scimitar</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>15</cost>
+					<equipped>N</equipped>
+					<location>Carried</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.ONEHANDED.MARTIAL.STANDARD.SLASHING.SWORD.BLADEHEAVY.WEAPON GROUP BLADES HEAVY.METAL</type>
+					<weight>4</weight>
+					<total_wt>4</total_wt>
+					<total_weight>4</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d6</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Scimitar</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.35</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+			</equipmentset>
+		<equipmentset name="two hands">
+				<item>
+					<longname>Kukri</longname>
+					<name>Kukri</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>8</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+					<weight>2</weight>
+					<total_wt>2</total_wt>
+					<total_weight>2</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Kukri</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Pick (Light)</longname>
+					<name>Light Pick</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>4</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.PIERCING.PICK.AXE.MELEEPIERCING.WEAPON GROUP AXES.METAL</type>
+					<weight>3</weight>
+					<total_wt>3</total_wt>
+					<total_weight>3</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>1</crit_range>
+					<crit_mult>x4</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Pick (Light)</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.32</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Chain Shirt</longname>
+					<name>Chain Shirt</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>100</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.METAL</type>
+					<weight>25</weight>
+					<total_wt>25</total_wt>
+					<total_weight>25</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>4</acmod>
+					<maxdex>4</maxdex>
+					<accheck>-2</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>20</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Chain Shirt</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Outfit (Traveler&#39;s)</longname>
+					<name>Traveler&#39;s Outfit</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>0</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>GOODS.CLOTHING.RESIZABLE.STARTING</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.91</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Scimitar</longname>
+					<name>Scimitar</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>15</cost>
+					<equipped>N</equipped>
+					<location>Carried</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.MELEE.ONEHANDED.MARTIAL.STANDARD.SLASHING.SWORD.BLADEHEAVY.WEAPON GROUP BLADES HEAVY.METAL</type>
+					<weight>4</weight>
+					<total_wt>4</total_wt>
+					<total_weight>4</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d6</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Scimitar</prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.35</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
 			</equipmentset>
 		</equipmentsets>
 	</equipment>
@@ -2261,7 +3444,7 @@
 
 
 	<misc>
-			<gold>0</gold>
+			<gold>7,798</gold>
 
 		<funds>
 			<fund><para>Proximos talentos possiveis:</para><para>* Greater Two weapon fighting</para><para></para><para>* Extra performance</para><para>* Master Performance</para><para>* Grand Master Performance</para><para></para><para>* Piranha strike</para><para>* Discordant Voice</para><para></para><para></para><para>???:</para><para>* Double Slice</para><para>* Improved Critical</para><para></para><para>Ra&#231;a:</para><para>http://www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling</para></fund>
@@ -2335,7 +3518,7 @@
 		<!-- ### END Innate spells ### -->
 		<!-- ### BEGIN Known spells ### -->
 		<known_spells>
-		<class number="1" spelllistclass="Bard" spellcasterlevel="8" spellcastertype="Arcane" memorize="false" concentration="+11">
+		<class number="1" spelllistclass="Bard" spellcasterlevel="6" spellcastertype="Arcane" memorize="false" concentration="+9">
 			<level number="0" known="6" cast="0">
 				<spell>
 						<name>Know Direction</name>
@@ -2344,8 +3527,8 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>When you cast this spell, you instantly know the direction of north from your current position.</effect>
@@ -2375,12 +3558,12 @@
 						<range>10 ft.</range>
 						<components>V, S</components>
 						<castingtime>10 minutes</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>13</dc>
 						<duration>Instantaneous</duration>
 						<effect>This spell repairs damaged objects, restoring 1d4 hit points to the object.</effect>
-						<target>One object of up to 8 lb.</target>
+						<target>One object of up to 6 lb.</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
 						<school>
 							<school>Transmutation</school>
@@ -2403,15 +3586,15 @@
 						<name>Message</name>
 						<outputname>Message</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Medium (180 ft.)</range>
+						<range>Medium (160 ft.)</range>
 						<components>V, S, F</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
-						<duration>80 minutes</duration>
+						<duration>60 minutes</duration>
 						<effect>You can whisper messages and receive whispered replies.</effect>
-						<target>8 creatures</target>
+						<target>6 creatures</target>
 						<saveinfo>None</saveinfo>
 						<school>
 							<school>Transmutation, AirSchool</school>
@@ -2437,8 +3620,8 @@
 						<range>10 ft.</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>13</dc>
 						<duration>1 hour</duration>
 						<effect>Prestidigitations are minor tricks that novice spellcasters use for practice.</effect>
@@ -2468,10 +3651,10 @@
 						<range>Personal</range>
 						<components>V, S, F</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
-						<duration>80 minutes</duration>
+						<duration>60 minutes</duration>
 						<effect>You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -2499,10 +3682,10 @@
 						<range>0 ft.</range>
 						<components>V, S</components>
 						<castingtime>1 round</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
-						<duration>8 minutes [D]</duration>
+						<duration>6 minutes [D]</duration>
 						<effect>This spell summons one handheld musical instrument of your choice.</effect>
 						<target>One summoned handheld musical instrument</target>
 						<saveinfo>None</saveinfo>
@@ -2532,8 +3715,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>14</dc>
 						<duration>Instantaneous</duration>
 						<effect>When laying your hand upon a living creature, you channel positive energy that cures 1d8+5 points of damage.</effect>
@@ -2560,11 +3743,11 @@
 						<name>Saving Finale</name>
 						<outputname>Saving Finale</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (40 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>14</dc>
 						<duration>Instantaneous</duration>
 						<effect>Subject rerolls failed saving throw.</effect>
@@ -2594,8 +3777,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>14</dc>
 						<duration>5 rounds [D]</duration>
 						<effect>This spell functions like invisibility. Like invisibility, the spell immediately ends if the subject attacks any creature.</effect>
@@ -2625,8 +3808,8 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>You respond to an attack by briefly becoming vaporous and insubstantial, allowing the attack to pass harmlessly through you. You gain DR 10/magic against this attack and are immune to any poison, sneak attacks, or critical hit effect from that attack. You cannot use windy escape against an attack of opportunity you provoked by casting a spell, using a spelllike ability, or using any other magical ability that provokes an attack of opportunity when used.</effect>
@@ -2658,10 +3841,10 @@
 						<range>Touch</range>
 						<components>V, S, M</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>15</dc>
-						<duration>8 minutes</duration>
+						<duration>6 minutes</duration>
 						<effect>Subject gains a bonus on Perception checks.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -2689,10 +3872,10 @@
 						<range>Personal</range>
 						<components>V</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
-						<duration>8 rounds [D] or until discharged</duration>
+						<duration>6 rounds [D] or until discharged</duration>
 						<effect>Gain haste while maintaining bardic performance.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -2720,10 +3903,10 @@
 						<range>Touch</range>
 						<components>V, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc></dc>
-						<duration>8 minutes [D]</duration>
+						<duration>6 minutes [D]</duration>
 						<effect>This spell causes an object to radiate darkness out to a 20-foot radius.</effect>
 						<target>Object touched</target>
 						<saveinfo>None</saveinfo>
@@ -2748,11 +3931,11 @@
 						<name>Gallant Inspiration</name>
 						<outputname>Gallant Inspiration</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (40 ft.)</range>
 						<components>V</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>8</casterlevel>
-						<concentration>+11</concentration>
+						<casterlevel>6</casterlevel>
+						<concentration>+9</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>+2d4 bonus on failed attack roll or skill check.</effect>

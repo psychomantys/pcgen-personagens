@@ -122,30 +122,30 @@ SKILL:Perform (Act)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|C
 SKILL:Perform (Dance)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Oratory)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Percussion Instruments)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Sing)|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Untrained)|OUTPUTORDER:41|
-SKILL:Profession (Untrained)|OUTPUTORDER:42|
-SKILL:Ride|OUTPUTORDER:43|
-SKILL:Samurai Mount|OUTPUTORDER:44|
-SKILL:Sense Motive|OUTPUTORDER:45|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:46|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:47|
-SKILL:Sense Motive (Resist feint)|OUTPUTORDER:48|
+SKILL:Perform (Sing)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:49|
 SKILL:Spellcraft|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Survival|OUTPUTORDER:53|
-SKILL:Swim|OUTPUTORDER:54|
-SKILL:Untrained Charisma|OUTPUTORDER:55|
-SKILL:Untrained Dexterity|OUTPUTORDER:56|
-SKILL:Untrained Intelligence|OUTPUTORDER:57|
-SKILL:Untrained Strength|OUTPUTORDER:58|
-SKILL:Untrained Wisdom|OUTPUTORDER:59|
+SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:54|
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:49|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
 SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
@@ -155,6 +155,9 @@ LANGUAGE:Aklo|LANGUAGE:Common|LANGUAGE:Draconic
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Aklo,Draconic|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Aklo,Draconic|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Bard Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Bard Archetype ~ Dawnflower Dervish|TYPE:Archetype.BardArchetype.BardWeaponProficiencies.BardBardicKnowledge.BardLoreMaster|DESC:Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh. Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics who use a spinning dance as part of their worship. Many bards of her faith hone their skills with dance and scimitar to become dervish dancers, but some tread a similar path focused more on magic and healing than swordplay. These are the Dawnflower dervishes.
 USERPOOL:Bard Archetype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Butterfly's Sting|TYPE:Critical|DESC:You can forgo a critical hit in order to pass it on to an ally.
@@ -197,10 +200,26 @@ WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:
 WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
-EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:0|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:COSTMOD=-1]
+MONEY:7798.00
+EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:EQMOD=STEEL]
+EQUIPNAME:Kukri|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:EQMOD=STEEL]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Pick (Light)|OUTPUTORDER:2|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:EQMOD=STEEL]
+EQUIPNAME:Scimitar|OUTPUTORDER:5|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:EQMOD=STEEL]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
-CALCEQUIPSET:0.1
+EQUIPSET:Scimitar|ID:0.2|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.2.01|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.2.02|VALUE:Pick (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.2.03|VALUE:Kukri|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.2.04|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.2.05|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:two hands|ID:0.3|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.3.01|VALUE:Kukri|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.3.02|VALUE:Pick (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.3.03|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.3.04|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.3.05|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.3
 
 # Temporary Bonuses
 
