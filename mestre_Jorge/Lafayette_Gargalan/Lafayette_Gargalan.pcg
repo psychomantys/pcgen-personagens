@@ -46,7 +46,8 @@ SPEECHPATTERN:
 PHOBIAS:
 INTERESTS:
 CATCHPHRASE:
-PORTRAIT:
+PORTRAIT:/home/psycho/FAI17_Charming.png
+PORTRAITTHUMBNAILRECT:117,145,100,100
 
 # Character Attributes
 STAT:STR|SCORE:12
@@ -118,9 +119,9 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
 SKILL:Perception|OUTPUTORDER:36|
-SKILL:Perform (Act)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Dance)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
-SKILL:Perform (Oratory)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Act)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Dance)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Oratory)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Percussion Instruments)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Sing)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Perform (Untrained)|OUTPUTORDER:42|
@@ -131,8 +132,8 @@ SKILL:Sense Motive|OUTPUTORDER:46|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:49|
-SKILL:Spellcraft|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
 SKILL:Survival|OUTPUTORDER:54|
 SKILL:Swim|OUTPUTORDER:55|
 SKILL:Untrained Charisma|OUTPUTORDER:56|
@@ -144,7 +145,7 @@ SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
 SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
 
@@ -201,11 +202,11 @@ WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Cr
 
 # Character Equipment
 MONEY:7798.00
-EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:EQMOD=STEEL]
-EQUIPNAME:Kukri|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:EQMOD=STEEL]
+EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
+EQUIPNAME:Kukri|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri$EQMOD=STEEL]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
-EQUIPNAME:Pick (Light)|OUTPUTORDER:2|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:EQMOD=STEEL]
-EQUIPNAME:Scimitar|OUTPUTORDER:5|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:EQMOD=STEEL]
+EQUIPNAME:Pick (Light)|OUTPUTORDER:2|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick (Light)$EQMOD=STEEL]
+EQUIPNAME:Scimitar|OUTPUTORDER:5|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar$EQMOD=STEEL]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Scimitar|ID:0.2|USETEMPMODS:Y
 EQUIPSET:Primary Hand|ID:0.2.01|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
@@ -248,15 +249,16 @@ SPELLNAME:Windy Escape|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:
 CHARACTERBIO:
 CHARACTERDESC:
 CHARACTERCOMP:
-CHARACTERASSET:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling&nl;
+CHARACTERASSET:
 CHARACTERMAGIC:
-CHARACTERDMNOTES:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling&nl;&nl;Dados de vida&colon;&nl;8 8 8 7 7 6,5 6,5 6,5
+CHARACTERDMNOTES:Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling&nl;&nl;Dados de vida&colon;&nl;8 8 8 7 7 6,5 6,5 6,5&nl;
 
 # Kits
 
 # Character Master/Follower
 
 # Character Notes Tab
+NOTE:Coisas a adiquirir|ID:1|PARENTID:-1|VALUE:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;&nl;Master Performer&colon; &nl;When using your bardic performance abilities, you grant your allies greater bonuses. &nl;Prerequisites&colon; Bardic performance class feature, Extra Performance, Kitharodian Academy 15 TPA. &nl;Benefit&colon; When any of your bardic performance abilities grant your allies a bonus, that bonus is increased by +1.&nl;&nl;&nl;Grand Master Performer&colon; &nl;You grant your allies even greater bonuses when using your bardic performance abilities. &nl;Prerequisites&colon; Bardic performance class feature, Extra Performance, Master Performer, bard level 8th, Kitharodian Academy 20 TPA. &nl;Benefit&colon; When any of your bardic performance abilities grant your allies a bonus, that bonus increases by +1. This bonus stacks with the bonus from the Master Performer feat.&nl;&nl;&nl;Master piece&colon;&nl;&nl;*The Dance of 23 Steps (Dance)&colon;&nl;Prerequisite&colon; Perform (dance) 4 ranks.&nl;Cost&colon; Feat or 2nd-level bard spell known.&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/the-dance-of-23-steps-dance&nl;&nl;*The House of the Imaginary Walls (Act)&nl;Prerequisite&colon; Perform (act) 10 ranks.&nl;Cost&colon; Feat or 4th-level bard spell known.&nl;Massa, mas não quero comprar por motivos de&colon; Escroto demais &colon;p&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/the-house-of-the-imaginary-walls-act&nl;&nl;*Legato Piece on the Infernal Bargain (String)&nl;Prerequisite&colon; Perform (string) 11 ranks.&nl;Cost&colon; Feat or 4th-level bard spell known.&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/legato-piece-on-the-infernal-bargain-string&nl;&nl;&nl;Spells&colon;&nl;3th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/exquisiteAccompaniment.html#exquisite-accompaniment&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/glibness.html#glibness&nl;4th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/virtuosoPerformance.html#virtuoso-performance&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/shadowConjuration.html#shadow-conjuration&nl;5th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/shadowEvocation.html#shadow-evocation&nl;http&colon;//paizo.com/pathfinderRPG/prd/advanced/spells/bardSEscape.html#bard's-escape&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/shadowbard.html#shadowbard&nl;
 
 # Age Set Selections
 AGESET:1:0:0:0:0:0:0:0:0:0
