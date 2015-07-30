@@ -29,7 +29,7 @@ TABNAME:
 PLAYERNAME:Baltazar Tavares
 HEIGHT:70
 WEIGHT:180
-AGE:21
+AGE:35
 GENDER:Female
 HANDED:Right
 SKINCOLOR:
@@ -49,18 +49,18 @@ CATCHPHRASE:
 PORTRAIT:
 
 # Character Attributes
-STAT:STR|SCORE:8
-STAT:DEX|SCORE:20
-STAT:CON|SCORE:16
-STAT:INT|SCORE:9
+STAT:STR|SCORE:9
+STAT:DEX|SCORE:21
+STAT:CON|SCORE:17
+STAT:INT|SCORE:7
 STAT:WIS|SCORE:20
-STAT:CHA|SCORE:8
+STAT:CHA|SCORE:7
 ALIGN:CG
 RACE:Human
 
 # Character Class(es)
-CLASS:Cleric|LEVEL:7|SKILLPOOL:0
-CLASS:Holy Vindicator|LEVEL:6|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Cleric|LEVEL:10|SKILLPOOL:0
+CLASS:Holy Vindicator|LEVEL:6|SKILLPOOL:-1|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -73,10 +73,13 @@ CLASSABILITIESLEVEL:Holy Vindicator=2|HITPOINTS:10|SAVES:[SAVE:BONUS&pipe;PCLEVE
 CLASSABILITIESLEVEL:Holy Vindicator=3|HITPOINTS:10|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Holy Vindicator=4|HITPOINTS:10|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Holy Vindicator=5|HITPOINTS:10|PRESTAT:INT=1|SKILLSGAINED:2|SKILLSREMAINING:0
-CLASSABILITIESLEVEL:Holy Vindicator=6|HITPOINTS:10|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Holy Vindicator=6|HITPOINTS:10|SAVES:[SAVE:BONUS&pipe;PCLEVEL&pipe;CLERIC&pipe;1]|ADD:[SPELLCASTER:Divine|CHOICE:Cleric]|PRESTAT:STR=1|PRESTAT:DEX=1|PRESTAT:CON=1|PRESTAT:INT=-2|PRESTAT:CHA=-1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=8|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=10|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:315000
+EXPERIENCE:890000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -121,17 +124,17 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:37|
 SKILL:Profession (Untrained)|OUTPUTORDER:38|
 SKILL:Ride|OUTPUTORDER:39|
 SKILL:Samurai Mount|OUTPUTORDER:40|
-SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:6.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:44|
 SKILL:Stealth|OUTPUTORDER:47|
-SKILL:Survival|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:2.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:5.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:49|
 SKILL:Untrained Charisma|OUTPUTORDER:50|
 SKILL:Untrained Dexterity|OUTPUTORDER:51|
@@ -158,20 +161,23 @@ ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hospitaler ~ Cha
 USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Crusader|TYPE:Archetype.ClericArchetype.ClericDomains|DESC:Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.
 USERPOOL:Cleric Archetype|POOLPOINTS:0.0
+ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Greater Weapon Focus|APPLIEDTO:Longbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Focus|APPLIEDTO:Longbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
+ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Longbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
 USERPOOL:Crusader Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption|DESC:You can channel your divine energy to harm or heal outsiders that possess your chosen alignment subtype.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clustered Shots|TYPE:Combat|DESC:You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Manyshot|TYPE:Combat|DESC:You can fire multiple arrows at a single target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Master|APPLIEDTO:Weapon Specialization (Longbow)|TYPE:Combat|DESC:You are adept at firing ranged weapons in close quarters.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:Combat.FeyBloodline|DESC:You are adept at firing ranged attacks into melee.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:Combat.AttackOption|DESC:You can make an additional ranged attack.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Shot|TYPE:Combat|DESC:With a ranged weapon, you can take advantage of any opening in your opponent's defenses.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Perception,Perception|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
@@ -200,7 +206,7 @@ WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:
 WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:0
+MONEY:12000
 EQUIPNAME:Agile Breastplate (Noqual)|OUTPUTORDER:3|COST:8400.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Agile Breastplate (Noqual)$EQMOD=NOQUAL_ARMR_MED]
 EQUIPNAME:Armor of Erastil|OUTPUTORDER:5|COST:91150.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Armor of Erastil$EQMOD=NOQUAL_ARMR_MED.SPIKE_A.COMFORT.DTHLS.DTRMN.EXPED.GLAM.WRDG.FRT_MOD.PLUS1A$SPROP=(Agile Breastplate +1 (Comfort/Deathless/Determination/Expeditious/Moderate Fortification/Glamered/Noqual/Armor Spikes/Warding))]
 EQUIPNAME:Armor Spikes|OUTPUTORDER:2|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Armor Spikes|DATA:NAME=Armor Spikes$EQMOD=STEEL]
@@ -227,7 +233,7 @@ CALCEQUIPSET:0.3
 
 # Character Deity/Domain
 DEITY:Erastil|DEITYDOMAINS:[DOMAIN:Animal|DOMAIN:Community|DOMAIN:Good|DOMAIN:Law|DOMAIN:Plant|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Family Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Fur Subdomain|DOMAIN:Growth Subdomain|DOMAIN:Home Subdomain]|ALIGNALLOW:|DESC:God of farming, hunting, trade, family|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Longbow]|DEITYALIGN:LG
-DOMAIN:Luck|DOMAINGRANTS:You are infused with luck, and your mere presence can spread good fortune.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Luck|DOMAINGRANTS:You are infused with luck, and your mere presence can spread good fortune.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:8]
 
 # Character Spells Information
 SPELLBOOK:Padrão|TYPE:2
@@ -235,7 +241,6 @@ SPELLNAME:Abundant Ammunition|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOU
 SPELLNAME:Aid|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Augury|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Break Enchantment|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:DOMAIN|NAME:Luck]
-SPELLNAME:Curse Water|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Entropic Shield|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
@@ -248,18 +253,16 @@ SPELLNAME:Magic Vestment|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[
 SPELLNAME:Magic Weapon (Greater)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Mislead|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Plane Shift|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Protection from Chaos|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Energy|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Protection from Energy (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Evil|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Evil (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Protection from Good|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Protection from Law|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Read Magic|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Resist Energy (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Righteous Might|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Sharesister|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Shield of Faith|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Spell Turning|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:7|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Stalwart Resolve|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Status|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Summon Monster I|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
@@ -282,7 +285,7 @@ CHARACTERDMNOTES:
 # Character Notes Tab
 
 # Age Set Selections
-AGESET:1:0:0:0:0:0:0:0:0:0
+AGESET:1:1:0:0:0:0:0:0:0:0
 
 # Campaign History
 
