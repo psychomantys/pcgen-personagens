@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)
 VERSION:6.04.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -13,7 +13,7 @@ GAMEMODE:Pathfinder_RPG
 TABLABEL:0
 AUTOSPELLS:Y
 USEHIGHERKNOWN:Y
-USEHIGHERPREPPED:Y
+USEHIGHERPREPPED:N
 LOADCOMPANIONS:N
 USETEMPMODS:Y
 AUTOSORTGEAR:Y
@@ -60,7 +60,7 @@ RACE:Human
 
 # Character Class(es)
 CLASS:Cleric|LEVEL:10|SKILLPOOL:0
-CLASS:Holy Vindicator|LEVEL:6|SKILLPOOL:-1|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Holy Vindicator|LEVEL:6|SKILLPOOL:6|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
@@ -87,6 +87,7 @@ TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
 TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
 
 # Character Region
 REGION:None
@@ -166,6 +167,7 @@ ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Fe
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Longbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
 USERPOOL:Crusader Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption|DESC:You can channel your divine energy to harm or heal outsiders that possess your chosen alignment subtype.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Strike|TYPE:Combat.DestinedBloodline.BorealBloodline|DESC:As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, you gain a +%1 damage bonus and your weapons are treated as magic for the purpose of overcoming damage reduction.&pipe;ArcaneStrikeDamageBonus
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clustered Shots|TYPE:Combat|DESC:You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Manyshot|TYPE:Combat|DESC:You can fire multiple arrows at a single target.
@@ -183,8 +185,8 @@ ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ No
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Lessons of Faith ~ Trait|TYPE:Trait.BasicTrait.ReligionTrait|DESC:You have a knack for avoiding trouble.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paranoid ~ Trait|TYPE:Trait.BasicTrait.DrawbackTrait|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Alluring|TYPE:Trait.ReligionTrait|DESC:You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use daze once per day as a spell-like ability, with a caster level equal to your character level.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Cleric|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Traits|POOLPOINTS:1.0
@@ -237,38 +239,57 @@ DOMAIN:Luck|DOMAINGRANTS:You are infused with luck, and your mere presence can s
 
 # Character Spells Information
 SPELLBOOK:Padrão|TYPE:2
+SPELLBOOK:Viagem|TYPE:2
 SPELLNAME:Abundant Ammunition|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Aid|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Augury|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Break Enchantment|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:DOMAIN|NAME:Luck]
+SPELLNAME:Break Enchantment|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:5|SOURCE:[TYPE:DOMAIN|NAME:Luck]
+SPELLNAME:Commune|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Create Demiplane (Lesser)|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Detect Magic|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Dimensional Anchor|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Dispel Magic (Greater)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divination|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divination|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Entropic Shield|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Find the Path|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Forbiddance|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Freedom of Movement|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:DOMAIN|NAME:Luck]
-SPELLNAME:Grace|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Heal|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Invisibility Purge|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Grace|TIMES:2|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Heal|TIMES:2|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Heal|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Life Bubble|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Light|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Magic Vestment|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Magic Weapon (Greater)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Mislead|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:DOMAIN|NAME:Luck]
+SPELLNAME:Nap Stack|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Planar Adaptation|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Plane Shift|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Energy|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Protection from Energy (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Evil|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Protection from Evil (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Read Magic|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Repulsion|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Resist Energy (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Righteous Might|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Sharesister|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Restoration (Lesser)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Resurrection|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Ride the Waves|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Scrying|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Sending|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Shield of Faith|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Speak with Dead|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Spell Resistance|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Spell Turning|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:7|SOURCE:[TYPE:DOMAIN|NAME:Luck]
-SPELLNAME:Stalwart Resolve|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Spell Turning|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:7|SOURCE:[TYPE:DOMAIN|NAME:Luck]
 SPELLNAME:Status|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Summon Monster I|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Tongues|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:True Seeing|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:True Strike|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:DOMAIN|NAME:Luck]
-SPELLNAME:Word of Recall|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Wind Walk|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Wind Walk|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
 
 # Character Description/Bio/History
 CHARACTERBIO:
