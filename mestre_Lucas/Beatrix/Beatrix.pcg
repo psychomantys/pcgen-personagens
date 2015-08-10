@@ -125,17 +125,17 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:2.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric|RANKS:3.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:37|
 SKILL:Profession (Untrained)|OUTPUTORDER:38|
 SKILL:Ride|OUTPUTORDER:39|
 SKILL:Samurai Mount|OUTPUTORDER:40|
-SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:44|
 SKILL:Stealth|OUTPUTORDER:47|
-SKILL:Survival|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:5.0|COST:1|CLASSSKILL:N]
+SKILL:Survival|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:5.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Swim|OUTPUTORDER:49|
 SKILL:Untrained Charisma|OUTPUTORDER:50|
 SKILL:Untrained Dexterity|OUTPUTORDER:51|
@@ -167,7 +167,6 @@ ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Fe
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Longbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
 USERPOOL:Crusader Feat|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption|DESC:You can channel your divine energy to harm or heal outsiders that possess your chosen alignment subtype.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Strike|TYPE:Combat.DestinedBloodline.BorealBloodline|DESC:As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, you gain a +%1 damage bonus and your weapons are treated as magic for the purpose of overcoming damage reduction.&pipe;ArcaneStrikeDamageBonus
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clustered Shots|TYPE:Combat|DESC:You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Manyshot|TYPE:Combat|DESC:You can fire multiple arrows at a single target.
@@ -185,8 +184,8 @@ ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ No
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Lessons of Faith ~ Trait|TYPE:Trait.BasicTrait.ReligionTrait|DESC:You have a knack for avoiding trouble.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paranoid ~ Trait|TYPE:Trait.BasicTrait.DrawbackTrait|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Alluring|TYPE:Trait.ReligionTrait|DESC:You have the art of turning a passing glance into love. You receive a +2 trait bonus on Diplomacy checks with those who find you attractive. You can use daze once per day as a spell-like ability, with a caster level equal to your character level.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Cleric|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Traits|POOLPOINTS:1.0
@@ -252,7 +251,7 @@ SPELLNAME:Dimensional Anchor|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOUR
 SPELLNAME:Dispel Magic (Greater)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Divination|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Divination|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
-SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divine Power|TIMES:2|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Entropic Shield|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Find the Path|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Forbiddance|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:6|SOURCE:[TYPE:CLASS|NAME:Cleric]
@@ -268,7 +267,6 @@ SPELLNAME:Nap Stack|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:
 SPELLNAME:Planar Adaptation|TIMES:1|CLASS:Cleric|BOOK:Viagem|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Plane Shift|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Energy|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:3|SOURCE:[TYPE:DOMAIN|NAME:Luck]
-SPELLNAME:Protection from Energy (Communal)|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Evil|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Read Magic|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Repulsion|TIMES:1|CLASS:Cleric|BOOK:Padrão|SPELLLEVEL:7|SOURCE:[TYPE:CLASS|NAME:Cleric]

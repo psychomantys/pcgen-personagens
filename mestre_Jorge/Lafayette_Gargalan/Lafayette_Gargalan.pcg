@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Ultimate Campaign
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)
 VERSION:6.04.01
 ROLLMETHOD:0|EXPRESSION:0
 PURCHASEPOINTS:N
@@ -201,11 +201,14 @@ WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:
 WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:7798.00
+MONEY:-279899.98999999999068677425384521484375
+EQUIPNAME:Agile Breastplate +5 (Champion/Comfort/Dastard/Etherealness/Expeditious/Moderate Fortification/Glamered/Harmonizing/Jousting/Noqual/Poison-resistant/Energy Resistance (Sonic/Greater)/Improved Shadow/Slick/Armor Spikes)|OUTPUTORDER:0|COST:279900.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Agile Breastplate +5 (Champion/Comfort/Dastard/Etherealness/Expeditious/Moderate Fortification/Glamered/Harmonizing/Jousting/Noqual/Poison-resistant/Energy Resistance (Sonic/Greater)/Improved Shadow/Slick/Armor Spikes)$EQMOD=NOQUAL_ARMR_MED.PLUS5A.SLK.SHDW_IMP.PSN_RST.JSTNG.HRMZG.GLAM.EXPED.ETHERE.DSTRD.COMFORT.CHAMP.SPIKE_A.FRT_MOD.RES_SNC_GRT]
 EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
 EQUIPNAME:Kukri|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri$EQMOD=STEEL]
+EQUIPNAME:Kukri of dawn|OUTPUTORDER:0|COST:217808.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri of dawn$EQMOD=PLUS5W.TRANSFORM.DUELING.DEFEND.GLMRD_W.MIMETIC.LIVING_ST_WEAP.KEEN.IMPERVIOUS.AGILE$SPROP=(Kukri +5 (Agile/Dueling/Glamered/Impervious/Keen/Living Steel/Mimetic/Transformative/Defending))]
 EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
 EQUIPNAME:Pick (Light)|OUTPUTORDER:2|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick (Light)$EQMOD=STEEL]
+EQUIPNAME:Pick of destiny|OUTPUTORDER:0|COST:207804.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick of destiny$EQMOD=PLUS5W.AGILE.LIVING_ST_WEAP.IMPERVIOUS.ICY_BRST.SHK_BRST.GLMRD_W$SPROP=(Pick +5 (Light/Agile/Icy Burst/Impervious/Living Steel/Shocking Burst)), (Pick +5 (Light/Agile/Glamered/Icy Burst/Impervious/Living Steel/Shocking Burst))]
 EQUIPNAME:Scimitar|OUTPUTORDER:5|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar$EQMOD=STEEL]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Scimitar|ID:0.2|USETEMPMODS:Y
@@ -234,7 +237,6 @@ SPELLNAME:Acute Senses|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:
 SPELLNAME:Allegro|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Darkness|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
-SPELLNAME:Gallant Inspiration|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Know Direction|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Mending|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
 SPELLNAME:Message|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
