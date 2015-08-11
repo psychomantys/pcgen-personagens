@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Faiths of Purity|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Book of the Faithful
 VERSION:6.04.01
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
@@ -119,30 +119,34 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:N]
-SKILL:Perform (Untrained)|OUTPUTORDER:37|
-SKILL:Profession (Untrained)|OUTPUTORDER:38|
-SKILL:Ride|OUTPUTORDER:39|
-SKILL:Samurai Mount|OUTPUTORDER:40|
-SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
-SKILL:Sense Motive (Resist feint)|OUTPUTORDER:44|
-SKILL:Spellcraft|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:47|
-SKILL:Survival|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Swim|OUTPUTORDER:49|
-SKILL:Untrained Charisma|OUTPUTORDER:50|
-SKILL:Untrained Dexterity|OUTPUTORDER:51|
-SKILL:Untrained Intelligence|OUTPUTORDER:52|
-SKILL:Untrained Strength|OUTPUTORDER:53|
-SKILL:Untrained Wisdom|OUTPUTORDER:54|
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Perception (Dim Light)|OUTPUTORDER:37|
+SKILL:Perform (Untrained)|OUTPUTORDER:38|
+SKILL:Profession (Untrained)|OUTPUTORDER:39|
+SKILL:Ride|OUTPUTORDER:40|
+SKILL:Samurai Mount|OUTPUTORDER:41|
+SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:45|
+SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:49|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:50|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:51|
+SKILL:Stealth (Jungle)|OUTPUTORDER:52|
+SKILL:Survival|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Swim|OUTPUTORDER:54|
+SKILL:Untrained Charisma|OUTPUTORDER:55|
+SKILL:Untrained Dexterity|OUTPUTORDER:56|
+SKILL:Untrained Intelligence|OUTPUTORDER:57|
+SKILL:Untrained Strength|OUTPUTORDER:58|
+SKILL:Untrained Wisdom|OUTPUTORDER:59|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:46|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:48|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
 
 # Character Languages
 LANGUAGE:Common
@@ -160,17 +164,17 @@ USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Crusader|TYPE:Archetype.ClericArchetype.ClericDomains|DESC:Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.
 USERPOOL:Cleric Archetype|POOLPOINTS:0.0
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Shield Focus|TYPE:ClericClassFeatures.CrusaderBonusFeat
-ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Focus|APPLIEDTO:Shortbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
-ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Shortbow|TYPE:ClericClassFeatures.CrusaderBonusFeat
+ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Focus|APPLIEDTO:Crossbow (Light)|TYPE:ClericClassFeatures.CrusaderBonusFeat
+ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Crossbow (Light)|TYPE:ClericClassFeatures.CrusaderBonusFeat
 USERPOOL:Crusader Feat|POOLPOINTS:0.0
 ABILITY:Elf Race Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Warrior of Old|TYPE:Trait.RaceTrait.ElfTrait|DESC:As a child, you put in long hours in combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on Initiative checks.
 USERPOOL:Elf Race Trait|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption|DESC:You can channel your divine energy to harm or heal outsiders that possess your chosen alignment subtype.
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Craft Magic Arms and Armor|TYPE:ItemCreation|DESC:You can create magic armor, shields, or weapons.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Master|APPLIEDTO:Weapon Specialization (Shortbow)|TYPE:Combat|DESC:You are adept at firing ranged weapons in close quarters.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Master|APPLIEDTO:Weapon Specialization (Crossbow (Light))|TYPE:Combat|DESC:You are adept at firing ranged weapons in close quarters.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:Combat.FeyBloodline|DESC:You are adept at firing ranged attacks into melee.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Reload|APPLIEDTO:Crossbow (Light)|TYPE:Combat|DESC:You can reload your chosen type of crossbow quickly.|DESC:Choose a type of crossbow (hand, light, heavy) or a single type of one-handed or two-handed firearm that you are proficient with. You can reload such a weapon quickly. (revised to include firearms in Ultimate Combat p.115)|DESC:You can reload your chosen type of weapon quickly.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:Combat.AttackOption|DESC:You can make an additional ranged attack.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
@@ -190,22 +194,23 @@ ABILITY:Variant Channeling|TYPE:NORMAL|CATEGORY:Special Ability|KEY:1. Standard 
 USERPOOL:Variant Channeling|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
-WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)]
-WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail]
-WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe]
-WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush]
-WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
-WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
-WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
-WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear]
-WEAPONPROF:[WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake]
-WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident]
-WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Boarding)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet]
+WEAPONPROF:[WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Boarding Pike|WEAPON:Brass Knife|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails]
+WEAPONPROF:[WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart]
+WEAPONPROF:[WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius]
+WEAPONPROF:[WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)]
+WEAPONPROF:[WEAPON:Handaxe|WEAPON:Hook Hand|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit]
+WEAPONPROF:[WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum]
+WEAPONPROF:[WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)]
+WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
+WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
 MONEY:0
-EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:0|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:COSTMOD=-10]
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:0|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$COSTMOD=-10]
 EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
@@ -214,8 +219,8 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Sinashakti|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Good|DOMAIN:Luck|DOMAIN:Travel|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Exploration Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Trade Subdomain]|ALIGNALLOW:|DESC:Empyreal lord of journeys, joy, messengers|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Shortbow]|DEITYALIGN:CG
-DOMAIN:Luck|DOMAINGRANTS:You are infused with luck, and your mere presence can spread good fortune.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DEITY:Ondisso|DEITYDOMAINS:[DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Protection|DOMAIN:Strength]|ALIGNALLOW:|DESC:Ondisso is an agathion empyreal lord|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Crossbow (Light)]|DEITYALIGN:NG
+DOMAIN:Liberation|DOMAINGRANTS:You are a spirit of freedom and a staunch foe against all who would enslave and oppress.|SOURCE:[TYPE:PCClass|NAME:Holy Vindicator|LEVEL:1]
 
 # Character Spells Information
 SPELLNAME:Curse Water|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
