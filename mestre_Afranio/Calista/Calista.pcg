@@ -29,13 +29,13 @@ TABNAME:
 PLAYERNAME:Baltazar Tavares
 HEIGHT:68
 WEIGHT:170
-AGE:25
+AGE:21
 GENDER:Female
 HANDED:Right
-SKINCOLOR:
-EYECOLOR:
-HAIRCOLOR:
-HAIRSTYLE:
+SKINCOLOR:Claro
+EYECOLOR:Verde
+HAIRCOLOR:Preto
+HAIRSTYLE:Curto
 LOCATION:
 CITY:
 BIRTHDAY:
@@ -119,17 +119,17 @@ SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Religion)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Cleric|RANKS:5.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
-SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:N]
 SKILL:Perception (Dim Light)|OUTPUTORDER:37|
 SKILL:Perform (Untrained)|OUTPUTORDER:38|
 SKILL:Profession (Untrained)|OUTPUTORDER:39|
 SKILL:Ride|OUTPUTORDER:40|
 SKILL:Samurai Mount|OUTPUTORDER:41|
-SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:45|
-SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:47|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Cleric|RANKS:4.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:49|
 SKILL:Stealth (Cane Fields)|OUTPUTORDER:50|
 SKILL:Stealth (Dim Light)|OUTPUTORDER:51|
@@ -157,8 +157,6 @@ FEATPOOL:0.0
 # Character Abilities
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Wisdom|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
-ABILITY:Adoptive Race|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Adoptive Race ~ Elf|TYPE:AdoptiveRace
-USERPOOL:Adoptive Race|POOLPOINTS:0.0
 ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric ~ Channel Positive Energy|TYPE:ClericClassFeatures.Supernatural.SpecialAttack.ChannelEnergy.Channel Energy.Channel Energy Positive.Channel Positive Energy|DESC:You can unleash a wave of positive energy. You must choose to deal %1d%2 points of positive energy damage to undead creatures or to heal living creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;ClericChannelPositiveEnergyDice&pipe;ClericChannelPositiveEnergyDieSize&pipe;ClericChannelPositiveEnergyDC&pipe;ClericChannelEnergyTimes
 USERPOOL:Channel Energy|POOLPOINTS:0.0
 ABILITY:Cleric Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Cleric Archetype ~ Crusader|TYPE:Archetype.ClericArchetype.ClericDomains|DESC:Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.
@@ -167,8 +165,6 @@ ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Fe
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Focus|APPLIEDTO:Crossbow (Light)|TYPE:ClericClassFeatures.CrusaderBonusFeat
 ABILITY:Crusader Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Crusader Bonus Feat ~ Weapon Specialization|APPLIEDTO:Crossbow (Light)|TYPE:ClericClassFeatures.CrusaderBonusFeat
 USERPOOL:Crusader Feat|POOLPOINTS:0.0
-ABILITY:Elf Race Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Warrior of Old|TYPE:Trait.RaceTrait.ElfTrait|DESC:As a child, you put in long hours in combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on Initiative checks.
-USERPOOL:Elf Race Trait|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Alignment Channel|APPLIEDTO:Evil|TYPE:General.AttackOption|DESC:You can channel your divine energy to harm or heal outsiders that possess your chosen alignment subtype.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point Blank Master|APPLIEDTO:Weapon Specialization (Crossbow (Light))|TYPE:Combat|DESC:You are adept at firing ranged weapons in close quarters.
@@ -186,10 +182,8 @@ USERPOOL:Human Ethnicity|POOLPOINTS:0.0
 ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ Unknown|TYPE:Region
 USERPOOL:Region of Origin|POOLPOINTS:0.0
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Lessons of Faith ~ Trait|TYPE:Trait.BasicTrait.ReligionTrait|DESC:You have a knack for avoiding trouble.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paranoid ~ Trait|TYPE:Trait.BasicTrait.DrawbackTrait|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.
-ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Adopted|TYPE:Trait.BasicTrait.SocialTrait|DESC:You were adopted and raised by someone not of your actual race, and raised in a society not your own. You may immediately select a race trait from your adoptive parent's race.
 ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Cleric|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
-USERPOOL:Traits|POOLPOINTS:1.0
+USERPOOL:Traits|POOLPOINTS:0.0
 ABILITY:Variant Channeling|TYPE:NORMAL|CATEGORY:Special Ability|KEY:1. Standard Channeling|TYPE:VariantChanneling
 USERPOOL:Variant Channeling|POOLPOINTS:0.0
 
@@ -223,10 +217,30 @@ DEITY:Ondisso|DEITYDOMAINS:[DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Protection|DOMA
 DOMAIN:Liberation|DOMAINGRANTS:You are a spirit of freedom and a staunch foe against all who would enslave and oppress.|SOURCE:[TYPE:PCClass|NAME:Holy Vindicator|LEVEL:1]
 
 # Character Spells Information
+SPELLBOOK:Prepared Spells|TYPE:2
+SPELLNAME:Abundant Ammunition|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Augury|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Blessing of the Mole|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Break Enchantment|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Curse Water|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divine Favor|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Divine Power|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Freedom of Movement|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Grace|TIMES:2|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Infernal Healing|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Light|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Magic Vestment|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Magic Weapon (Greater)|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Mending|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Chaos|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 SPELLNAME:Protection from Good|TIMES:1|CLASS:Cleric|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Remove Curse|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Remove Fear|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Remove Paralysis|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Shield of Faith|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:True Seeing|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:5|SOURCE:[TYPE:CLASS|NAME:Cleric]
+SPELLNAME:Unbreakable Heart|TIMES:1|CLASS:Cleric|BOOK:Prepared Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Cleric]
 
 # Character Description/Bio/History
 CHARACTERBIO:

@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>10/08/2015</date>
-		<time>23:55:55</time>
+		<date>11/08/2015</date>
+		<time>17:50:46</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -52,7 +52,7 @@
 		<playername>Baltazar Tavares</playername>
 		<charactertype>PC</charactertype>
 		<hero_points>0</hero_points>
-		<age>25</age>
+		<age>21</age>
 		<alignment>
 			<long>Chaotic Good</long>
 			<short>CG</short>
@@ -113,14 +113,14 @@
 			<penalty>0%</penalty>
 		</experience>
 		<eyes>
-			<color></color>
+			<color>Verde</color>
 		</eyes>
 		<hair>
-			<color></color>
-			<length></length>
+			<color>Preto</color>
+			<length>Curto</length>
 		</hair>
 		<skin>
-			<color></color>
+			<color>Claro</color>
 		</skin>
 		<cr>10</cr>
 		<face>
@@ -1833,11 +1833,6 @@
 	  ====================================-->
 	<traits>
 		<trait>
-			<name>Adopted</name>
-			<description>You were adopted and raised by someone not of your actual race, and raised in a society not your own. You may immediately select a race trait from your adoptive parent&#39;s race.</description>
-			<source>Paizo Inc. - Second Darkness Player&#39;s Guide, p.13</source>
-		</trait>
-		<trait>
 			<name>Lessons of Faith</name>
 			<description>You have a knack for avoiding trouble.</description>
 			<source>Paizo Publishing - Inner Sea Gods</source>
@@ -1846,16 +1841,6 @@
 			<name>Magical Knack (Cleric)</name>
 			<description>You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in Cleric gains a +2 trait bonus as long as this bonus doesn&#39;t raise your caster level above your current Hit Dice.</description>
 			<source>Paizo Inc. - Second Darkness Player&#39;s Guide, p.13</source>
-		</trait>
-		<trait>
-			<name>Paranoid</name>
-			<description>You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone.</description>
-			<source>Paizo Publishing - Ultimate Campaign</source>
-		</trait>
-		<trait>
-			<name>Warrior of Old</name>
-			<description>As a child, you put in long hours in combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on Initiative checks.</description>
-			<source>Paizo Inc. - Advanced Player&#39;s Guide, p.331</source>
 		</trait>
 	</traits>
 
@@ -10989,7 +10974,647 @@
 		<!-- ### END Known spells ### -->
 
 		<!-- ### BEGIN memorized spells ### -->
-	<memorized_spells/>
+	<memorized_spells>
+			<!-- ### BEGIN innate memorized spell section -->
+			<!-- ### END innate memorized spell section -->
+			<!-- ### BEGIN class Spellbook memorized spells ### -->
+			<!-- FOR,0,COUNT[SPELLRACE],COUNT[SPELLRACE],1,1 -->
+			<!-- FOR,0,COUNT[SPELLSINBOOK0.2.0],COUNT[SPELLSINBOOK0.2.0],1,1 -->
+			<!-- Either we do not have a innate race, or if we do we do not have any 0 level spell for the innate race -->
+			<spellbook number="2" name="Prepared Spells">
+			<class number="0" spelllistclass="Cleric" spellcasterlevel="10" spellcastertype="Divine" memorize="true">
+				<level number="0" spellcount="3">
+					<spell>
+							<name>Detect Magic</name>
+							<outputname>Detect Magic</outputname>
+							<times_memorized>1</times_memorized>
+							<range>60 ft.</range>
+							<components>V, S</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>Concentration, up to 11 minutes [D]</duration>
+							<effect>You detect magical auras.</effect>
+							<target>Cone-shaped emanation</target>
+							<saveinfo>None</saveinfo>
+							<school>
+								<school>Divination</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Divination</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.267</source>
+								<sourcelevel>Clr0</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/detectMagic.html#_detect-magic</sourcelink>
+								<sourcepage>p.267</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>No</spell_resistance>
+							<description>You detect magical auras.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Light</name>
+							<outputname>Light</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Touch</range>
+							<components>V, M/DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>110 minutes</duration>
+							<effect>This spell causes a touched object to glow like a torch.</effect>
+							<target>Object touched</target>
+							<saveinfo>None</saveinfo>
+							<school>
+								<school>Evocation</school>
+								<subschool></subschool>
+								<descriptor>Light, WoodSchool</descriptor>
+								<fullschool>Evocation [Light, WoodSchool]</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.304</source>
+								<sourcelevel>Clr0</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/light.html#_light</sourcelink>
+								<sourcepage>p.304</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>No</spell_resistance>
+							<description>This spell causes a touched object to glow like a torch.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Mending</name>
+							<outputname>Mending</outputname>
+							<times_memorized>1</times_memorized>
+							<range>10 ft.</range>
+							<components>V, S</components>
+							<castingtime>10 minutes</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>15</dc>
+							<duration>Instantaneous</duration>
+							<effect>This spell repairs damaged objects, restoring 1d4 hit points to the object.</effect>
+							<target>One object of up to 11 lb.</target>
+							<saveinfo>Will negates (harmless, object)</saveinfo>
+							<school>
+								<school>Transmutation</school>
+								<subschool></subschool>
+								<descriptor>MetalSchool</descriptor>
+								<fullschool>Transmutation [MetalSchool]</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.312</source>
+								<sourcelevel>Clr0</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/mending.html#_mending</sourcelink>
+								<sourcepage>p.312</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless, object)</spell_resistance>
+							<description>This spell repairs damaged objects, restoring 1d4 hit points to the object.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="1" spellcount="5">
+					<spell>
+							<name>Abundant Ammunition</name>
+							<outputname>Abundant Ammunition</outputname>
+							<times_memorized>1</times_memorized>
+							<range></range>
+							<components>V, S, M/DF (a single piece of ammunition)</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>11 minutes</duration>
+							<effect>Replaces nonmagical ammunition every round.</effect>
+							<target>one container touched</target>
+							<saveinfo>None</saveinfo>
+							<school>
+								<school>Conjuration</school>
+								<subschool>Summoning</subschool>
+								<descriptor></descriptor>
+								<fullschool>Conjuration (Summoning)</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Ultimate Combat, p.222</source>
+								<sourcelevel>Clr1</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/abundantAmmunition.html#_abundant-ammunition</sourcelink>
+								<sourcepage>p.222</sourcepage>
+								<sourceshort>UC</sourceshort>
+							</source>
+							<spell_resistance>No</spell_resistance>
+							<description>Replaces nonmagical ammunition every round.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Divine Favor</name>
+							<outputname>Divine Favor</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Personal</range>
+							<components>V, S, DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>1 minute</duration>
+							<effect>Calling upon the strength and wisdom of a deity, you gain a +3 luck bonus on attack and weapon damage rolls.</effect>
+							<target>You</target>
+							<saveinfo></saveinfo>
+							<school>
+								<school>Evocation</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Evocation</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.273</source>
+								<sourcelevel>Clr1</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/divineFavor.html#_divine-favor</sourcelink>
+								<sourcepage>p.273</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance></spell_resistance>
+							<description>Calling upon the strength and wisdom of a deity, you gain a +(max(1,min(3,floor(CASTERLEVEL/3)))) luck bonus on attack and weapon damage rolls.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Remove Fear</name>
+							<outputname>Remove Fear</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>16</dc>
+							<duration>10 minutes; see text</duration>
+							<effect>You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes.</effect>
+							<target>3 creatures, no two of which can be more than 30 ft. apart</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.332</source>
+								<sourcelevel>Clr1, Liberation1</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/removeFear.html#_remove-fear</sourcelink>
+								<sourcepage>p.332</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Shield of Faith</name>
+							<outputname>Shield of Faith</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Touch</range>
+							<components>V, S, M</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>16</dc>
+							<duration>11 minutes</duration>
+							<effect>This spell creates a shimmering, magical field around the target that averts and deflects attacks.</effect>
+							<target>Creature touched</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.342</source>
+								<sourcelevel>Clr1</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/shieldOfFaith.html#_shield-of-faith</sourcelink>
+								<sourcepage>p.342</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>This spell creates a shimmering, magical field around the target that averts and deflects attacks.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Unbreakable Heart</name>
+							<outputname>Unbreakable Heart</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>16</dc>
+							<duration>11 rounds</duration>
+							<effect>Creature gains +4 morale bonus on saves against mind-affecting effects that rely on negative emotions or that would force him to harm an ally. Supresses such effects already in place.</effect>
+							<target>One creature</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Enchantment</school>
+								<subschool>Compulsion</subschool>
+								<descriptor>Mind-Affecting</descriptor>
+								<fullschool>Enchantment (Compulsion) [Mind-Affecting]</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Inner Sea World Guide, p.296</source>
+								<sourcelevel>Clr1</sourcelevel>
+								<sourcelink></sourcelink>
+								<sourcepage>p.296</sourcepage>
+								<sourceshort>ISWG</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>Creature gains +4 morale bonus on saves against mind-affecting effects that rely on negative emotions or that would force him to harm an ally. Supresses such effects already in place.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="2" spellcount="3">
+					<spell>
+							<name>Augury</name>
+							<outputname>Augury</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Personal</range>
+							<components>V, S, M, F</components>
+							<castingtime>1 minute</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>Instantaneous</duration>
+							<effect>An augury can tell you whether a particular action will bring good or bad results for you in the immediate future.</effect>
+							<target>You</target>
+							<saveinfo></saveinfo>
+							<school>
+								<school>Divination</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Divination</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.245</source>
+								<sourcelevel>Clr2</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/augury.html#_augury</sourcelink>
+								<sourcepage>p.245</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance></spell_resistance>
+							<description>An augury can tell you whether a particular action will bring good or bad results for you in the immediate future.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Grace</name>
+							<outputname>Grace</outputname>
+							<times_memorized>2</times_memorized>
+							<range>Personal</range>
+							<components>V</components>
+							<castingtime>1 swift action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>see text</duration>
+							<effect>Movement doesn&#39;t provoke attacks of opportunity.</effect>
+							<target>You</target>
+							<saveinfo></saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Advanced Player&#39;s Guide, p.226</source>
+								<sourcelevel>Clr2</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/grace.html#_grace</sourcelink>
+								<sourcepage>p.226</sourcepage>
+								<sourceshort>APG</sourceshort>
+							</source>
+							<spell_resistance></spell_resistance>
+							<description>Movement doesn&#39;t provoke attacks of opportunity.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Remove Paralysis</name>
+							<outputname>Remove Paralysis</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>17</dc>
+							<duration>Instantaneous</duration>
+							<effect>You can free one or more creatures from the effects of temporary paralysis or related magic.</effect>
+							<target>Up to four creatures, no two of which can be more than 30 ft. apart</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Conjuration</school>
+								<subschool>Healing</subschool>
+								<descriptor></descriptor>
+								<fullschool>Conjuration (Healing)</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.332</source>
+								<sourcelevel>Clr2, Liberation2</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/removeParalysis.html#_remove-paralysis</sourcelink>
+								<sourcepage>p.332</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>You can free one or more creatures from the effects of temporary paralysis or related magic.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="3" spellcount="3">
+					<spell>
+							<name>Blessing of the Mole</name>
+							<outputname>Blessing of the Mole</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S</components>
+							<castingtime>1 round</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>11 minutes</duration>
+							<effect>11 allies gain darkvision and a +2 Stealth bonus.</effect>
+							<target>11 creatures</target>
+							<saveinfo>None</saveinfo>
+							<school>
+								<school>Transmutation</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Transmutation</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Ultimate Magic, p.208</source>
+								<sourcelevel>Clr3</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/blessingOfTheMole.html#_blessing-of-the-mole</sourcelink>
+								<sourcepage>p.208</sourcepage>
+								<sourceshort>UM</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>(CASTERLEVEL) allies gain darkvision and a +2 Stealth bonus.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Magic Vestment</name>
+							<outputname>Magic Vestment</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Touch</range>
+							<components>V, S, DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>18</dc>
+							<duration>11 hours</duration>
+							<effect>You imbue a suit of armor or a shield with an enhancement bonus of +2.</effect>
+							<target>Armor or shield touched</target>
+							<saveinfo>Will negates (harmless, object)</saveinfo>
+							<school>
+								<school>Transmutation</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Transmutation</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.310</source>
+								<sourcelevel>Clr3</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/magicVestment.html#_magic-vestment</sourcelink>
+								<sourcepage>p.310</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless, object)</spell_resistance>
+							<description>You imbue a suit of armor or a shield with an enhancement bonus of +(min(5,floor(CASTERLEVEL/4))).</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Remove Curse</name>
+							<outputname>Remove Curse</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Touch</range>
+							<components>V, S</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>18</dc>
+							<duration>Instantaneous</duration>
+							<effect>Remove curse can remove all curses on an object or a creature.</effect>
+							<target>Creature or object touched</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.332</source>
+								<sourcelevel>Clr3, Liberation3</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/removeCurse.html#_remove-curse</sourcelink>
+								<sourcepage>p.332</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>Remove curse can remove all curses on an object or a creature.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="4" spellcount="3">
+					<spell>
+							<name>Divine Power</name>
+							<outputname>Divine Power</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Personal</range>
+							<components>V, S, DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc></dc>
+							<duration>11 rounds</duration>
+							<effect>You imbue yourself with strength and skill in combat and gain a +3 luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks.</effect>
+							<target>You</target>
+							<saveinfo></saveinfo>
+							<school>
+								<school>Evocation</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Evocation</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.273</source>
+								<sourcelevel>Clr4</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/divinePower.html#_divine-power</sourcelink>
+								<sourcepage>p.273</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance></spell_resistance>
+							<description>You imbue yourself with strength and skill in combat and gain a +(max(1,min(6,floor(CASTERLEVEL/3)))) luck bonus on attack rolls, weapon damage rolls, Strength checks, and Strength-based skill checks.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Freedom of Movement</name>
+							<outputname>Freedom of Movement</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Personal or touch</range>
+							<components>V, S, M, DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>19</dc>
+							<duration>110 minutes</duration>
+							<effect>This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web.</effect>
+							<target>You or creature touched</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.287</source>
+								<sourcelevel>Clr4, Liberation4</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/freedomOfMovement.html#_freedom-of-movement</sourcelink>
+								<sourcepage>p.287</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>Magic Weapon (Greater)</name>
+							<outputname>Magic Weapon (Greater)</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S, M/DF</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>19</dc>
+							<duration>11 hours</duration>
+							<effect>This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack and damage rolls of +2.</effect>
+							<target>One weapon or 50 projectiles [all of which must be together at the time of casting]</target>
+							<saveinfo>Will negates (harmless, object)</saveinfo>
+							<school>
+								<school>Transmutation</school>
+								<subschool></subschool>
+								<descriptor>MetalSchool</descriptor>
+								<fullschool>Transmutation [MetalSchool]</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.310</source>
+								<sourcelevel>Clr4</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/magicWeapon.html#_magic-weapon-greater</sourcelink>
+								<sourcepage>p.310</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless, object)</spell_resistance>
+							<description>This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack and damage rolls of +(min(5,floor(CASTERLEVEL/4))).</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="5" spellcount="2">
+					<spell>
+							<name>Break Enchantment</name>
+							<outputname>Break Enchantment</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S</components>
+							<castingtime>1 minute</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>20</dc>
+							<duration>Instantaneous</duration>
+							<effect>This spell frees victims from enchantments, transmutations, and curses.</effect>
+							<target>Up to one creature per level, all within 30 ft. of each other</target>
+							<saveinfo>See text</saveinfo>
+							<school>
+								<school>Abjuration</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Abjuration</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.251</source>
+								<sourcelevel>Clr5, Liberation5</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment</sourcelink>
+								<sourcepage>p.251</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>No</spell_resistance>
+							<description>This spell frees victims from enchantments, transmutations, and curses.</description>
+							<bonusspell></bonusspell>
+						</spell>
+					<spell>
+							<name>True Seeing</name>
+							<outputname>True Seeing</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Touch</range>
+							<components>V, S, M</components>
+							<castingtime>1 standard action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>11</casterlevel>
+							<concentration>+16</concentration>
+							<dc>20</dc>
+							<duration>11 minutes</duration>
+							<effect>You confer on the subject the ability to see all things as they actually are.</effect>
+							<target>Creature touched</target>
+							<saveinfo>Will negates (harmless)</saveinfo>
+							<school>
+								<school>Divination</school>
+								<subschool></subschool>
+								<descriptor></descriptor>
+								<fullschool>Divination</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Core Rulebook, p.363</source>
+								<sourcelevel>Clr5</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/trueSeeing.html#_true-seeing</sourcelink>
+								<sourcepage>p.363</sourcepage>
+								<sourceshort>CR</sourceshort>
+							</source>
+							<spell_resistance>Yes (harmless)</spell_resistance>
+							<description>You confer on the subject the ability to see all things as they actually are.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
+				<level number="6" spellcount="0"/>
+				<level number="7" spellcount="0"/>
+				<level number="8" spellcount="0"/>
+				<level number="9" spellcount="0"/>
+			</class>
+			<class number="1" spelllistclass="" spellcasterlevel="" spellcastertype="" memorize="">
+				<level number="0" spellcount="0"/>
+			</class>
+		</spellbook>
+	<!-- END FOR,0,COUNT[SPELLSINBOOK0.2.0],COUNT[SPELLSINBOOK0.2.0],1,1 -->
+	<!-- END FOR,0,COUNT[SPELLRACE],COUNT[SPELLRACE],1,1 -->
+	</memorized_spells>
 	<!-- ### END class Spellbook memorized spells ### -->
 	</spells>
 	<!-- ### Additional House Rules for Variables in the xsl:fo code ### -->
