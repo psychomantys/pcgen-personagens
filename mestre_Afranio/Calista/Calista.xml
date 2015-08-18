@@ -5,7 +5,7 @@
 <character>
 	<export>
 		<date>Aug 18, 2015</date>
-		<time>4:08:31 AM</time>
+		<time>5:38:35 PM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -47,7 +47,7 @@
 		<bonuses></bonuses>
 		<bonuses></bonuses>
 		<bonuses></bonuses>
-		<name>Mananuel Lifebringer</name>
+		<name>Calista Lifebringer</name>
 		<followerof></followerof>
 		<playername>Baltazar Tavares Vanderlei</playername>
 		<charactertype>PC</charactertype>
@@ -131,8 +131,8 @@
 		<favoredlist></favoredlist>
 		<followerlist></followerlist>
 		<gender>
-			<long>Male</long>
-			<short>Male</short>
+			<long>Female</long>
+			<short>Female</short>
 		</gender>
 		<handed>Right</handed>
 		<height>
@@ -141,7 +141,7 @@
 			<inches>1</inches>
 		</height>
 		<hitdice>(10d10)+(1d10)+22</hitdice>
-		<image>file:/home/psycho/pcgen/characters/Mananuel Lifebringer.jpg</image>
+		<image>file:/home/psycho/pcgen/characters/Calista Lifebringer.jpg</image>
 		<interests></interests>
 		<languages>
 			<language>Common</language>
