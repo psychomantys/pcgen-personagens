@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>Aug 16, 2015</date>
-		<time>3:16:24 PM</time>
+		<date>Aug 18, 2015</date>
+		<time>1:57:02 AM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -47,7 +47,7 @@
 		<bonuses></bonuses>
 		<bonuses></bonuses>
 		<bonuses></bonuses>
-		<name>Manuel</name>
+		<name>Mananuel Lifebringer</name>
 		<followerof></followerof>
 		<playername>Baltazar Tavares Vanderlei</playername>
 		<charactertype>PC</charactertype>
@@ -92,14 +92,14 @@
 			<!-- CLASSLIST is not extracted because we can derive it from the information above -->
 		</classes>
 		<deity>
-			<name>Erastil</name>
-			<alignment>LG</alignment>
-			<description>God of farming, hunting, trade, family</description>
-			<domainlist>Animal, Archon Subdomain (Good), Archon Subdomain (Law), Community, Family Subdomain, Feather Subdomain, Fur Subdomain, Good, Growth Subdomain, Home Subdomain, Law, Plant</domainlist>
-			<favoredweapon>Longbow</favoredweapon>
+			<name>Ondisso</name>
+			<alignment>NG</alignment>
+			<description>Ondisso is an agathion empyreal lord</description>
+			<domainlist>Good, Liberation, Protection, Strength</domainlist>
+			<favoredweapon>Crossbow (Light)</favoredweapon>
 			<holyitem></holyitem>
-			<pantheonlist>Pathfinder Chronicles</pantheonlist>
-			<source>Paizo Inc. - Advanced Player&#39;s Guide, p.91</source>
+			<pantheonlist>Empyreal Lords</pantheonlist>
+			<source>Paizo Publishing - Inner Sea Gods, p.322</source>
 			<special_abilities></special_abilities>
 			<appearance></appearance>
 			<title></title>
@@ -141,7 +141,7 @@
 			<inches>1</inches>
 		</height>
 		<hitdice>(10d10)+(1d10)+22</hitdice>
-		<image>file:/home/psycho/pcgen/characters/Manuel.jpg</image>
+		<image>file:/home/psycho/pcgen/characters/Mananuel Lifebringer.jpg</image>
 		<interests></interests>
 		<languages>
 			<language>Common</language>
@@ -889,6 +889,9 @@
 	<saving_throws>
 		<conditional_modifiers>
 			<savebonus>
+				<description>+2 vs. death</description>
+			</savebonus>
+			<savebonus>
 				<description>+11 racial vs poison</description>
 			</savebonus>
 		</conditional_modifiers>
@@ -952,6 +955,9 @@
 	  ====================================-->
 	<attack>
 			<conditional_modifiers>
+				<savebonus>
+				<description>+2 vs. death</description>
+				</savebonus>
 				<savebonus>
 				<description>+11 racial vs poison</description>
 				</savebonus>
@@ -1389,16 +1395,16 @@
 			<source>Paizo Inc. - Core Rulebook, p.117</source>
 		</feat>
 		<feat>
-			<name>Hammer the Gap</name>
-			<description>You repeatedly strike the same location, causing increasing amounts of damage.</description>
-			<benefit>When you take a full-attack action, each consecutive hit against the same opponent deals extra damage equal to the number of previous consecutive hits you have made against that opponent this turn. This damage is multiplied on a critical hit.</benefit>
-			<type>COMBAT</type>
+			<name>Fey Foundling</name>
+			<description>You were found in the wilds as a child, bearing a mark of the First World. Magical healing works better on you.</description>
+			<benefit>You were found in the wilds as a child, bearing a mark of the First World. Your strange connection to the First World and the fey infuses you with life, and whenever you receive magical healing, you heal an additional 2 points/die rolled. You gain a +2 bonus on all saving throws against death effects. Unfortunately, you also suffer +1 point of damage from cold iron weapons (although you can wield cold iron weapons without significant discomfort).</benefit>
+			<type>GENERAL</type>
 			<associated></associated>
 			<count>0</count>
 			<auto>F</auto>
 			<hidden>F</hidden>
 			<virtual>F</virtual>
-			<source>Paizo Inc. - Ultimate Combat, p.103</source>
+			<source>Paizo Inc. - Inner Sea World Guide, p.286</source>
 		</feat>
 		<feat>
 			<name>Piranha Strike</name>

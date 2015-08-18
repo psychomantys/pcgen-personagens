@@ -24,7 +24,7 @@ ALLOWDEBT:N
 AUTORESIZEGEAR:Y
 
 # Character Bio
-CHARACTERNAME:Manuel
+CHARACTERNAME:Mananuel Lifebringer
 TABNAME:
 PLAYERNAME:Baltazar Tavares Vanderlei
 HEIGHT:73
@@ -198,7 +198,7 @@ CALCEQUIPSET:0.1
 # EquipSet Temp Bonuses
 
 # Character Deity/Domain
-DEITY:Erastil|DEITYDOMAINS:[DOMAIN:Animal|DOMAIN:Community|DOMAIN:Good|DOMAIN:Law|DOMAIN:Plant|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Family Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Fur Subdomain|DOMAIN:Growth Subdomain|DOMAIN:Home Subdomain]|ALIGNALLOW:|DESC:God of farming, hunting, trade, family|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Longbow]|DEITYALIGN:LG
+DEITY:Ondisso|DEITYDOMAINS:[DOMAIN:Good|DOMAIN:Liberation|DOMAIN:Protection|DOMAIN:Strength]|ALIGNALLOW:|DESC:Ondisso is an agathion empyreal lord|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Crossbow (Light)]|DEITYALIGN:NG
 
 # Character Spells Information
 SPELLBOOK:Class|TYPE:4
