@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>Aug 18, 2015</date>
-		<time>5:38:35 PM</time>
+		<date>Aug 19, 2015</date>
+		<time>1:33:33 AM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -153,10 +153,10 @@
 		<move>
 			<move>
 				<name>Walk</name>
-				<rate>30 ft.</rate>
-				<squares>6</squares>
+				<rate>20 ft.</rate>
+				<squares>4</squares>
 			</move>
-			<all>Walk 30 ft.</all>
+			<all>Walk 20 ft.</all>
 		</move>
 		<personality>
 			<trait></trait>
@@ -185,11 +185,12 @@
 		<speechtendency></speechtendency>
 		<type>Humanoid</type>
 		<vision>
+			<vision>Darkvision (120 ft.)</vision>
 			<vision>Low-Light Vision</vision>
-			<all>Low-Light Vision</all>
+			<all>Darkvision (120 ft.), Low-Light Vision</all>
 		</vision>
 		<wealth>0</wealth>
-		<gold>-8</gold>
+		<gold>-68,463</gold>
 		<weight>
 			<weight_unit>135 lbs.</weight_unit>
 			<weight_nounit>135</weight_nounit>
@@ -351,7 +352,7 @@
 	  ====================================-->
 	<hit_points>
 		<usealternatedamage>0</usealternatedamage>
-		<points>72</points>
+		<points>104</points>
 		<alternate>28</alternate>
 		<die>(10d10)+(1d10)+22</die>
 		<die_short>11</die_short>
@@ -368,51 +369,51 @@
 			</roll>
 			<roll>
 				<level>2</level>
-				<roll>3</roll>
+				<roll>10</roll>
 				<stat>2</stat>
-				<total>5</total>
+				<total>12</total>
 			</roll>
 			<roll>
 				<level>3</level>
-				<roll>2</roll>
+				<roll>10</roll>
 				<stat>2</stat>
-				<total>4</total>
+				<total>12</total>
 			</roll>
 			<roll>
 				<level>4</level>
-				<roll>9</roll>
-				<stat>2</stat>
-				<total>11</total>
-			</roll>
-			<roll>
-				<level>5</level>
 				<roll>5</roll>
 				<stat>2</stat>
 				<total>7</total>
 			</roll>
 			<roll>
-				<level>6</level>
-				<roll>2</roll>
+				<level>5</level>
+				<roll>8</roll>
 				<stat>2</stat>
-				<total>4</total>
+				<total>10</total>
+			</roll>
+			<roll>
+				<level>6</level>
+				<roll>10</roll>
+				<stat>2</stat>
+				<total>12</total>
 			</roll>
 			<roll>
 				<level>7</level>
-				<roll>2</roll>
+				<roll>7</roll>
 				<stat>2</stat>
-				<total>4</total>
+				<total>9</total>
 			</roll>
 			<roll>
 				<level>8</level>
-				<roll>1</roll>
+				<roll>5</roll>
 				<stat>2</stat>
-				<total>3</total>
+				<total>7</total>
 			</roll>
 			<roll>
 				<level>9</level>
-				<roll>1</roll>
+				<roll>5</roll>
 				<stat>2</stat>
-				<total>3</total>
+				<total>7</total>
 			</roll>
 			<roll>
 				<level>10</level>
@@ -422,9 +423,9 @@
 			</roll>
 			<roll>
 				<level>11</level>
-				<roll>8</roll>
+				<roll>5</roll>
 				<stat>2</stat>
-				<total>10</total>
+				<total>7</total>
 			</roll>
 		</history>
 	</hit_points>
@@ -435,14 +436,14 @@
 	  ====================================
 	  ====================================-->
 	<armor_class>
-		<total>15</total>
-		<listing>ABILITY +5, BASE +10</listing>
-		<flat>10</flat>
-		<touch>15</touch>
+		<total>22</total>
+		<listing>ABILITY +3, ARMOR +4, ARMORENHANCEMENT +2, BASE +10, SHIELD +1, SHIELDENHANCEMENT +2</listing>
+		<flat>19</flat>
+		<touch>13</touch>
 		<base>10</base>
-		<armor_bonus>0</armor_bonus>
-		<shield_bonus>0</shield_bonus>
-		<stat_mod>5</stat_mod>
+		<armor_bonus>6</armor_bonus>
+		<shield_bonus>3</shield_bonus>
+		<stat_mod>3</stat_mod>
 		<size_mod>0</size_mod>
 		<natural>0</natural>
 		<deflection>0</deflection>
@@ -455,9 +456,9 @@
 		<sacred>0</sacred>
 		<profane>0</profane>
 		<miss_chance/>
-		<max_dex></max_dex>
-		<spell_failure>0</spell_failure>
-		<check_penalty>+0</check_penalty>
+		<max_dex>+3</max_dex>
+		<spell_failure>25</spell_failure>
+		<check_penalty>-3</check_penalty>
 		<spell_resistance>0</spell_resistance>
 	</armor_class>
 	<!--
@@ -470,8 +471,8 @@
 		<total>+7</total>
 		<dex_mod>+5</dex_mod>
 		<misc_mod>+2</misc_mod>
-		<spell_failure>0</spell_failure>
-		<check_penalty>+0</check_penalty>
+		<spell_failure>25</spell_failure>
+		<check_penalty>-3</check_penalty>
 		<spell_resistance>0</spell_resistance>
 		<hero_points>0</hero_points>
 	</initiative>
@@ -494,25 +495,44 @@
 			<unused>0</unused>
 			<eclipse_total>0</eclipse_total>
 		</skillpoints>
-		<list_mods>Escape Artist +18, Knowledge (Religion) +8, Perception +2, Sense Motive +13, Spellcraft +9, Stealth +7</list_mods>
+		<list_mods>Escape Artist +15, Knowledge (Religion) +8, Perception +2, Sense Motive +13, Spellcraft +9</list_mods>
 			<max_class_skill_level>11</max_class_skill_level>
 		<max_cross_class_skill_level>11</max_cross_class_skill_level>
 		<skill>
 			<name>Acrobatics</name>
 			<ranks>0.0</ranks>
-			<mod>5<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>5</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Acrobatics</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>5</trained_total>
-			<exclusive_total>5</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
+			<classes></classes>
+			<type>Dexterity.Base</type>
+		</skill>
+		<skill>
+			<name>Acrobatics (Jump)</name>
+			<ranks>0.0</ranks>
+			<mod>-2<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>-2</skill_mod>
+			<ability_mod>5<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>-7<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>DEX</ability>
+			<synergy>Acrobatics (Jump)</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>-2</trained_total>
+			<exclusive_total>-2</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -557,19 +577,19 @@
 		<skill>
 			<name>Climb</name>
 			<ranks>0.0</ranks>
-			<mod>-1<!-- Mods from abilities, equipment, etc -->
+			<mod>-4<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>-1</skill_mod>
+			<skill_mod>-4</skill_mod>
 			<ability_mod>-1<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>STR</ability>
 			<synergy>Climb</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>-1</trained_total>
-			<exclusive_total>-1</exclusive_total>
+			<trained_total>-4</trained_total>
+			<exclusive_total>-4</exclusive_total>
 			<classes>Holy Vindicator</classes>
 			<type>Strength.Base</type>
 		</skill>
@@ -633,38 +653,38 @@
 		<skill>
 			<name>Escape Artist</name>
 			<ranks>11.0</ranks>
-			<mod>7<!-- Mods from abilities, equipment, etc -->
+			<mod>4<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>18</skill_mod>
+			<skill_mod>15</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-1<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Escape Artist</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>18</trained_total>
-			<exclusive_total>18</exclusive_total>
+			<trained_total>15</trained_total>
+			<exclusive_total>15</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
 		<skill>
 			<name>Fly</name>
 			<ranks>0.0</ranks>
-			<mod>5<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>5</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Fly</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>5</trained_total>
-			<exclusive_total>5</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -745,6 +765,25 @@
 			<type>Wisdom.Base</type>
 		</skill>
 		<skill>
+			<name>Perception (Underground)</name>
+			<ranks>0.0</ranks>
+			<mod>6<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>6</skill_mod>
+			<ability_mod>0<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>6<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>WIS</ability>
+			<synergy>Perception (Underground)</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>6</trained_total>
+			<exclusive_total>6</exclusive_total>
+			<classes></classes>
+			<type>Wisdom.Base</type>
+		</skill>
+		<skill>
 			<name>Perform (Untrained)</name>
 			<ranks>0.0</ranks>
 			<mod>4<!-- Mods from abilities, equipment, etc -->
@@ -766,19 +805,19 @@
 		<skill>
 			<name>Ride</name>
 			<ranks>0.0</ranks>
-			<mod>5<!-- Mods from abilities, equipment, etc -->
+			<mod>2<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>5</skill_mod>
+			<skill_mod>2</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Ride</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>5</trained_total>
-			<exclusive_total>5</exclusive_total>
+			<trained_total>2</trained_total>
+			<exclusive_total>2</exclusive_total>
 			<classes>Paladin.Holy Vindicator</classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -823,19 +862,19 @@
 		<skill>
 			<name>Stealth</name>
 			<ranks>0.0</ranks>
-			<mod>7<!-- Mods from abilities, equipment, etc -->
+			<mod>4<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>7</skill_mod>
+			<skill_mod>4</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>-1<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Stealth</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>7</trained_total>
-			<exclusive_total>7</exclusive_total>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -859,23 +898,23 @@
 			<type>Wisdom.Base</type>
 		</skill>
 		<skill>
-			<name>Swim</name>
+			<name>Survival (Underground)</name>
 			<ranks>0.0</ranks>
-			<mod>-1<!-- Mods from abilities, equipment, etc -->
+			<mod>4<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>-1</skill_mod>
-			<ability_mod>-1<!-- Mod from the key ability -->
+			<skill_mod>4</skill_mod>
+			<ability_mod>0<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>4<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
-			<ability>STR</ability>
-			<synergy>Swim</synergy>
+			<ability>WIS</ability>
+			<synergy>Survival (Underground)</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>-1</trained_total>
-			<exclusive_total>-1</exclusive_total>
-			<classes>Holy Vindicator</classes>
-			<type>Strength.Base</type>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<classes></classes>
+			<type>Wisdom.Base</type>
 		</skill>
 
 	<!-- Skills -->
@@ -955,6 +994,9 @@
 	  ====================================-->
 	<attack>
 			<conditional_modifiers>
+				<combatbonus>
+					<description>You take a -1 penalty on attack rolls while using your shield arm to wield a weapon.</description>
+				</combatbonus>
 				<savebonus>
 				<description>+2 vs. death</description>
 				</savebonus>
@@ -1061,9 +1103,9 @@
 		<weapon>
 			<common>
 				<name>
-					<short>*Kukri</short>
-					<long>*Kukri</long>
-					<output>*Kukri</output>
+					<short>*Kukri +2 (Shock)</short>
+					<long>*Kukri +2 (Shock)</long>
+					<output>*Kukri +2 (Shock)</output>
 				</name>
 				<category>Martial-Melee</category>
 				<critical>
@@ -1071,17 +1113,17 @@
 					<multiplier>2</multiplier>
 				</critical>
 				<to_hit>
-					<hit>+17/+12/+7</hit>
-					<magic_hit>+0</magic_hit>
-					<total_hit>+17/+12/+7</total_hit>
+					<hit>+19/+14/+9</hit>
+					<magic_hit>+2</magic_hit>
+					<total_hit>+19/+14/+9</total_hit>
 				</to_hit>
 				<feat>
 					<hit>+0</hit>
 					<damage>+0</damage>
 				</feat>
 				<magic>
-					<hit>+0</hit>
-					<damage>+0</damage>
+					<hit>+2</hit>
+					<damage>+2</damage>
 				</magic>
 				<template>
 					<hit>+0</hit>
@@ -1092,20 +1134,20 @@
 				<reach>5</reach>
 				<reachunit> ft.</reachunit>
 				<size>M</size>
-					<special_properties></special_properties>
+					<special_properties>+1d6 electricity damage</special_properties>
 				<type>S</type>
 				<weight>2</weight>
 				<attacks>0</attacks>
 				<heft>MEDIUM</heft>
 				<range>0 ft.</range>
 				<sizemod>+0</sizemod>
-				<basehit>+17/+12/+7</basehit>
+				<basehit>+19/+14/+9</basehit>
 				<misc>+1</misc>
-				<damage>1d4-1</damage>
-				<damagebonus>-1</damagebonus>
+				<damage>1d4+1</damage>
+				<damagebonus>+1</damagebonus>
 				<basedamagebonus>+0</basedamagebonus>
-				<thdamagebonus>-1</thdamagebonus>
-				<ohdamagebonus>-1</ohdamagebonus>
+				<thdamagebonus>+1</thdamagebonus>
+				<ohdamagebonus>+1</ohdamagebonus>
 				<rateoffire></rateoffire>
 				<islight>TRUE</islight>
 				<sequence>0</sequence>
@@ -1118,36 +1160,214 @@
 				<hand>Primary</hand>
 				<w1_h1_p>
 					<!-- One weapon, 1 hand, primary hand -->
-					<to_hit>+17/+12/+7</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+19/+14/+9</to_hit>
+					<damage>1d4+1</damage>
 				</w1_h1_p>
 				<w1_h1_o>
 					<!-- One weapon, 1 handed, offhand -->
-					<to_hit>+13/+8/+3</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+15/+10/+5</to_hit>
+					<damage>1d4+1</damage>
 				</w1_h1_o>
 				<w1_h2>
 					<!-- One weapon, 2 handed -->
-					<to_hit>+17/+12/+7</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+19/+14/+9</to_hit>
+					<damage>1d4+1</damage>
 				</w1_h2>
 				<w2_p_oh>
 					<!-- Two weapons, this weapon in primary hand, other hand with heavy weapon -->
-					<to_hit>+11/+6/+1</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+13/+8/+3</to_hit>
+					<damage>1d4+1</damage>
 				</w2_p_oh>
 				<w2_p_ol>
 					<!-- Two weapons, this weapon in primary hand, other hand with light weapon -->
-					<to_hit>+13/+8/+3</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+15/+10/+5</to_hit>
+					<damage>1d4+1</damage>
 				</w2_p_ol>
 				<w2_o>
 					<!-- Two weapons, this weapon in off-hand -->
-					<to_hit>+9</to_hit>
-					<damage>1d4-1</damage>
+					<to_hit>+11</to_hit>
+					<damage>1d4+1</damage>
 				</w2_o>
 			</melee>
 		</weapon>
+		<weapon>
+			<common>
+				<name>
+					<short>Masterwork Crossbow (Light)</short>
+					<long>Masterwork Crossbow (Light)</long>
+					<output>Masterwork Crossbow (Light)</output>
+				</name>
+				<category>Simple-Ranged</category>
+				<critical>
+					<range>19-20</range>
+					<multiplier>2</multiplier>
+				</critical>
+				<to_hit>
+					<hit>+17/+12/+7</hit>
+					<magic_hit>+1</magic_hit>
+					<total_hit>+17/+12/+7</total_hit>
+				</to_hit>
+				<feat>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</feat>
+				<magic>
+					<hit>+1</hit>
+					<damage>+0</damage>
+				</magic>
+				<template>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</template>
+				<hand>Carried</hand>
+				<num_attacks>3</num_attacks>
+				<reach>5</reach>
+				<reachunit> ft.</reachunit>
+				<size>M</size>
+					<special_properties></special_properties>
+				<type>P</type>
+				<weight>4</weight>
+				<attacks>0</attacks>
+				<heft>MEDIUM</heft>
+				<range>80 ft.</range>
+				<sizemod>+0</sizemod>
+				<basehit>+17/+12/+7</basehit>
+				<misc>+0</misc>
+				<damage>1d8</damage>
+				<damagebonus>+0</damagebonus>
+				<basedamagebonus>+0</basedamagebonus>
+				<thdamagebonus>+0</thdamagebonus>
+				<ohdamagebonus>+0</ohdamagebonus>
+				<rateoffire></rateoffire>
+				<islight>FALSE</islight>
+				<sequence>1</sequence>
+			</common>
+			<ranges>
+				<rangetype>Ranged</rangetype><!-- ranged second -->
+				<range>
+					<distance>30 ft.</distance>
+					<to_hit>+17/+12/+7</to_hit>
+					<damage>1d8</damage>
+					<basehit>+17/+12/+7</basehit>
+					<tohit_offhand>+13/+8/+3</tohit_offhand>
+					<tohit_twohand>+17/+12/+7</tohit_twohand>
+					<tohit_2weap_heavy>+11/+6/+1</tohit_2weap_heavy>
+					<tohit_2weap_light>+13/+8/+3</tohit_2weap_light>
+					<tohit_2weap_offhand>+7</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>80 ft.</distance>
+					<to_hit>+17/+12/+7</to_hit>
+					<damage>1d8</damage>
+					<basehit>+17/+12/+7</basehit>
+					<tohit_offhand>+13/+8/+3</tohit_offhand>
+					<tohit_twohand>+17/+12/+7</tohit_twohand>
+					<tohit_2weap_heavy>+11/+6/+1</tohit_2weap_heavy>
+					<tohit_2weap_light>+13/+8/+3</tohit_2weap_light>
+					<tohit_2weap_offhand>+7</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>160 ft.</distance>
+					<to_hit>+15/+10/+5</to_hit>
+					<damage>1d8</damage>
+					<basehit>+15/+10/+5</basehit>
+					<tohit_offhand>+11/+6/+1</tohit_offhand>
+					<tohit_twohand>+15/+10/+5</tohit_twohand>
+					<tohit_2weap_heavy>+9/+4/-1</tohit_2weap_heavy>
+					<tohit_2weap_light>+11/+6/+1</tohit_2weap_light>
+					<tohit_2weap_offhand>+5</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>240 ft.</distance>
+					<to_hit>+13/+8/+3</to_hit>
+					<damage>1d8</damage>
+					<basehit>+13/+8/+3</basehit>
+					<tohit_offhand>+9/+4/-1</tohit_offhand>
+					<tohit_twohand>+13/+8/+3</tohit_twohand>
+					<tohit_2weap_heavy>+7/+2/-3</tohit_2weap_heavy>
+					<tohit_2weap_light>+9/+4/-1</tohit_2weap_light>
+					<tohit_2weap_offhand>+3</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>320 ft.</distance>
+					<to_hit>+11/+6/+1</to_hit>
+					<damage>1d8</damage>
+					<basehit>+11/+6/+1</basehit>
+					<tohit_offhand>+7/+2/-3</tohit_offhand>
+					<tohit_twohand>+11/+6/+1</tohit_twohand>
+					<tohit_2weap_heavy>+5/+0/-5</tohit_2weap_heavy>
+					<tohit_2weap_light>+7/+2/-3</tohit_2weap_light>
+					<tohit_2weap_offhand>+1</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>400 ft.</distance>
+					<to_hit>+9/+4/-1</to_hit>
+					<damage>1d8</damage>
+					<basehit>+9/+4/-1</basehit>
+					<tohit_offhand>+5/+0/-5</tohit_offhand>
+					<tohit_twohand>+9/+4/-1</tohit_twohand>
+					<tohit_2weap_heavy>+3/-2/-7</tohit_2weap_heavy>
+					<tohit_2weap_light>+5/+0/-5</tohit_2weap_light>
+					<tohit_2weap_offhand>-1</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>480 ft.</distance>
+					<to_hit>+7/+2/-3</to_hit>
+					<damage>1d8</damage>
+					<basehit>+7/+2/-3</basehit>
+					<tohit_offhand>+3/-2/-7</tohit_offhand>
+					<tohit_twohand>+7/+2/-3</tohit_twohand>
+					<tohit_2weap_heavy>+1/-4/-9</tohit_2weap_heavy>
+					<tohit_2weap_light>+3/-2/-7</tohit_2weap_light>
+					<tohit_2weap_offhand>-3</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>560 ft.</distance>
+					<to_hit>+5/+0/-5</to_hit>
+					<damage>1d8</damage>
+					<basehit>+5/+0/-5</basehit>
+					<tohit_offhand>+1/-4/-9</tohit_offhand>
+					<tohit_twohand>+5/+0/-5</tohit_twohand>
+					<tohit_2weap_heavy>-1/-6/-11</tohit_2weap_heavy>
+					<tohit_2weap_light>+1/-4/-9</tohit_2weap_light>
+					<tohit_2weap_offhand>-5</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>640 ft.</distance>
+					<to_hit>+3/-2/-7</to_hit>
+					<damage>1d8</damage>
+					<basehit>+3/-2/-7</basehit>
+					<tohit_offhand>-1/-6/-11</tohit_offhand>
+					<tohit_twohand>+3/-2/-7</tohit_twohand>
+					<tohit_2weap_heavy>-3/-8/-13</tohit_2weap_heavy>
+					<tohit_2weap_light>-1/-6/-11</tohit_2weap_light>
+					<tohit_2weap_offhand>-7</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>720 ft.</distance>
+					<to_hit>+1/-4/-9</to_hit>
+					<damage>1d8</damage>
+					<basehit>+1/-4/-9</basehit>
+					<tohit_offhand>-3/-8/-13</tohit_offhand>
+					<tohit_twohand>+1/-4/-9</tohit_twohand>
+					<tohit_2weap_heavy>-5/-10/-15</tohit_2weap_heavy>
+					<tohit_2weap_light>-3/-8/-13</tohit_2weap_light>
+					<tohit_2weap_offhand>-9</tohit_2weap_offhand>
+				</range>
+				<range>
+					<distance>800 ft.</distance>
+					<to_hit>-1/-6/-11</to_hit>
+					<damage>1d8</damage>
+					<basehit>-1/-6/-11</basehit>
+					<tohit_offhand>-5/-10/-15</tohit_offhand>
+					<tohit_twohand>-1/-6/-11</tohit_twohand>
+					<tohit_2weap_heavy>-7/-12/-17</tohit_2weap_heavy>
+					<tohit_2weap_light>-5/-10/-15</tohit_2weap_light>
+					<tohit_2weap_offhand>-11</tohit_2weap_offhand>
+				</range>
+			</ranges>
+		</weapon>
+
 	</weapons>
 	<!--
 	  ====================================
@@ -1156,6 +1376,36 @@
 	  ====================================
 	  ====================================-->
 	<protection>
+		<armor>
+			<name>*Hide +2</name>
+			<acbonus>+6</acbonus>
+			<accheck>-2</accheck>
+			<baseac>+4</baseac>
+			<edr>+0</edr>
+			<maxdex>+4</maxdex>
+			<move></move>
+			<spellfail>20</spellfail>
+			<special_properties></special_properties>
+			<totalac>+6</totalac>
+			<type>Medium</type>
+			<wt>25</wt>
+			<fulltype>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</fulltype>
+			<location>Equipped</location>
+		</armor>
+		<shield>
+			<name>*Buckler +2 (Arrow Deflection)</name>
+			<acbonus>+3</acbonus>
+			<accheck>+0</accheck>
+			<baseac>+1</baseac>
+			<edr>+0</edr>
+			<maxdex></maxdex>
+			<move></move>
+			<spellfail>5</spellfail>
+			<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon., Reflex save (DC 20+Missile enhancement) to deflect arrows; 1/round</special_properties>
+			<totalac>+3</totalac>
+			<type>Shield</type>
+			<wt>5</wt>
+		</shield>
 	</protection>
 	<!--
 	  ====================================
@@ -1248,16 +1498,16 @@
 	  ====================================-->
 	<equipment>
 		<item>
-			<longname>Kukri</longname>
+			<longname>Darklands Goggles</longname>
 			<id></id>
-			<name>Kukri</name>
+			<name>Darklands Goggles</name>
 			<carried>1.0</carried>
 			<charges></charges>
 			<charges_used></charges_used>
 			<contents></contents>
 			<contents_num>0</contents_num>
 			<content_weight>0</content_weight>
-			<cost>8</cost>
+			<cost>20000</cost>
 			<equipped>Y</equipped>
 			<location>Equipped</location>
 			<locationId></locationId>
@@ -1270,7 +1520,53 @@
 				<short>M</short>
 			</size>
 			<special_properties></special_properties>
-			<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+			<type>MAGIC.WONDROUS.EYEGEAR.GREATERMEDIUM</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.224</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Kukri +2 (Shock)</longname>
+			<id></id>
+			<name>Kukri +2 (Shock)</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>18308</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>+1d6 electricity damage</special_properties>
+			<type>MAGIC.WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
 			<weight>2</weight>
 			<total_wt>2</total_wt>
 			<total_weight>2</total_weight>
@@ -1290,27 +1586,257 @@
 			<range>0 ft.</range>
 			<attacks>0.0</attacks>
 			<prof>Kukri</prof>
-			<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Hide +2</longname>
+			<id></id>
+			<name>Hide +2</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>4165</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</type>
+			<weight>25</weight>
+			<total_wt>25</total_wt>
+			<total_weight>25</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>6</acmod>
+			<maxdex>4</maxdex>
+			<accheck>-2</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>20</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Hide</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.11</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Boots of Escape</longname>
+			<id></id>
+			<name>Boots of Escape</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>8000</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>MAGIC.WONDROUS.BOOT.LESSERMEDIUM</type>
+			<weight>1</weight>
+			<total_wt>1</total_wt>
+			<total_weight>1</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>Paizo Publishing LLC - Ultimate Equipment, p.228</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Buckler +2 (Arrow Deflection)</longname>
+			<id></id>
+			<name>Buckler +2 (Arrow Deflection)</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>16155</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon., Reflex save (DC 20+Missile enhancement) to deflect arrows; 1/round</special_properties>
+			<type>MAGIC.SHIELD.BUCKLER.STANDARD.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+			<weight>5</weight>
+			<total_wt>5</total_wt>
+			<total_weight>5</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>3</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>5</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Buckler</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Potion of Cure Serious Wounds</longname>
+			<id></id>
+			<name>Potion of Cure Serious Wounds</name>
+			<carried>2.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>750</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>2</quantity>
+			<checkbox>2</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>Cures 3d8+5 points of damage</special_properties>
+			<type>MAGIC.POTION.CONSUMABLE</type>
+			<weight>0</weight>
+			<total_wt>0</total_wt>
+			<total_weight>0</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof></prof>
+			<source>Paizo Inc. - Core Rulebook, p.477</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Masterwork Crossbow (Light)</longname>
+			<id></id>
+			<name>Masterwork Crossbow (Light)</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents>0 lbs.</contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>335</cost>
+			<equipped>N</equipped>
+			<location>Carried</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties></special_properties>
+			<type>WEAPON.RESIZABLE.SIMPLE.RANGED.STANDARD.PIERCING.CONTAINER.PROJECTILE.CROSSBOW.WEAPON GROUP CROSSBOWS.CUSTOM.WOODEN.MASTERWORK</type>
+			<weight>4</weight>
+			<total_wt>4</total_wt>
+			<total_weight>4</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage>1d8</damage>
+			<damage_alt></damage_alt>
+			<crit_range>2</crit_range>
+			<crit_mult>x2</crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>80 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Crossbow (Light)</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
 			<quality></quality>
 		</item>
 		<total>
-			<weight>2 lbs.</weight>
-			<value>8 gp</value>
-			<load>Light</load>
+			<weight>37 lbs.</weight>
+			<value>68463 gp</value>
+			<load>Medium</load>
 			<capacity>80</capacity>
 		</total>
 		<equipmentsets>
 		<equipmentset name="Default Set">
 				<item>
-					<longname>Kukri</longname>
-					<name>Kukri</name>
+					<longname>Darklands Goggles</longname>
+					<name>Darklands Goggles</name>
 					<carried>1.0</carried>
 					<charges></charges>
 					<charges_used></charges_used>
 					<contents></contents>
 					<contents_num>0</contents_num>
 					<content_weight>0</content_weight>
-					<cost>8</cost>
+					<cost>20000</cost>
 					<equipped>Y</equipped>
 					<location>Equipped</location>
 					<maxcharges>0</maxcharges>
@@ -1322,7 +1848,51 @@
 						<short>M</short>
 					</size>
 					<special_properties></special_properties>
-					<type>WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.METAL</type>
+					<type>MAGIC.WONDROUS.EYEGEAR.GREATERMEDIUM</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.224</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Kukri +2 (Shock)</longname>
+					<name>Kukri +2 (Shock)</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>18308</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>+1d6 electricity damage</special_properties>
+					<type>MAGIC.WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
 					<weight>2</weight>
 					<total_wt>2</total_wt>
 					<total_weight>2</total_weight>
@@ -1342,7 +1912,227 @@
 					<range>0 ft.</range>
 					<attacks>0.0</attacks>
 					<prof>Kukri</prof>
-					<source>Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Hide +2</longname>
+					<name>Hide +2</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>4165</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</type>
+					<weight>25</weight>
+					<total_wt>25</total_wt>
+					<total_weight>25</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>6</acmod>
+					<maxdex>4</maxdex>
+					<accheck>-2</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>20</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Hide</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.11</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Boots of Escape</longname>
+					<name>Boots of Escape</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>8000</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>MAGIC.WONDROUS.BOOT.LESSERMEDIUM</type>
+					<weight>1</weight>
+					<total_wt>1</total_wt>
+					<total_weight>1</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Publishing LLC - Ultimate Equipment, p.228</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Buckler +2 (Arrow Deflection)</longname>
+					<name>Buckler +2 (Arrow Deflection)</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>16155</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon., Reflex save (DC 20+Missile enhancement) to deflect arrows; 1/round</special_properties>
+					<type>MAGIC.SHIELD.BUCKLER.STANDARD.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>3</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>5</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Buckler</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Potion of Cure Serious Wounds</longname>
+					<name>Potion of Cure Serious Wounds</name>
+					<carried>2.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>750</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>2</quantity>
+					<checkbox>2</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>Cures 3d8+5 points of damage</special_properties>
+					<type>MAGIC.POTION.CONSUMABLE</type>
+					<weight>0</weight>
+					<total_wt>0</total_wt>
+					<total_weight>0</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof></prof>
+					<source>Paizo Inc. - Core Rulebook, p.477</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Masterwork Crossbow (Light)</longname>
+					<name>Masterwork Crossbow (Light)</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents>0 lbs.</contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>335</cost>
+					<equipped>N</equipped>
+					<location>Carried</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties></special_properties>
+					<type>WEAPON.RESIZABLE.SIMPLE.RANGED.STANDARD.PIERCING.CONTAINER.PROJECTILE.CROSSBOW.WEAPON GROUP CROSSBOWS.CUSTOM.WOODEN.MASTERWORK</type>
+					<weight>4</weight>
+					<total_wt>4</total_wt>
+					<total_weight>4</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d8</damage>
+					<damage_alt></damage_alt>
+					<crit_range>2</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>80 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Crossbow (Light)</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
 					<quality>EQ.0.QUALITY</quality>
 				</item>
 			</equipmentset>
@@ -1458,6 +2248,18 @@
 		<!-- Auto feats -->
 
 		<!-- Virtual Feats -->
+		<feat>
+			<name>Deflect Arrows (Granted)</name>
+			<description>You can know arrows and other projectiles off course, preventing them from hitting you.</description>
+			<benefit>You must have at least one hand free (holding nothing) to use this feat. Once per round when you would normally be hit with an attack from a ranged weapon, you may deflect it so that you take no damage from it. You must be aware of the attack and not flat-footed. Attempting to deflect a ranged attack doesn&#39;t count as an action. Unusually massive ranged weapons (such as boulders or ballista bolts) and ranged attacks generated by natural attacks or spell effects can&#39;t be deflected.</benefit>
+			<type>COMBAT</type>
+			<associated></associated>
+			<count>0</count>
+			<auto>F</auto>
+			<hidden>F</hidden>
+			<virtual>T</virtual>
+			<source>Paizo Inc. - Core Rulebook, p.121</source>
+		</feat>
 		<!-- End Virtual Feats -->
 		<!-- Hidden feats (all feats less the virtual, automatic and visible ones) -->
 		<!-- Hidden VFEATS -->
@@ -2114,7 +2916,7 @@
 
 
 	<misc>
-			<gold>-8</gold>
+			<gold>-68,463</gold>
 
 		<funds>
 			<fund></fund>
