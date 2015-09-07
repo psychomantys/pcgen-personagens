@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>Aug 19, 2015</date>
-		<time>1:33:33 AM</time>
+		<date>Sep 5, 2015</date>
+		<time>3:42:29 PM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -153,10 +153,10 @@
 		<move>
 			<move>
 				<name>Walk</name>
-				<rate>20 ft.</rate>
-				<squares>4</squares>
+				<rate>30 ft.</rate>
+				<squares>6</squares>
 			</move>
-			<all>Walk 20 ft.</all>
+			<all>Walk 30 ft.</all>
 		</move>
 		<personality>
 			<trait></trait>
@@ -190,7 +190,7 @@
 			<all>Darkvision (120 ft.), Low-Light Vision</all>
 		</vision>
 		<wealth>0</wealth>
-		<gold>-68,463</gold>
+		<gold>-69,398</gold>
 		<weight>
 			<weight_unit>135 lbs.</weight_unit>
 			<weight_nounit>135</weight_nounit>
@@ -436,14 +436,14 @@
 	  ====================================
 	  ====================================-->
 	<armor_class>
-		<total>22</total>
-		<listing>ABILITY +3, ARMOR +4, ARMORENHANCEMENT +2, BASE +10, SHIELD +1, SHIELDENHANCEMENT +2</listing>
+		<total>24</total>
+		<listing>ABILITY +5, ARMOR +4, ARMORENHANCEMENT +2, BASE +10, SHIELD +1, SHIELDENHANCEMENT +2</listing>
 		<flat>19</flat>
-		<touch>13</touch>
+		<touch>15</touch>
 		<base>10</base>
 		<armor_bonus>6</armor_bonus>
 		<shield_bonus>3</shield_bonus>
-		<stat_mod>3</stat_mod>
+		<stat_mod>5</stat_mod>
 		<size_mod>0</size_mod>
 		<natural>0</natural>
 		<deflection>0</deflection>
@@ -456,9 +456,9 @@
 		<sacred>0</sacred>
 		<profane>0</profane>
 		<miss_chance/>
-		<max_dex>+3</max_dex>
-		<spell_failure>25</spell_failure>
-		<check_penalty>-3</check_penalty>
+		<max_dex>+6</max_dex>
+		<spell_failure>15</spell_failure>
+		<check_penalty>+0</check_penalty>
 		<spell_resistance>0</spell_resistance>
 	</armor_class>
 	<!--
@@ -471,8 +471,8 @@
 		<total>+7</total>
 		<dex_mod>+5</dex_mod>
 		<misc_mod>+2</misc_mod>
-		<spell_failure>25</spell_failure>
-		<check_penalty>-3</check_penalty>
+		<spell_failure>15</spell_failure>
+		<check_penalty>+0</check_penalty>
 		<spell_resistance>0</spell_resistance>
 		<hero_points>0</hero_points>
 	</initiative>
@@ -495,44 +495,25 @@
 			<unused>0</unused>
 			<eclipse_total>0</eclipse_total>
 		</skillpoints>
-		<list_mods>Escape Artist +15, Knowledge (Religion) +8, Perception +2, Sense Motive +13, Spellcraft +9</list_mods>
+		<list_mods>Escape Artist +18, Knowledge (Religion) +8, Perception +2, Sense Motive +13, Spellcraft +9, Stealth +7</list_mods>
 			<max_class_skill_level>11</max_class_skill_level>
 		<max_cross_class_skill_level>11</max_cross_class_skill_level>
 		<skill>
 			<name>Acrobatics</name>
 			<ranks>0.0</ranks>
-			<mod>2<!-- Mods from abilities, equipment, etc -->
+			<mod>5<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>2</skill_mod>
+			<skill_mod>5</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Acrobatics</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>2</trained_total>
-			<exclusive_total>2</exclusive_total>
-			<classes></classes>
-			<type>Dexterity.Base</type>
-		</skill>
-		<skill>
-			<name>Acrobatics (Jump)</name>
-			<ranks>0.0</ranks>
-			<mod>-2<!-- Mods from abilities, equipment, etc -->
-			</mod>
-			<skill_mod>-2</skill_mod>
-			<ability_mod>5<!-- Mod from the key ability -->
-			</ability_mod>
-			<misc_mod>-7<!-- This is a calc value of TOTAL-RANK-ABMOD -->
-			</misc_mod>
-			<ability>DEX</ability>
-			<synergy>Acrobatics (Jump)</synergy>
-			<untrained>Y</untrained>
-			<exclusive>N</exclusive>
-			<trained_total>-2</trained_total>
-			<exclusive_total>-2</exclusive_total>
+			<trained_total>5</trained_total>
+			<exclusive_total>5</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -577,19 +558,19 @@
 		<skill>
 			<name>Climb</name>
 			<ranks>0.0</ranks>
-			<mod>-4<!-- Mods from abilities, equipment, etc -->
+			<mod>-1<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>-4</skill_mod>
+			<skill_mod>-1</skill_mod>
 			<ability_mod>-1<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>STR</ability>
 			<synergy>Climb</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>-4</trained_total>
-			<exclusive_total>-4</exclusive_total>
+			<trained_total>-1</trained_total>
+			<exclusive_total>-1</exclusive_total>
 			<classes>Holy Vindicator</classes>
 			<type>Strength.Base</type>
 		</skill>
@@ -653,38 +634,38 @@
 		<skill>
 			<name>Escape Artist</name>
 			<ranks>11.0</ranks>
-			<mod>4<!-- Mods from abilities, equipment, etc -->
+			<mod>7<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>15</skill_mod>
+			<skill_mod>18</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-1<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Escape Artist</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>15</trained_total>
-			<exclusive_total>15</exclusive_total>
+			<trained_total>18</trained_total>
+			<exclusive_total>18</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
 		<skill>
 			<name>Fly</name>
 			<ranks>0.0</ranks>
-			<mod>2<!-- Mods from abilities, equipment, etc -->
+			<mod>5<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>2</skill_mod>
+			<skill_mod>5</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Fly</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>2</trained_total>
-			<exclusive_total>2</exclusive_total>
+			<trained_total>5</trained_total>
+			<exclusive_total>5</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -805,19 +786,19 @@
 		<skill>
 			<name>Ride</name>
 			<ranks>0.0</ranks>
-			<mod>2<!-- Mods from abilities, equipment, etc -->
+			<mod>5<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>2</skill_mod>
+			<skill_mod>5</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Ride</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>2</trained_total>
-			<exclusive_total>2</exclusive_total>
+			<trained_total>5</trained_total>
+			<exclusive_total>5</exclusive_total>
 			<classes>Paladin.Holy Vindicator</classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -862,19 +843,19 @@
 		<skill>
 			<name>Stealth</name>
 			<ranks>0.0</ranks>
-			<mod>4<!-- Mods from abilities, equipment, etc -->
+			<mod>7<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>4</skill_mod>
+			<skill_mod>7</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
-			<misc_mod>-1<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
 			</misc_mod>
 			<ability>DEX</ability>
 			<synergy>Stealth</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>4</trained_total>
-			<exclusive_total>4</exclusive_total>
+			<trained_total>7</trained_total>
+			<exclusive_total>7</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -915,6 +896,25 @@
 			<exclusive_total>4</exclusive_total>
 			<classes></classes>
 			<type>Wisdom.Base</type>
+		</skill>
+		<skill>
+			<name>Swim</name>
+			<ranks>0.0</ranks>
+			<mod>-1<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>-1</skill_mod>
+			<ability_mod>-1<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>0<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>STR</ability>
+			<synergy>Swim</synergy>
+			<untrained>Y</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>-1</trained_total>
+			<exclusive_total>-1</exclusive_total>
+			<classes>Holy Vindicator</classes>
+			<type>Strength.Base</type>
 		</skill>
 
 	<!-- Skills -->
@@ -1377,19 +1377,19 @@
 	  ====================================-->
 	<protection>
 		<armor>
-			<name>*Hide +2</name>
+			<name>*Chain Shirt +2 (Mithral)</name>
 			<acbonus>+6</acbonus>
-			<accheck>-2</accheck>
+			<accheck>+0</accheck>
 			<baseac>+4</baseac>
 			<edr>+0</edr>
-			<maxdex>+4</maxdex>
+			<maxdex>+6</maxdex>
 			<move></move>
-			<spellfail>20</spellfail>
-			<special_properties></special_properties>
+			<spellfail>10</spellfail>
+			<special_properties>30 hp/inch, hardness 15</special_properties>
 			<totalac>+6</totalac>
-			<type>Medium</type>
-			<wt>25</wt>
-			<fulltype>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</fulltype>
+			<type>Light</type>
+			<wt>12.5</wt>
+			<fulltype>MAGIC.ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.CUSTOM.METAL.MITHRAL.MASTERWORK.ENHANCEMENT.PLUS2</fulltype>
 			<location>Equipped</location>
 		</armor>
 		<shield>
@@ -1590,16 +1590,16 @@
 			<quality></quality>
 		</item>
 		<item>
-			<longname>Hide +2</longname>
+			<longname>Chain Shirt +2 (Mithral)</longname>
 			<id></id>
-			<name>Hide +2</name>
+			<name>Chain Shirt +2 (Mithral)</name>
 			<carried>1.0</carried>
 			<charges></charges>
 			<charges_used></charges_used>
 			<contents></contents>
 			<contents_num>0</contents_num>
 			<content_weight>0</content_weight>
-			<cost>4165</cost>
+			<cost>5100</cost>
 			<equipped>Y</equipped>
 			<location>Equipped</location>
 			<locationId></locationId>
@@ -1611,18 +1611,18 @@
 				<long>Medium</long>
 				<short>M</short>
 			</size>
-			<special_properties></special_properties>
-			<type>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</type>
-			<weight>25</weight>
-			<total_wt>25</total_wt>
-			<total_weight>25</total_weight>
+			<special_properties>30 hp/inch, hardness 15</special_properties>
+			<type>MAGIC.ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.CUSTOM.METAL.MITHRAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+			<weight>12.5</weight>
+			<total_wt>12.5</total_wt>
+			<total_weight>12.5</total_weight>
 			<bonuslist></bonuslist>
 			<acmod>6</acmod>
-			<maxdex>4</maxdex>
-			<accheck>-2</accheck>
+			<maxdex>6</maxdex>
+			<accheck>0</accheck>
 			<edr>0</edr>
 			<move></move>
-			<spell_failure>20</spell_failure>
+			<spell_failure>10</spell_failure>
 			<damage></damage>
 			<damage_alt></damage_alt>
 			<crit_range></crit_range>
@@ -1631,8 +1631,8 @@
 			<crit_mult_alt></crit_mult_alt>
 			<range>0 ft.</range>
 			<attacks>0.0</attacks>
-			<prof>Hide</prof>
-			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.11</source>
+			<prof>Chain Shirt</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
 			<quality></quality>
 		</item>
 		<item>
@@ -1820,9 +1820,9 @@
 			<quality></quality>
 		</item>
 		<total>
-			<weight>37 lbs.</weight>
-			<value>68463 gp</value>
-			<load>Medium</load>
+			<weight>24.5 lbs.</weight>
+			<value>69398 gp</value>
+			<load>Light</load>
 			<capacity>80</capacity>
 		</total>
 		<equipmentsets>
@@ -1916,15 +1916,15 @@
 					<quality>EQ.0.QUALITY</quality>
 				</item>
 				<item>
-					<longname>Hide +2</longname>
-					<name>Hide +2</name>
+					<longname>Chain Shirt +2 (Mithral)</longname>
+					<name>Chain Shirt +2 (Mithral)</name>
 					<carried>1.0</carried>
 					<charges></charges>
 					<charges_used></charges_used>
 					<contents></contents>
 					<contents_num>0</contents_num>
 					<content_weight>0</content_weight>
-					<cost>4165</cost>
+					<cost>5100</cost>
 					<equipped>Y</equipped>
 					<location>Equipped</location>
 					<maxcharges>0</maxcharges>
@@ -1935,18 +1935,18 @@
 						<long>Medium</long>
 						<short>M</short>
 					</size>
-					<special_properties></special_properties>
-					<type>MAGIC.ARMOR.MEDIUM.ARMORPROFMEDIUM.SUIT.STANDARD.NONMETAL.CUSTOM.MASTERWORK.ENHANCEMENT.PLUS2</type>
-					<weight>25</weight>
-					<total_wt>25</total_wt>
-					<total_weight>25</total_weight>
+					<special_properties>30 hp/inch, hardness 15</special_properties>
+					<type>MAGIC.ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.CUSTOM.METAL.MITHRAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+					<weight>12.5</weight>
+					<total_wt>12.5</total_wt>
+					<total_weight>12.5</total_weight>
 					<bonuslist></bonuslist>
 					<acmod>6</acmod>
-					<maxdex>4</maxdex>
-					<accheck>-2</accheck>
+					<maxdex>6</maxdex>
+					<accheck>0</accheck>
 					<edr>0</edr>
 					<move></move>
-					<spell_failure>20</spell_failure>
+					<spell_failure>10</spell_failure>
 					<damage></damage>
 					<damage_alt></damage_alt>
 					<crit_range></crit_range>
@@ -1955,8 +1955,8 @@
 					<crit_mult_alt></crit_mult_alt>
 					<range>0 ft.</range>
 					<attacks>0.0</attacks>
-					<prof>Hide</prof>
-					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.11</source>
+					<prof>Chain Shirt</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
 					<quality>EQ.0.QUALITY</quality>
 				</item>
 				<item>
@@ -2916,7 +2916,7 @@
 
 
 	<misc>
-			<gold>-68,463</gold>
+			<gold>-69,398</gold>
 
 		<funds>
 			<fund></fund>
