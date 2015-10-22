@@ -4,8 +4,8 @@
 -->
 <character>
 	<export>
-		<date>Sep 23, 2015</date>
-		<time>8:43:01 PM</time>
+		<date>Oct 21, 2015</date>
+		<time>12:27:14 AM</time>
 		<version>6.04.01</version>
 		<paperinfo>
 			<name>A4</name>
@@ -63,7 +63,7 @@
 				<type>ARCHETYPE.PALADINARCHETYPE.PALADINDETECTEVIL.PALADINMERCY3.PALADINMERCY9.PALADINAURAOFRESOLVE.PALADINAURAOFJUSTICE</type>
 			</archetype>
 		</archetypes>
-		<bab>+13</bab>
+		<bab>+14</bab>
 		<bio></bio>
 		<birthday></birthday>
 		<birthplace></birthplace>
@@ -72,10 +72,10 @@
 			<class>
 				<name>Paladin</name>
 				<abbreviation>Pld</abbreviation>
-				<level>12</level>
+				<level>13</level>
 				<bonuslist>Paladin</bonuslist>
 				<sequence>0</sequence>
-				<sequence_shortform>Pld12</sequence_shortform>
+				<sequence_shortform>Pld13</sequence_shortform>
 			</class>
 			<class>
 				<name>Holy Vindicator</name>
@@ -85,10 +85,10 @@
 				<sequence>1</sequence>
 				<sequence_shortform>HV1</sequence_shortform>
 			</class>
-			<levels_total>13</levels_total>
-			<levels_ecl>13</levels_ecl>
+			<levels_total>14</levels_total>
+			<levels_ecl>14</levels_ecl>
 			<!-- shortform below should be removed - it can be derived from class info above -->
-			<shortform>Pld12 HV1</shortform>
+			<shortform>Pld13 HV1</shortform>
 			<!-- CLASSLIST is not extracted because we can derive it from the information above -->
 		</classes>
 		<deity>
@@ -107,8 +107,8 @@
 		</deity>
 		<description></description>
 		<experience>
-			<current>315000</current>
-			<next_level>445000</next_level>
+			<current>445000</current>
+			<next_level>635000</next_level>
 			<factor>100%</factor>
 			<penalty>0%</penalty>
 		</experience>
@@ -122,7 +122,7 @@
 		<skin>
 			<color></color>
 		</skin>
-		<cr>12</cr>
+		<cr>13</cr>
 		<face>
 			<face>5 ft. by 5 ft.</face>
 			<short>5 ft. x 5 ft.</short>
@@ -140,7 +140,7 @@
 			<feet>6</feet>
 			<inches>1</inches>
 		</height>
-		<hitdice>(12d10)+(1d10)+26</hitdice>
+		<hitdice>(13d10)+(1d10)+28</hitdice>
 		<image>file:/home/psycho/pcgen/characters/Calista Lifebringer.jpg</image>
 		<interests></interests>
 		<languages>
@@ -352,10 +352,10 @@
 	  ====================================-->
 	<hit_points>
 		<usealternatedamage>0</usealternatedamage>
-		<points>121</points>
+		<points>129</points>
 		<alternate>28</alternate>
-		<die>(12d10)+(1d10)+26</die>
-		<die_short>13</die_short>
+		<die>(13d10)+(1d10)+28</die>
+		<die_short>14</die_short>
 		<current/>
 		<subdual/>
 		<damage_reduction></damage_reduction>
@@ -439,6 +439,12 @@
 				<stat>2</stat>
 				<total>12</total>
 			</roll>
+			<roll>
+				<level>14</level>
+				<roll>6</roll>
+				<stat>2</stat>
+				<total>8</total>
+			</roll>
 		</history>
 	</hit_points>
 	<!--
@@ -448,13 +454,13 @@
 	  ====================================
 	  ====================================-->
 	<armor_class>
-		<total>21</total>
-		<listing>ABILITY +5, ARMOR +4, ARMORENHANCEMENT +2, BASE +10</listing>
-		<flat>16</flat>
+		<total>24</total>
+		<listing>ABILITY +5, ARMOR +4, ARMORENHANCEMENT +2, BASE +10, SHIELD +1, SHIELDENHANCEMENT +2</listing>
+		<flat>19</flat>
 		<touch>15</touch>
 		<base>10</base>
 		<armor_bonus>6</armor_bonus>
-		<shield_bonus>0</shield_bonus>
+		<shield_bonus>3</shield_bonus>
 		<stat_mod>5</stat_mod>
 		<size_mod>0</size_mod>
 		<natural>0</natural>
@@ -469,7 +475,7 @@
 		<profane>0</profane>
 		<miss_chance/>
 		<max_dex>+6</max_dex>
-		<spell_failure>10</spell_failure>
+		<spell_failure>15</spell_failure>
 		<check_penalty>+0</check_penalty>
 		<spell_resistance>0</spell_resistance>
 	</armor_class>
@@ -483,7 +489,7 @@
 		<total>+7</total>
 		<dex_mod>+5</dex_mod>
 		<misc_mod>+2</misc_mod>
-		<spell_failure>10</spell_failure>
+		<spell_failure>15</spell_failure>
 		<check_penalty>+0</check_penalty>
 		<spell_resistance>0</spell_resistance>
 		<hero_points>0</hero_points>
@@ -502,14 +508,14 @@
 		<conditional_modifiers>
 		</conditional_modifiers>
 		<skillpoints>
-			<total>26</total>
-			<used>26</used>
+			<total>28</total>
+			<used>28</used>
 			<unused>0</unused>
 			<eclipse_total>0</eclipse_total>
 		</skillpoints>
-		<list_mods>Escape Artist +20, Knowledge (Religion) +8, Perception +2, Sense Motive +16, Spellcraft +9, Stealth +7</list_mods>
-			<max_class_skill_level>13</max_class_skill_level>
-		<max_cross_class_skill_level>13</max_cross_class_skill_level>
+		<list_mods>Escape Artist +21, Knowledge (Planes) +4, Knowledge (Religion) +8, Perception +2, Sense Motive +17, Spellcraft +9, Stealth +7</list_mods>
+			<max_class_skill_level>14</max_class_skill_level>
+		<max_cross_class_skill_level>14</max_cross_class_skill_level>
 		<skill>
 			<name>Acrobatics</name>
 			<ranks>0.0</ranks>
@@ -645,10 +651,10 @@
 		</skill>
 		<skill>
 			<name>Escape Artist</name>
-			<ranks>13.0</ranks>
+			<ranks>14.0</ranks>
 			<mod>7<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>20</skill_mod>
+			<skill_mod>21</skill_mod>
 			<ability_mod>5<!-- Mod from the key ability -->
 			</ability_mod>
 			<misc_mod>2<!-- This is a calc value of TOTAL-RANK-ABMOD -->
@@ -657,8 +663,8 @@
 			<synergy>Escape Artist</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>20</trained_total>
-			<exclusive_total>20</exclusive_total>
+			<trained_total>21</trained_total>
+			<exclusive_total>21</exclusive_total>
 			<classes></classes>
 			<type>Dexterity.Base</type>
 		</skill>
@@ -718,6 +724,25 @@
 			<exclusive_total>4</exclusive_total>
 			<classes>Holy Vindicator</classes>
 			<type>Charisma.Base</type>
+		</skill>
+		<skill>
+			<name>Knowledge (Planes)</name>
+			<ranks>1.0</ranks>
+			<mod>3<!-- Mods from abilities, equipment, etc -->
+			</mod>
+			<skill_mod>4</skill_mod>
+			<ability_mod>0<!-- Mod from the key ability -->
+			</ability_mod>
+			<misc_mod>3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
+			</misc_mod>
+			<ability>INT</ability>
+			<synergy>Knowledge (Planes)</synergy>
+			<untrained>NO</untrained>
+			<exclusive>N</exclusive>
+			<trained_total>4</trained_total>
+			<exclusive_total>4</exclusive_total>
+			<classes>Holy Vindicator</classes>
+			<type>Intelligence.Knowledge.Base</type>
 		</skill>
 		<skill>
 			<name>Knowledge (Religion)</name>
@@ -816,10 +841,10 @@
 		</skill>
 		<skill>
 			<name>Sense Motive</name>
-			<ranks>13.0</ranks>
+			<ranks>14.0</ranks>
 			<mod>3<!-- Mods from abilities, equipment, etc -->
 			</mod>
-			<skill_mod>16</skill_mod>
+			<skill_mod>17</skill_mod>
 			<ability_mod>0<!-- Mod from the key ability -->
 			</ability_mod>
 			<misc_mod>3<!-- This is a calc value of TOTAL-RANK-ABMOD -->
@@ -828,8 +853,8 @@
 			<synergy>Sense Motive</synergy>
 			<untrained>Y</untrained>
 			<exclusive>N</exclusive>
-			<trained_total>16</trained_total>
-			<exclusive_total>16</exclusive_total>
+			<trained_total>17</trained_total>
+			<exclusive_total>17</exclusive_total>
 			<classes>Paladin.Holy Vindicator</classes>
 			<type>Wisdom.Base</type>
 		</skill>
@@ -943,7 +968,7 @@
 				<description>+2 vs. death</description>
 			</savebonus>
 			<savebonus>
-				<description>+13 racial vs poison</description>
+				<description>+14 racial vs poison</description>
 			</savebonus>
 		</conditional_modifiers>
 		<saving_throw>
@@ -1006,20 +1031,23 @@
 	  ====================================-->
 	<attack>
 			<conditional_modifiers>
+				<combatbonus>
+					<description>You take a -1 penalty on attack rolls while using your shield arm to wield a weapon.</description>
+				</combatbonus>
 				<savebonus>
 				<description>+2 vs. death</description>
 				</savebonus>
 				<savebonus>
-				<description>+13 racial vs poison</description>
+				<description>+14 racial vs poison</description>
 				</savebonus>
 			</conditional_modifiers>
 
 		<melee>
-			<total>+12/+7/+2</total>
-			<total_short>+12</total_short>
-			<bab>+13</bab>
-			<!-- +13 -->
-			<base_attack_bonus>+13/+8/+3</base_attack_bonus>
+			<total>+13/+8/+3</total>
+			<total_short>+13</total_short>
+			<bab>+14</bab>
+			<!-- +14 -->
+			<base_attack_bonus>+14/+9/+4</base_attack_bonus>
 			<stat_mod>-1</stat_mod>
 			<size_mod>+0</size_mod>
 			<misc_mod>+0</misc_mod>
@@ -1028,10 +1056,10 @@
 			<temp_mod/>
 		</melee>
 		<ranged>
-			<total>+18/+13/+8</total>
-			<bab>+13</bab>
-			<!-- +13 -->
-			<base_attack_bonus>+13/+8/+3</base_attack_bonus>
+			<total>+19/+14/+9</total>
+			<bab>+14</bab>
+			<!-- +14 -->
+			<base_attack_bonus>+14/+9/+4</base_attack_bonus>
 			<stat_mod>+5</stat_mod>
 			<size_mod>+0</size_mod>
 			<misc_mod>+0</misc_mod>
@@ -1043,40 +1071,40 @@
 			<cmb>
 				<!-- Base stuff for standard block -->
 				<title>CMB</title>
-				<total>+12</total>
-				<bab>+13</bab>
-				<base_attack_bonus>+13/+8/+3</base_attack_bonus>
+				<total>+13</total>
+				<bab>+14</bab>
+				<base_attack_bonus>+14/+9/+4</base_attack_bonus>
 				<stat_mod>-1</stat_mod>
 				<size_mod>+0</size_mod>
 				<misc_mod></misc_mod>	
 				<epic_mod/>
 				<temp_mod/>
 				<!-- Base values (not yet used) -->
-				<grapple_base>+12</grapple_base>
-				<trip_base>+12</trip_base>
-				<disarm_base>+12</disarm_base>
-				<sunder_base>+12</sunder_base>
+				<grapple_base>+13</grapple_base>
+				<trip_base>+13</trip_base>
+				<disarm_base>+13</disarm_base>
+				<sunder_base>+13</sunder_base>
 				<bullrush_base>+0</bullrush_base>
-				<overrun_base>+12</overrun_base>
+				<overrun_base>+13</overrun_base>
 				<!-- Defense values -->
 				<!-- Pathfinder (final release) -->
 				<!-- Attack values -->
-				<grapple_attack>+12</grapple_attack>
-				<trip_attack>+12</trip_attack>
-				<disarm_attack>+12</disarm_attack>
-				<sunder_attack>+12</sunder_attack>
-				<bullrush_attack>+12</bullrush_attack>
-				<overrun_attack>+12</overrun_attack>
+				<grapple_attack>+13</grapple_attack>
+				<trip_attack>+13</trip_attack>
+				<disarm_attack>+13</disarm_attack>
+				<sunder_attack>+13</sunder_attack>
+				<bullrush_attack>+13</bullrush_attack>
+				<overrun_attack>+13</overrun_attack>
 				<!-- Defense values -->
-				<defense>27</defense>
-				<grapple_defense>27</grapple_defense>
+				<defense>28</defense>
+				<grapple_defense>28</grapple_defense>
 				<trip_defense>
-				27
+				28
 				</trip_defense>
-				<disarm_defense>27</disarm_defense>
-				<sunder_defense>27</sunder_defense>
-				<bullrush_defense>27</bullrush_defense>
-				<overrun_defense>27</overrun_defense>
+				<disarm_defense>28</disarm_defense>
+				<sunder_defense>28</sunder_defense>
+				<bullrush_defense>28</bullrush_defense>
+				<overrun_defense>28</overrun_defense>
 
 			</cmb>
 		<!-- End CMB / Grapple Block -->
@@ -1090,7 +1118,7 @@
 
 	<weapons>
 		<unarmed>
-			<total>+18/+13/+8</total>
+			<total>+19/+14/+9</total>
 			<damage>1d3-1</damage>
 			<critical>20/x2</critical>
 			<!-- Should be changed to a variable due to improved crit -->
@@ -1108,6 +1136,97 @@
 
 	<!-- Natural Attack -->
 
+	<!--	Request to remove the Double Weapon Block OS-133		-->
+		<weapon>
+			<common>
+				<name>
+					<short>*Kukri +3 (Mighty Cleaving)</short>
+					<long>*Kukri +3 (Mighty Cleaving)</long>
+					<output>*Kukri +3 (Mighty Cleaving)</output>
+				</name>
+				<category>Martial-Melee</category>
+				<critical>
+					<range>18-20</range>
+					<multiplier>2</multiplier>
+				</critical>
+				<to_hit>
+					<hit>+23/+18/+13</hit>
+					<magic_hit>+3</magic_hit>
+					<total_hit>+23/+18/+13</total_hit>
+				</to_hit>
+				<feat>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</feat>
+				<magic>
+					<hit>+3</hit>
+					<damage>+3</damage>
+				</magic>
+				<template>
+					<hit>+0</hit>
+					<damage>+0</damage>
+				</template>
+				<hand>Primary</hand>
+				<num_attacks>3</num_attacks>
+				<reach>5</reach>
+				<reachunit> ft.</reachunit>
+				<size>M</size>
+					<special_properties>allows an additional Cleave attack per round (with Cleave feat)</special_properties>
+				<type>S</type>
+				<weight>2</weight>
+				<attacks>0</attacks>
+				<heft>MEDIUM</heft>
+				<range>0 ft.</range>
+				<sizemod>+0</sizemod>
+				<basehit>+23/+18/+13</basehit>
+				<misc>+1</misc>
+				<damage>1d4+2</damage>
+				<damagebonus>+2</damagebonus>
+				<basedamagebonus>+0</basedamagebonus>
+				<thdamagebonus>+2</thdamagebonus>
+				<ohdamagebonus>+2</ohdamagebonus>
+				<rateoffire></rateoffire>
+				<islight>TRUE</islight>
+				<sequence>0</sequence>
+			</common>
+			<melee>
+				<invalidtext>
+					<tohit>N/A</tohit>
+					<damage>N/A</damage>
+				</invalidtext>
+				<hand>Primary</hand>
+				<w1_h1_p>
+					<!-- One weapon, 1 hand, primary hand -->
+					<to_hit>+23/+18/+13</to_hit>
+					<damage>1d4+2</damage>
+				</w1_h1_p>
+				<w1_h1_o>
+					<!-- One weapon, 1 handed, offhand -->
+					<to_hit>+19/+14/+9</to_hit>
+					<damage>1d4+2</damage>
+				</w1_h1_o>
+				<w1_h2>
+					<!-- One weapon, 2 handed -->
+					<to_hit>+23/+18/+13</to_hit>
+					<damage>1d4+2</damage>
+				</w1_h2>
+				<w2_p_oh>
+					<!-- Two weapons, this weapon in primary hand, other hand with heavy weapon -->
+					<to_hit>+17/+12/+7</to_hit>
+					<damage>1d4+2</damage>
+				</w2_p_oh>
+				<w2_p_ol>
+					<!-- Two weapons, this weapon in primary hand, other hand with light weapon -->
+					<to_hit>+19/+14/+9</to_hit>
+					<damage>1d4+2</damage>
+				</w2_p_ol>
+				<w2_o>
+					<!-- Two weapons, this weapon in off-hand -->
+					<to_hit>+15</to_hit>
+					<damage>1d4+2</damage>
+				</w2_o>
+			</melee>
+		</weapon>
 		<weapon>
 			<common>
 				<name>
@@ -1121,9 +1240,9 @@
 					<multiplier>2</multiplier>
 				</critical>
 				<to_hit>
-					<hit>+19/+14/+9</hit>
+					<hit>+20/+15/+10</hit>
 					<magic_hit>+1</magic_hit>
-					<total_hit>+19/+14/+9</total_hit>
+					<total_hit>+20/+15/+10</total_hit>
 				</to_hit>
 				<feat>
 					<hit>+0</hit>
@@ -1149,7 +1268,7 @@
 				<heft>MEDIUM</heft>
 				<range>80 ft.</range>
 				<sizemod>+0</sizemod>
-				<basehit>+19/+14/+9</basehit>
+				<basehit>+20/+15/+10</basehit>
 				<misc>+0</misc>
 				<damage>1d8</damage>
 				<damagebonus>+0</damagebonus>
@@ -1158,130 +1277,130 @@
 				<ohdamagebonus>+0</ohdamagebonus>
 				<rateoffire></rateoffire>
 				<islight>FALSE</islight>
-				<sequence>0</sequence>
+				<sequence>1</sequence>
 			</common>
 			<ranges>
 				<rangetype>Ranged</rangetype><!-- ranged second -->
 				<range>
 					<distance>30 ft.</distance>
-					<to_hit>+19/+14/+9</to_hit>
+					<to_hit>+20/+15/+10</to_hit>
 					<damage>1d8</damage>
-					<basehit>+19/+14/+9</basehit>
-					<tohit_offhand>+15/+10/+5</tohit_offhand>
-					<tohit_twohand>+19/+14/+9</tohit_twohand>
-					<tohit_2weap_heavy>+13/+8/+3</tohit_2weap_heavy>
-					<tohit_2weap_light>+15/+10/+5</tohit_2weap_light>
-					<tohit_2weap_offhand>+9</tohit_2weap_offhand>
+					<basehit>+20/+15/+10</basehit>
+					<tohit_offhand>+16/+11/+6</tohit_offhand>
+					<tohit_twohand>+20/+15/+10</tohit_twohand>
+					<tohit_2weap_heavy>+14/+9/+4</tohit_2weap_heavy>
+					<tohit_2weap_light>+16/+11/+6</tohit_2weap_light>
+					<tohit_2weap_offhand>+10</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>80 ft.</distance>
-					<to_hit>+19/+14/+9</to_hit>
+					<to_hit>+20/+15/+10</to_hit>
 					<damage>1d8</damage>
-					<basehit>+19/+14/+9</basehit>
-					<tohit_offhand>+15/+10/+5</tohit_offhand>
-					<tohit_twohand>+19/+14/+9</tohit_twohand>
-					<tohit_2weap_heavy>+13/+8/+3</tohit_2weap_heavy>
-					<tohit_2weap_light>+15/+10/+5</tohit_2weap_light>
-					<tohit_2weap_offhand>+9</tohit_2weap_offhand>
+					<basehit>+20/+15/+10</basehit>
+					<tohit_offhand>+16/+11/+6</tohit_offhand>
+					<tohit_twohand>+20/+15/+10</tohit_twohand>
+					<tohit_2weap_heavy>+14/+9/+4</tohit_2weap_heavy>
+					<tohit_2weap_light>+16/+11/+6</tohit_2weap_light>
+					<tohit_2weap_offhand>+10</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>160 ft.</distance>
-					<to_hit>+17/+12/+7</to_hit>
+					<to_hit>+18/+13/+8</to_hit>
 					<damage>1d8</damage>
-					<basehit>+17/+12/+7</basehit>
-					<tohit_offhand>+13/+8/+3</tohit_offhand>
-					<tohit_twohand>+17/+12/+7</tohit_twohand>
-					<tohit_2weap_heavy>+11/+6/+1</tohit_2weap_heavy>
-					<tohit_2weap_light>+13/+8/+3</tohit_2weap_light>
-					<tohit_2weap_offhand>+7</tohit_2weap_offhand>
+					<basehit>+18/+13/+8</basehit>
+					<tohit_offhand>+14/+9/+4</tohit_offhand>
+					<tohit_twohand>+18/+13/+8</tohit_twohand>
+					<tohit_2weap_heavy>+12/+7/+2</tohit_2weap_heavy>
+					<tohit_2weap_light>+14/+9/+4</tohit_2weap_light>
+					<tohit_2weap_offhand>+8</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>240 ft.</distance>
-					<to_hit>+15/+10/+5</to_hit>
+					<to_hit>+16/+11/+6</to_hit>
 					<damage>1d8</damage>
-					<basehit>+15/+10/+5</basehit>
-					<tohit_offhand>+11/+6/+1</tohit_offhand>
-					<tohit_twohand>+15/+10/+5</tohit_twohand>
-					<tohit_2weap_heavy>+9/+4/-1</tohit_2weap_heavy>
-					<tohit_2weap_light>+11/+6/+1</tohit_2weap_light>
-					<tohit_2weap_offhand>+5</tohit_2weap_offhand>
+					<basehit>+16/+11/+6</basehit>
+					<tohit_offhand>+12/+7/+2</tohit_offhand>
+					<tohit_twohand>+16/+11/+6</tohit_twohand>
+					<tohit_2weap_heavy>+10/+5/+0</tohit_2weap_heavy>
+					<tohit_2weap_light>+12/+7/+2</tohit_2weap_light>
+					<tohit_2weap_offhand>+6</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>320 ft.</distance>
-					<to_hit>+13/+8/+3</to_hit>
+					<to_hit>+14/+9/+4</to_hit>
 					<damage>1d8</damage>
-					<basehit>+13/+8/+3</basehit>
-					<tohit_offhand>+9/+4/-1</tohit_offhand>
-					<tohit_twohand>+13/+8/+3</tohit_twohand>
-					<tohit_2weap_heavy>+7/+2/-3</tohit_2weap_heavy>
-					<tohit_2weap_light>+9/+4/-1</tohit_2weap_light>
-					<tohit_2weap_offhand>+3</tohit_2weap_offhand>
+					<basehit>+14/+9/+4</basehit>
+					<tohit_offhand>+10/+5/+0</tohit_offhand>
+					<tohit_twohand>+14/+9/+4</tohit_twohand>
+					<tohit_2weap_heavy>+8/+3/-2</tohit_2weap_heavy>
+					<tohit_2weap_light>+10/+5/+0</tohit_2weap_light>
+					<tohit_2weap_offhand>+4</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>400 ft.</distance>
-					<to_hit>+11/+6/+1</to_hit>
+					<to_hit>+12/+7/+2</to_hit>
 					<damage>1d8</damage>
-					<basehit>+11/+6/+1</basehit>
-					<tohit_offhand>+7/+2/-3</tohit_offhand>
-					<tohit_twohand>+11/+6/+1</tohit_twohand>
-					<tohit_2weap_heavy>+5/+0/-5</tohit_2weap_heavy>
-					<tohit_2weap_light>+7/+2/-3</tohit_2weap_light>
-					<tohit_2weap_offhand>+1</tohit_2weap_offhand>
+					<basehit>+12/+7/+2</basehit>
+					<tohit_offhand>+8/+3/-2</tohit_offhand>
+					<tohit_twohand>+12/+7/+2</tohit_twohand>
+					<tohit_2weap_heavy>+6/+1/-4</tohit_2weap_heavy>
+					<tohit_2weap_light>+8/+3/-2</tohit_2weap_light>
+					<tohit_2weap_offhand>+2</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>480 ft.</distance>
-					<to_hit>+9/+4/-1</to_hit>
+					<to_hit>+10/+5/+0</to_hit>
 					<damage>1d8</damage>
-					<basehit>+9/+4/-1</basehit>
-					<tohit_offhand>+5/+0/-5</tohit_offhand>
-					<tohit_twohand>+9/+4/-1</tohit_twohand>
-					<tohit_2weap_heavy>+3/-2/-7</tohit_2weap_heavy>
-					<tohit_2weap_light>+5/+0/-5</tohit_2weap_light>
-					<tohit_2weap_offhand>-1</tohit_2weap_offhand>
+					<basehit>+10/+5/+0</basehit>
+					<tohit_offhand>+6/+1/-4</tohit_offhand>
+					<tohit_twohand>+10/+5/+0</tohit_twohand>
+					<tohit_2weap_heavy>+4/-1/-6</tohit_2weap_heavy>
+					<tohit_2weap_light>+6/+1/-4</tohit_2weap_light>
+					<tohit_2weap_offhand>+0</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>560 ft.</distance>
-					<to_hit>+7/+2/-3</to_hit>
+					<to_hit>+8/+3/-2</to_hit>
 					<damage>1d8</damage>
-					<basehit>+7/+2/-3</basehit>
-					<tohit_offhand>+3/-2/-7</tohit_offhand>
-					<tohit_twohand>+7/+2/-3</tohit_twohand>
-					<tohit_2weap_heavy>+1/-4/-9</tohit_2weap_heavy>
-					<tohit_2weap_light>+3/-2/-7</tohit_2weap_light>
-					<tohit_2weap_offhand>-3</tohit_2weap_offhand>
+					<basehit>+8/+3/-2</basehit>
+					<tohit_offhand>+4/-1/-6</tohit_offhand>
+					<tohit_twohand>+8/+3/-2</tohit_twohand>
+					<tohit_2weap_heavy>+2/-3/-8</tohit_2weap_heavy>
+					<tohit_2weap_light>+4/-1/-6</tohit_2weap_light>
+					<tohit_2weap_offhand>-2</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>640 ft.</distance>
-					<to_hit>+5/+0/-5</to_hit>
+					<to_hit>+6/+1/-4</to_hit>
 					<damage>1d8</damage>
-					<basehit>+5/+0/-5</basehit>
-					<tohit_offhand>+1/-4/-9</tohit_offhand>
-					<tohit_twohand>+5/+0/-5</tohit_twohand>
-					<tohit_2weap_heavy>-1/-6/-11</tohit_2weap_heavy>
-					<tohit_2weap_light>+1/-4/-9</tohit_2weap_light>
-					<tohit_2weap_offhand>-5</tohit_2weap_offhand>
+					<basehit>+6/+1/-4</basehit>
+					<tohit_offhand>+2/-3/-8</tohit_offhand>
+					<tohit_twohand>+6/+1/-4</tohit_twohand>
+					<tohit_2weap_heavy>+0/-5/-10</tohit_2weap_heavy>
+					<tohit_2weap_light>+2/-3/-8</tohit_2weap_light>
+					<tohit_2weap_offhand>-4</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>720 ft.</distance>
-					<to_hit>+3/-2/-7</to_hit>
+					<to_hit>+4/-1/-6</to_hit>
 					<damage>1d8</damage>
-					<basehit>+3/-2/-7</basehit>
-					<tohit_offhand>-1/-6/-11</tohit_offhand>
-					<tohit_twohand>+3/-2/-7</tohit_twohand>
-					<tohit_2weap_heavy>-3/-8/-13</tohit_2weap_heavy>
-					<tohit_2weap_light>-1/-6/-11</tohit_2weap_light>
-					<tohit_2weap_offhand>-7</tohit_2weap_offhand>
+					<basehit>+4/-1/-6</basehit>
+					<tohit_offhand>+0/-5/-10</tohit_offhand>
+					<tohit_twohand>+4/-1/-6</tohit_twohand>
+					<tohit_2weap_heavy>-2/-7/-12</tohit_2weap_heavy>
+					<tohit_2weap_light>+0/-5/-10</tohit_2weap_light>
+					<tohit_2weap_offhand>-6</tohit_2weap_offhand>
 				</range>
 				<range>
 					<distance>800 ft.</distance>
-					<to_hit>+1/-4/-9</to_hit>
+					<to_hit>+2/-3/-8</to_hit>
 					<damage>1d8</damage>
-					<basehit>+1/-4/-9</basehit>
-					<tohit_offhand>-3/-8/-13</tohit_offhand>
-					<tohit_twohand>+1/-4/-9</tohit_twohand>
-					<tohit_2weap_heavy>-5/-10/-15</tohit_2weap_heavy>
-					<tohit_2weap_light>-3/-8/-13</tohit_2weap_light>
-					<tohit_2weap_offhand>-9</tohit_2weap_offhand>
+					<basehit>+2/-3/-8</basehit>
+					<tohit_offhand>-2/-7/-12</tohit_offhand>
+					<tohit_twohand>+2/-3/-8</tohit_twohand>
+					<tohit_2weap_heavy>-4/-9/-14</tohit_2weap_heavy>
+					<tohit_2weap_light>-2/-7/-12</tohit_2weap_light>
+					<tohit_2weap_offhand>-8</tohit_2weap_offhand>
 				</range>
 			</ranges>
 		</weapon>
@@ -1310,6 +1429,20 @@
 			<fulltype>MAGIC.ARMOR.LIGHT.ARMORPROFLIGHT.SUIT.STANDARD.CUSTOM.METAL.MITHRAL.MASTERWORK.ENHANCEMENT.PLUS2</fulltype>
 			<location>Equipped</location>
 		</armor>
+		<shield>
+			<name>*Buckler +2</name>
+			<acbonus>+3</acbonus>
+			<accheck>+0</accheck>
+			<baseac>+1</baseac>
+			<edr>+0</edr>
+			<maxdex></maxdex>
+			<move></move>
+			<spellfail>5</spellfail>
+			<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon.</special_properties>
+			<totalac>+3</totalac>
+			<type>Shield</type>
+			<wt>5</wt>
+		</shield>
 	</protection>
 	<!--
 	  ====================================
@@ -1373,7 +1506,7 @@
 			<master>Lay on Hands</master>
 			<subability>
 				<name>Channel Positive Energy</name>
-				<description>You can unleash a wave of positive energy dealing 7d6 (DC 20 for half) /day. You can unleash a wave of positive energy. You must choose to deal 7d6 points of positive energy damage to undead creatures or to heal living creatures of 7d6 points of damage. Creatures that take damage from channeled energy receive a DC 20 Will save to halve the damage. Using this ability consumes two uses of her lay on hands ability.</description>
+				<description>You can unleash a wave of positive energy dealing 7d6 (DC 21 for half) /day. You can unleash a wave of positive energy. You must choose to deal 7d6 points of positive energy damage to undead creatures or to heal living creatures of 7d6 points of damage. Creatures that take damage from channeled energy receive a DC 21 Will save to halve the damage. Using this ability consumes two uses of her lay on hands ability.</description>
 				<type>PALADINCLASSFEATURES.SPECIALATTACK.SUPERNATURAL.CHANNEL ENERGY.CHANNEL ENERGY POSITIVE.CHANNEL POSITIVE ENERGY</type>
 				<source>Paizo Inc. - Core Rulebook</source>
 				<child>Lay on Hands</child>
@@ -1382,10 +1515,10 @@
 		<checklist>
 			<name>Smite Evil (Su)</name>
 			<header>Smite Evil</header>
-			<description>You can call out to the powers of good to aid you in your struggle against evil 4 times per day. As a swift action, you choose one target within sight to smite. If this target is evil, you add +4 to your attack rolls and +12 to all damage rolls made against the target of your smite. If the target of Smite Evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to +24. Regardless of the target, Smite Evil attacks automatically bypass any DR the creature might possess. In addition, while smite evil is in effect, you gain a +4 deflection bonus to your AC against attacks made by the target of the smite. If you target a creature that is not evil, the smite is wasted with no effect. The Smite Evil effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</description>
+			<description>You can call out to the powers of good to aid you in your struggle against evil 5 times per day. As a swift action, you choose one target within sight to smite. If this target is evil, you add +4 to your attack rolls and +13 to all damage rolls made against the target of your smite. If the target of Smite Evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to +26. Regardless of the target, Smite Evil attacks automatically bypass any DR the creature might possess. In addition, while smite evil is in effect, you gain a +4 deflection bonus to your AC against attacks made by the target of the smite. If you target a creature that is not evil, the smite is wasted with no effect. The Smite Evil effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</description>
 			<type>PALADINCLASSFEATURES.SPECIALATTACK.SUPERNATURAL.SMITE EVIL</type>
 			<source>Paizo Inc. - Core Rulebook, p.60</source>
-			<check_count>4</check_count>
+			<check_count>5</check_count>
 			<check_type>Uses per day</check_type>
 		</checklist>
 	</checklists>
@@ -1445,6 +1578,52 @@
 			<attacks>0.0</attacks>
 			<prof></prof>
 			<source>Paizo Publishing LLC - Ultimate Equipment, p.224</source>
+			<quality></quality>
+		</item>
+		<item>
+			<longname>Kukri +3 (Mighty Cleaving)</longname>
+			<id></id>
+			<name>Kukri +3 (Mighty Cleaving)</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>32308</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>allows an additional Cleave attack per round (with Cleave feat)</special_properties>
+			<type>MAGIC.WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS3</type>
+			<weight>2</weight>
+			<total_wt>2</total_wt>
+			<total_weight>2</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>0</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>0</spell_failure>
+			<damage>1d4</damage>
+			<damage_alt></damage_alt>
+			<crit_range>3</crit_range>
+			<crit_mult>x2</crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Kukri</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
 			<quality></quality>
 		</item>
 		<item>
@@ -1540,6 +1719,52 @@
 			<quality></quality>
 		</item>
 		<item>
+			<longname>Buckler +2</longname>
+			<id></id>
+			<name>Buckler +2</name>
+			<carried>1.0</carried>
+			<charges></charges>
+			<charges_used></charges_used>
+			<contents></contents>
+			<contents_num>0</contents_num>
+			<content_weight>0</content_weight>
+			<cost>4155</cost>
+			<equipped>Y</equipped>
+			<location>Equipped</location>
+			<locationId></locationId>
+			<maxcharges>0</maxcharges>
+			<note></note>
+			<quantity>1</quantity>
+			<checkbox>1</checkbox>
+			<size>
+				<long>Medium</long>
+				<short>M</short>
+			</size>
+			<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon.</special_properties>
+			<type>MAGIC.SHIELD.BUCKLER.STANDARD.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+			<weight>5</weight>
+			<total_wt>5</total_wt>
+			<total_weight>5</total_weight>
+			<bonuslist></bonuslist>
+			<acmod>3</acmod>
+			<maxdex>100</maxdex>
+			<accheck>0</accheck>
+			<edr>0</edr>
+			<move></move>
+			<spell_failure>5</spell_failure>
+			<damage></damage>
+			<damage_alt></damage_alt>
+			<crit_range></crit_range>
+			<crit_mult></crit_mult>
+			<crit_range_alt></crit_range_alt>
+			<crit_mult_alt></crit_mult_alt>
+			<range>0 ft.</range>
+			<attacks>0.0</attacks>
+			<prof>Buckler</prof>
+			<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
+			<quality></quality>
+		</item>
+		<item>
 			<longname>Potion of Cure Serious Wounds</longname>
 			<id></id>
 			<name>Potion of Cure Serious Wounds</name>
@@ -1632,7 +1857,7 @@
 			<quality></quality>
 		</item>
 		<total>
-			<weight>17.5 lbs.</weight>
+			<weight>24.5 lbs.</weight>
 			<value>71398 gp</value>
 			<load>Light</load>
 			<capacity>80</capacity>
@@ -1681,6 +1906,50 @@
 					<attacks>0.0</attacks>
 					<prof></prof>
 					<source>Paizo Publishing LLC - Ultimate Equipment, p.224</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Kukri +3 (Mighty Cleaving)</longname>
+					<name>Kukri +3 (Mighty Cleaving)</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>32308</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>allows an additional Cleave attack per round (with Cleave feat)</special_properties>
+					<type>MAGIC.WEAPON.RESIZABLE.MELEE.LIGHT.FINESSEABLE.MARTIAL.STANDARD.SLASHING.BLADELIGHT.WEAPON GROUP BLADES LIGHT.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS3</type>
+					<weight>2</weight>
+					<total_wt>2</total_wt>
+					<total_weight>2</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>0</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>0</spell_failure>
+					<damage>1d4</damage>
+					<damage_alt></damage_alt>
+					<crit_range>3</crit_range>
+					<crit_mult>x2</crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Kukri</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.31</source>
 					<quality>EQ.0.QUALITY</quality>
 				</item>
 				<item>
@@ -1769,6 +2038,50 @@
 					<attacks>0.0</attacks>
 					<prof></prof>
 					<source>Paizo Publishing LLC - Ultimate Equipment, p.228</source>
+					<quality>EQ.0.QUALITY</quality>
+				</item>
+				<item>
+					<longname>Buckler +2</longname>
+					<name>Buckler +2</name>
+					<carried>1.0</carried>
+					<charges></charges>
+					<charges_used></charges_used>
+					<contents></contents>
+					<contents_num>0</contents_num>
+					<content_weight>0</content_weight>
+					<cost>4155</cost>
+					<equipped>Y</equipped>
+					<location>Equipped</location>
+					<maxcharges>0</maxcharges>
+					<note></note>
+					<quantity>1</quantity>
+					<checkbox>1</checkbox>
+					<size>
+						<long>Medium</long>
+						<short>M</short>
+					</size>
+					<special_properties>Applies a -1 to hit to Two-Handed Weapon, or Off-hand held weapon.</special_properties>
+					<type>MAGIC.SHIELD.BUCKLER.STANDARD.CUSTOM.METAL.MASTERWORK.ENHANCEMENT.PLUS2</type>
+					<weight>5</weight>
+					<total_wt>5</total_wt>
+					<total_weight>5</total_weight>
+					<bonuslist></bonuslist>
+					<acmod>3</acmod>
+					<maxdex>100</maxdex>
+					<accheck>0</accheck>
+					<edr>0</edr>
+					<move></move>
+					<spell_failure>5</spell_failure>
+					<damage></damage>
+					<damage_alt></damage_alt>
+					<crit_range></crit_range>
+					<crit_mult></crit_mult>
+					<crit_range_alt></crit_range_alt>
+					<crit_mult_alt></crit_mult_alt>
+					<range>0 ft.</range>
+					<attacks>0.0</attacks>
+					<prof>Buckler</prof>
+					<source>Custom - Paizo Publishing LLC - Ultimate Equipment, p.10</source>
 					<quality>EQ.0.QUALITY</quality>
 				</item>
 				<item>
@@ -2081,7 +2394,7 @@
 		</special_quality>
 		<special_quality>
 			<name>Celestial Spirit (Sp)</name>
-			<description>Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for 12 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +3 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties: defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property&#39;s cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability 2 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</description>
+			<description>Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for 13 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +3 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties: defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property&#39;s cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability 3 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.</description>
 			<type>PALADINCLASSFEATURES.SPECIALQUALITY.SPELLLIKE.DIVINEBOND.DIVINE BOND</type>
 			<associated></associated>
 			<count>0</count>
@@ -2198,11 +2511,11 @@
 		</special_quality>
 		<special_quality>
 			<name>Poison Resistance (Ex)</name>
-			<description>A vishkanya has a +13 racial bonus on saves against poison.</description>
+			<description>A vishkanya has a +14 racial bonus on saves against poison.</description>
 			<type>RACIALTRAITS.SPECIALQUALITY.EXTRAORDINARY.VISHKANYARACIALTRAIT.VISHKANYARACIALDEFAULT</type>
 			<associated></associated>
 			<count>0</count>
-			<aspect>SaveBonus: +13 racial vs poison</aspect>
+			<aspect>SaveBonus: +14 racial vs poison</aspect>
 			<auto>F</auto>
 			<hidden>F</hidden>
 			<virtual>F</virtual>
@@ -2224,7 +2537,7 @@
 		</special_quality>
 		<special_quality>
 			<name>Toxic (Ex)</name>
-			<description>A vishkanya can envenom a weapon 2/day with its toxic saliva or blood (using blood requires the vishkanya to be injured when it uses this ability). Applying venom in this way is a swift action. Vishkanya venom: save Fort DC 18; freq 1/rd for 6 rds; effect 1d2 Dex; cure 1 save.</description>
+			<description>A vishkanya can envenom a weapon 2/day with its toxic saliva or blood (using blood requires the vishkanya to be injured when it uses this ability). Applying venom in this way is a swift action. Vishkanya venom: save Fort DC 19; freq 1/rd for 6 rds; effect 1d2 Dex; cure 1 save.</description>
 			<type>RACIALTRAITS.SPECIALQUALITY.EXTRAORDINARY.VISHKANYARACIALTRAIT.VISHKANYARACIALDEFAULT</type>
 			<associated></associated>
 			<count>0</count>
@@ -2272,11 +2585,11 @@
 		<!-- Visible All "Special Ability" Ability Objects -->
 		<special_attack>
 			<name>Channel Positive Energy (Su)</name>
-			<description>You can unleash a wave of positive energy dealing 7d6 (DC 20 for half) /day. You can unleash a wave of positive energy. You must choose to deal 7d6 points of positive energy damage to undead creatures or to heal living creatures of 7d6 points of damage. Creatures that take damage from channeled energy receive a DC 20 Will save to halve the damage. Using this ability consumes two uses of her lay on hands ability.</description>
+			<description>You can unleash a wave of positive energy dealing 7d6 (DC 21 for half) /day. You can unleash a wave of positive energy. You must choose to deal 7d6 points of positive energy damage to undead creatures or to heal living creatures of 7d6 points of damage. Creatures that take damage from channeled energy receive a DC 21 Will save to halve the damage. Using this ability consumes two uses of her lay on hands ability.</description>
 			<type>PALADINCLASSFEATURES.SPECIALATTACK.SUPERNATURAL.CHANNEL ENERGY.CHANNEL ENERGY POSITIVE.CHANNEL POSITIVE ENERGY</type>
 			<associated></associated>
 			<count>0</count>
-			<aspect>Ability Benefit: (7d6, DC 20), ChildAbility: Lay on Hands</aspect>
+			<aspect>Ability Benefit: (7d6, DC 21), ChildAbility: Lay on Hands</aspect>
 			<auto>F</auto>
 			<hidden>F</hidden>
 			<virtual>F</virtual>
@@ -2298,11 +2611,11 @@
 		</special_attack>
 		<special_attack>
 			<name>Smite Evil (Su)</name>
-			<description>You can call out to the powers of good to aid you in your struggle against evil 4 times per day. As a swift action, you choose one target within sight to smite. If this target is evil, you add +4 to your attack rolls and +12 to all damage rolls made against the target of your smite. If the target of Smite Evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to +24. Regardless of the target, Smite Evil attacks automatically bypass any DR the creature might possess. In addition, while smite evil is in effect, you gain a +4 deflection bonus to your AC against attacks made by the target of the smite. If you target a creature that is not evil, the smite is wasted with no effect. The Smite Evil effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</description>
+			<description>You can call out to the powers of good to aid you in your struggle against evil 5 times per day. As a swift action, you choose one target within sight to smite. If this target is evil, you add +4 to your attack rolls and +13 to all damage rolls made against the target of your smite. If the target of Smite Evil is an outsider with the evil subtype, an evil-aligned dragon, or an undead creature, the bonus to damage on the first successful attack increases to +26. Regardless of the target, Smite Evil attacks automatically bypass any DR the creature might possess. In addition, while smite evil is in effect, you gain a +4 deflection bonus to your AC against attacks made by the target of the smite. If you target a creature that is not evil, the smite is wasted with no effect. The Smite Evil effect remains until the target of the smite is dead or the next time you rest and regain your uses of this ability.</description>
 			<type>PALADINCLASSFEATURES.SPECIALATTACK.SUPERNATURAL.SMITE EVIL</type>
 			<associated></associated>
 			<count>0</count>
-			<aspect>CheckCount: 4, CheckType: Uses per day</aspect>
+			<aspect>CheckCount: 5, CheckType: Uses per day</aspect>
 			<auto>F</auto>
 			<hidden>F</hidden>
 			<virtual>F</virtual>
@@ -2702,10 +3015,10 @@
 		<!-- ### END Innate spells ### -->
 		<!-- ### BEGIN Known spells ### -->
 		<known_spells>
-		<class number="0" spelllistclass="Paladin" spellcasterlevel="9" spellcastertype="Divine" memorize="true" concentration="+13">
+		<class number="0" spelllistclass="Paladin" spellcasterlevel="10" spellcastertype="Divine" memorize="true" concentration="+14">
 			<level number="0" known="0" cast="0">
 			</level>
-			<level number="1" known="1" cast="3">
+			<level number="1" known="1" cast="4">
 				<spell>
 						<name>Abstemiousness</name>
 						<outputname>Abstemiousness</outputname>
@@ -2713,8 +3026,8 @@
 						<range>Touch</range>
 						<components>V</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>1 hour</duration>
 						<effect>This spell magically enhances a handful of simple food, imbuing it with enough nutrition to satisfy a Medium or smaller creature for a full day. The spell does not create food, and thus will not alone prevent someone from starving, but it can extend even limited reserves for lengthy periods.</effect>
@@ -2744,10 +3057,10 @@
 						<range>50 ft.</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Bless fills your allies with courage.</effect>
 						<target>The caster and all allies within a 50-ft. burst, centered on the caster</target>
 						<saveinfo>None</saveinfo>
@@ -2775,8 +3088,8 @@
 						<range>Touch</range>
 						<components>V, S, M</components>
 						<castingtime>1 minute</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>This transmutation imbues a flask of water with positive energy, turning it into holy water.</effect>
@@ -2806,10 +3119,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>This transmutation makes a weapon strike true against evil foes.</effect>
 						<target>Weapon touched</target>
 						<saveinfo>None</saveinfo>
@@ -2837,10 +3150,10 @@
 						<range>Personal</range>
 						<components>V</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds [D]</duration>
+						<duration>10 rounds [D]</duration>
 						<effect>A shortbow may double as a club, or a longbow as a quarterstaff.</effect>
 						<target>one weapon [bow]</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -2865,13 +3178,13 @@
 						<name>Challenge Evil</name>
 						<outputname>Challenge Evil</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>Sickens creature if it refuses to fight you.</effect>
 						<target>one evil creature</target>
 						<saveinfo>Will negates</saveinfo>
@@ -2899,10 +3212,10 @@
 						<range>Personal</range>
 						<components>V, S, M (a drop of your blood)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Compels opponents to attack you instead of your allies.</effect>
 						<target>You</target>
 						<saveinfo>see text</saveinfo>
@@ -2927,15 +3240,15 @@
 						<name>Create Water</name>
 						<outputname>Create Water</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>This spell generates wholesome, drinkable water, just like clean rain water.</effect>
-						<target>Up to 18 gallons of water</target>
+						<target>Up to 20 gallons of water</target>
 						<saveinfo>None</saveinfo>
 						<school>
 							<school>Conjuration</school>
@@ -2961,8 +3274,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>When laying your hand upon a living creature, you channel positive energy that cures 1d8+5 points of damage.</effect>
@@ -2989,11 +3302,11 @@
 						<name>Detect Poison</name>
 						<outputname>Detect Poison</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>You determine whether a creature, object, or area has been poisoned or is poisonous.</effect>
@@ -3023,10 +3336,10 @@
 						<range>60 ft.</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>Concentration, up to 9 minutes [D]</duration>
+						<duration>Concentration, up to 10 minutes [D]</duration>
 						<effect>You can detect the aura that surrounds undead creatures.</effect>
 						<target>Cone-shaped emanation</target>
 						<saveinfo>None</saveinfo>
@@ -3051,11 +3364,11 @@
 						<name>Diagnose Disease</name>
 						<outputname>Diagnose Disease</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>Detect and identify diseases.</effect>
@@ -3085,8 +3398,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>1 minute</duration>
 						<effect>Calling upon the strength and wisdom of a deity, you gain a +3 luck bonus on attack and weapon damage rolls.</effect>
@@ -3116,8 +3429,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>24 hours</duration>
 						<effect>A creature protected by endure elements suffers no harm from being in a hot or cold environment.</effect>
@@ -3147,12 +3460,12 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 round</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>Transform water into an alcoholic beverage, typically ale, beer, mead, or wine.</effect>
-						<target>9 pints of water</target>
+						<target>10 pints of water</target>
 						<saveinfo>Fortitude negates (object)</saveinfo>
 						<school>
 							<school>Transmutation</school>
@@ -3175,13 +3488,13 @@
 						<name>Ghostbane Dirge</name>
 						<outputname>Ghostbane Dirge</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, M/DF (an old reed from a wind instrument)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Incorporeal creature takes half damage from nonmagical weapons.</effect>
 						<target>one incorporeal creature</target>
 						<saveinfo>Will negates</saveinfo>
@@ -3209,8 +3522,8 @@
 						<range>Personal</range>
 						<components>V</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>see text</duration>
 						<effect>Movement doesn&#39;t provoke attacks of opportunity.</effect>
@@ -3237,13 +3550,13 @@
 						<name>Haze of Dreams</name>
 						<outputname>Haze of Dreams</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, M</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>You fill an enemy&#39;s head with waking dreams, reducing the target&#39;s speet by half.</effect>
 						<target>One Creature</target>
 						<saveinfo>Will negates</saveinfo>
@@ -3271,8 +3584,8 @@
 						<range>Personal</range>
 						<components>V</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>Allows the use of lay on hands while falling unconscious.</effect>
@@ -3302,10 +3615,10 @@
 						<range>Personal</range>
 						<components>V, M/DF (a drop of honey)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>Roll 2 dice when using Diplomacy, take higher roll.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -3333,8 +3646,8 @@
 						<range>Personal</range>
 						<components>S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>1 round</duration>
 						<effect>Create three notes heard miles away.</effect>
@@ -3361,11 +3674,11 @@
 						<name>Knight&#39;s Calling</name>
 						<outputname>Knight&#39;s Calling</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>1 round</duration>
 						<effect>Forces target to move toward you and fight you.</effect>
@@ -3395,8 +3708,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 minute</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>Gain +10 on a monster Knowledge check.</effect>
@@ -3423,11 +3736,11 @@
 						<name>Liberating Command</name>
 						<outputname>Liberating Command</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>instantaneous</duration>
 						<effect>Target makes an Escape Artist check as an immediate action and gains a bonus on it.</effect>
@@ -3454,11 +3767,11 @@
 						<name>Litany of Sloth</name>
 						<outputname>Litany of Sloth</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>1 round</duration>
 						<effect>Single target cannot make attacks of opportunity for 1 round.</effect>
@@ -3488,10 +3801,10 @@
 						<range>Personal</range>
 						<components>V, S, M/DF (a piece of fletching)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Grants a +10 foot bonus to the range increment for any ranged weapon fired.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -3519,10 +3832,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Magic weapon gives a weapon a +1 enhancement bonus on attack and damage rolls.</effect>
 						<target>Weapon touched</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -3550,10 +3863,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>This spell wards a creature from attacks by chaotic creatures, from mental control, and from summoned creatures.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3581,10 +3894,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3612,10 +3925,10 @@
 						<range>5 ft.</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>Square gives good creatures bonuses.</effect>
 						<target>one 5-ft. square</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3643,10 +3956,10 @@
 						<range>Personal</range>
 						<components>V, S, F</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>You can decipher magical inscriptions on objects--books, scrolls, weapons, and the like--that would otherwise be unintelligible.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -3674,8 +3987,8 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>1 minute</duration>
 						<effect>You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves.</effect>
@@ -3705,8 +4018,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>3 rounds</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>Lesser restoration dispels any magical effects reducing one of the subject&#39;s ability scores or cures 1d4 points of temporary ability damage to one of the subject&#39;s ability scores.</effect>
@@ -3736,10 +4049,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Stalwart resolve was originally created to temporarily aid those suffering from certain afflictions. The recipient of stalwart resolve ignores the effects of ability damage and penalties to a single ability score of your choice, except that damage equal to or greater than the ability score still causes unconsciousness or death. This applies whether or not the ability damage or penalty happened before or during the spell&#39;s duration, and whether or not multiple sources are involved. This spell has no effect on ability drain.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3767,10 +4080,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds [see text]</duration>
+						<duration>10 rounds [see text]</duration>
 						<effect></effect>
 						<target>one melee weapon</target>
 						<saveinfo>Fortitude negates (object)</saveinfo>
@@ -3798,10 +4111,10 @@
 						<range>30ft.</range>
 						<components>V, S, M/DF (a small piece of a map)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds [D]</duration>
+						<duration>10 rounds [D]</duration>
 						<effect>You gain an additional +1 on attack rolls or to AC due to battlefield positioning.</effect>
 						<target>The caster and all allies within a 30-ft.-radius burst, centered on the caster</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3826,13 +4139,13 @@
 						<name>Unbreakable Heart</name>
 						<outputname>Unbreakable Heart</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Creature gains +4 morale bonus on saves against mind-affecting effects that rely on negative emotions or that would force him to harm an ally. Supresses such effects already in place.</effect>
 						<target>One creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -3860,10 +4173,10 @@
 						<range>Personal or 5 ft.; see text</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>90 minutes [D]</duration>
+						<duration>100 minutes [D]</duration>
 						<effect>+2 AC, +2 on saves vs. undead.</effect>
 						<target>You or all creatures within 5 ft.; see text</target>
 						<saveinfo></saveinfo>
@@ -3891,8 +4204,8 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>1 min.</duration>
 						<effect>With a touch, you infuse a creature with a tiny surge of life, granting the subject 1 temporary hit point.</effect>
@@ -3919,13 +4232,13 @@
 						<name>Wartrain Mount</name>
 						<outputname>Wartrain Mount</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, M</components>
 						<castingtime>1 minute</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 hours</duration>
+						<duration>10 hours</duration>
 						<effect>Animal gains combat training.</effect>
 						<target>One indifferent or friendly animal</target>
 						<saveinfo>None</saveinfo>
@@ -3950,15 +4263,15 @@
 						<name>Weapons Against Evil</name>
 						<outputname>Weapons Against Evil</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Target weapons shed light and ignore the DR of some evil creatures.</effect>
-						<target>9 weapons, no two of which can be more than 20 ft. apart</target>
+						<target>10 weapons, no two of which can be more than 20 ft. apart</target>
 						<saveinfo>Fortitude negates (object)</saveinfo>
 						<school>
 							<school>Transmutation</school>
@@ -3981,11 +4294,11 @@
 						<name>Word of Resolve</name>
 						<outputname>Word of Resolve</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, DF</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>15</dc>
 						<duration>Instantaneous</duration>
 						<effect>Ally rerolls a save against charm or fear.</effect>
@@ -4015,8 +4328,8 @@
 						<range>Touch</range>
 						<components>V, S, DF, M</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>24 hours</duration>
 						<effect>Prevent a corpse from becoming an undead creature.</effect>
@@ -4045,11 +4358,11 @@
 						<name>Arrow of Law</name>
 						<outputname>Arrow of Law</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>Instantaneous [1 round]; see text</duration>
 						<effect>Harm and possibly daze chaotic creatures.</effect>
@@ -4079,8 +4392,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>10/minutes per level</duration>
 						<effect>Increases strength of a paladin&#39;s aura of courage.</effect>
@@ -4110,10 +4423,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Subject gains bonus on saving throws equal to Cha modifier.</effect>
 						<target>one good creature touched</target>
 						<saveinfo>Will (harmless)</saveinfo>
@@ -4138,13 +4451,13 @@
 						<name>Bestow Weapon Proficiency</name>
 						<outputname>Bestow Weapon Proficiency</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, M (pieces of shaved metal)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Grant a creature proficiency in a single weapon for short period of time.</effect>
 						<target>one creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4169,13 +4482,13 @@
 						<name>Blessing of Courage and Life</name>
 						<outputname>Blessing of Courage and Life</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes [see below]</duration>
+						<duration>10 minutes [see below]</duration>
 						<effect>Grants a +2 bonus on saves vs. fear and death.</effect>
 						<target>one living creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4203,10 +4516,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>The subject becomes stronger granting a +4 enhancement bonus to Strength.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4234,10 +4547,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>Protects creature against damage from alignment-based attacks.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -4265,10 +4578,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 hours</duration>
+						<duration>10 hours</duration>
 						<effect>The subject becomes temporarily immune to poison.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -4296,10 +4609,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 rounds or until discharged</duration>
+						<duration>10 rounds or until discharged</duration>
 						<effect>Imbues a projectile with holy energy.</effect>
 						<target>one projectile</target>
 						<saveinfo>None</saveinfo>
@@ -4327,10 +4640,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>The transmuted creature becomes more poised, articulate, and personally forceful gaining a +4 enhancement bonus to Charisma.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4358,10 +4671,10 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Armor you wear no longer slows your speed.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -4389,8 +4702,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>24 hours</duration>
 						<effect>As endure elements, but you may divide the duration among creatures touched.</effect>
@@ -4420,10 +4733,10 @@
 						<range>special; see text</range>
 						<components>V, S</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Your ability to smite evil also entangles your foe.</effect>
 						<target>one creature</target>
 						<saveinfo>Reflex partial</saveinfo>
@@ -4451,10 +4764,10 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>Lend your shield&#39;s protection to another.</effect>
 						<target>You</target>
 						<saveinfo>None</saveinfo>
@@ -4482,10 +4795,10 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>Summon armor temporarily replacing your current attire.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -4513,10 +4826,10 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>10 rounds [D]</duration>
+						<duration>11 rounds [D]</duration>
 						<effect>Creates a soaring beacon of light.</effect>
 						<target>lance of light</target>
 						<saveinfo></saveinfo>
@@ -4544,8 +4857,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>1 round</duration>
 						<effect>Doubles armor&#39;s enhancement bonus.</effect>
@@ -4572,11 +4885,11 @@
 						<name>Litany of Eloquence</name>
 						<outputname>Litany of Eloquence</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>1 round</duration>
 						<effect>Fascinates a single creature for 1 round.</effect>
@@ -4603,11 +4916,11 @@
 						<name>Litany of Entanglement</name>
 						<outputname>Litany of Entanglement</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>1 round</duration>
 						<effect>Entangles a creature for 1 round.</effect>
@@ -4634,11 +4947,11 @@
 						<name>Litany of Righteousness</name>
 						<outputname>Litany of Righteousness</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>1 round</duration>
 						<effect>A single evil creature takes more damage from creatures with a good aura.</effect>
@@ -4668,8 +4981,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>1 round</duration>
 						<effect>You gain two additional attacks of opportunity for 1 round.</effect>
@@ -4699,10 +5012,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Siege engine gains +1 on targeting and damage rolls.</effect>
 						<target>one siege engine touched</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -4730,10 +5043,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>The transmuted creature becomes wiser gaining a +4 enhancement bonus to Wisdom.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4758,11 +5071,11 @@
 						<name>Paladin&#39;s Sacrifice</name>
 						<outputname>Paladin&#39;s Sacrifice</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, DF</components>
 						<castingtime>1 immediate action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>Instantaneous</duration>
 						<effect>Take the damage and effects for another creature.</effect>
@@ -4792,10 +5105,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>As protection from chaos, but you may divide the duration among creatures touched.</effect>
 						<target>creatures touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4823,10 +5136,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes [D]</duration>
+						<duration>10 minutes [D]</duration>
 						<effect>As protection from evil, but you may divide the duration among creatures touched.</effect>
 						<target>creatures touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4851,11 +5164,11 @@
 						<name>Remove Paralysis</name>
 						<outputname>Remove Paralysis</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>Instantaneous</duration>
 						<effect>You can free one or more creatures from the effects of temporary paralysis or related magic.</effect>
@@ -4885,10 +5198,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>This abjuration grants a creature limited protection from damage of whichever one of five energy types you select.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -4916,10 +5229,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Boosts attack bonus with each hit.</effect>
 						<target>creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4947,10 +5260,10 @@
 						<range>Touch; see text</range>
 						<components>V, S, F (a pair of golden bracelets worth 100 gp each worn by both you and the target)</components>
 						<castingtime>1 round</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>90 minutes [D]</duration>
+						<duration>100 minutes [D]</duration>
 						<effect>Cast touch healing spells from a distance.</effect>
 						<target>creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -4978,10 +5291,10 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 rounds [D]; see text</duration>
+						<duration>10 rounds [D]; see text</duration>
 						<effect>Bonus damage for moving on mount.</effect>
 						<target>You and your mount</target>
 						<saveinfo></saveinfo>
@@ -5006,13 +5319,13 @@
 						<name>Shield Other</name>
 						<outputname>Shield Other</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, F</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 hours [D]</duration>
+						<duration>10 hours [D]</duration>
 						<effect>This spell wards the subject and creates a mystic connection between you and the subject so that some of its wounds are transferred to you.</effect>
 						<target>One creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -5037,11 +5350,11 @@
 						<name>Undetectable Alignment</name>
 						<outputname>Undetectable Alignment</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
 						<duration>24 hours</duration>
 						<effect>An undetectable alignment spell conceals the alignment of an object or a creature from all forms of divination.</effect>
@@ -5071,10 +5384,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Armor or shield gains a +2 enhancement bonus.</effect>
 						<target>Armor or shield touched</target>
 						<saveinfo>None</saveinfo>
@@ -5102,10 +5415,10 @@
 						<range>120 ft.</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Magical trail aids good creatures, hinders evil ones.</effect>
 						<target>a 10-ft.-wide path in a straight line, up to 120 ft. long</target>
 						<saveinfo>None</saveinfo>
@@ -5133,10 +5446,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Weapon gets +2 on damage rolls.</effect>
 						<target>weapon touched</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -5161,13 +5474,13 @@
 						<name>Zone of Truth</name>
 						<outputname>Zone of Truth</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Creatures within the emanation area [or those who enter it] can&#39;t speak any deliberate and intentional lies.</effect>
 						<target>20-ft.-radius emanation</target>
 						<saveinfo>Will negates</saveinfo>
@@ -5195,10 +5508,10 @@
 						<range>Touch</range>
 						<components>V, S, M</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>16</dc>
-						<duration>9 hours</duration>
+						<duration>10 hours</duration>
 						<effect>The subject gains the ability to see 60 feet even in total darkness.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -5228,10 +5541,10 @@
 						<range>20 ft.</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Aura penalizes enemy attacks and AC.</effect>
 						<target>20-ft. radius centered on you</target>
 						<saveinfo>Will negates</saveinfo>
@@ -5259,10 +5572,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Bonded weapon gains ghost touch.</effect>
 						<target>Your paladin bonded weapon</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -5287,15 +5600,15 @@
 						<name>Blessing of the Mole</name>
 						<outputname>Blessing of the Mole</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 round</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
-						<effect>9 allies gain darkvision and a +2 Stealth bonus.</effect>
-						<target>9 creatures</target>
+						<duration>10 minutes</duration>
+						<effect>10 allies gain darkvision and a +2 Stealth bonus.</effect>
+						<target>10 creatures</target>
 						<saveinfo>None</saveinfo>
 						<school>
 							<school>Transmutation</school>
@@ -5321,8 +5634,8 @@
 						<range>Personal</range>
 						<components>V</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>see text</duration>
 						<effect>You gain increased speed, and your movement ignores attacks of opportunity and allows you to move through the space of creatures larger than you are.</effect>
@@ -5352,11 +5665,11 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>Instantaneous</duration>
-						<effect>When laying your hand upon a living creature, you channel positive energy that cures 2d8+9 points of damage.</effect>
+						<effect>When laying your hand upon a living creature, you channel positive energy that cures 2d8+10 points of damage.</effect>
 						<target>Creature touched</target>
 						<saveinfo>Will half (harmless) or Will half; see text</saveinfo>
 						<school>
@@ -5383,10 +5696,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>Targeted ammunition exudes radiant energy.</effect>
 						<target>up to 50 pieces of ammunition, all of which must be together at the time of casting</target>
 						<saveinfo>Fortitude negates (harmless, object)</saveinfo>
@@ -5414,10 +5727,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>90 minutes [D]</duration>
+						<duration>100 minutes [D]</duration>
 						<effect>You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius.</effect>
 						<target>Object touched</target>
 						<saveinfo>None</saveinfo>
@@ -5445,10 +5758,10 @@
 						<range>Personal</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Your might increases with every kill you make.</effect>
 						<target>You</target>
 						<saveinfo></saveinfo>
@@ -5476,10 +5789,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 hours</duration>
+						<duration>10 hours</duration>
 						<effect>As delay poison, but you may divide the duration among creatures touched.</effect>
 						<target>creatures touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -5504,15 +5817,15 @@
 						<name>Discern Lies</name>
 						<outputname>Discern Lies</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>Concentration, up to 9 rounds</duration>
+						<duration>Concentration, up to 10 rounds</duration>
 						<effect>You know if the target deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying.</effect>
-						<target>9 creatures, no two of which can be more than 30 ft. apart</target>
+						<target>10 creatures, no two of which can be more than 30 ft. apart</target>
 						<saveinfo>Will negates</saveinfo>
 						<school>
 							<school>Divination</school>
@@ -5535,11 +5848,11 @@
 						<name>Dispel Magic</name>
 						<outputname>Dispel Magic</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Medium (190 ft.)</range>
+						<range>Medium (200 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
 						<effect>You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster&#39;s spell.</effect>
@@ -5569,10 +5882,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Transfer hit points and give DR/evil to target creature.</effect>
 						<target>living creature touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -5600,10 +5913,10 @@
 						<range>special; see text</range>
 						<components>V, S</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Smited creature takes damage when it attacks.</effect>
 						<target>one creature</target>
 						<saveinfo>Will partial</saveinfo>
@@ -5628,15 +5941,15 @@
 						<name>Ghostbane Dirge, Mass</name>
 						<outputname>Ghostbane Dirge, Mass</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, M/DF (an old reed from a wind instrument)</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>As ghostbane dirge, but affecting multiple creatures.</effect>
-						<target>9 incorporeal creatures, no two of which can be more than 30 ft. apart</target>
+						<target>10 incorporeal creatures, no two of which can be more than 30 ft. apart</target>
 						<saveinfo>Will negates</saveinfo>
 						<school>
 							<school>Transmutation</school>
@@ -5662,8 +5975,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>Instantaneous</duration>
 						<effect>This spell functions like heal, but it affects only the paladin&#39;s special mount [typically a horse].</effect>
@@ -5693,8 +6006,8 @@
 						<range>30 ft.</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>Instantaneous</duration>
 						<effect>Whisper sickens evil creatures, gives good creatures bonuses.</effect>
@@ -5721,11 +6034,11 @@
 						<name>Litany of Escape</name>
 						<outputname>Litany of Escape</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>instantaneous</duration>
 						<effect>Teleports a friend out of a grapple.</effect>
@@ -5755,8 +6068,8 @@
 						<range>Personal</range>
 						<components>V, S, DF</components>
 						<castingtime>1 swift action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>1 round</duration>
 						<effect>You can see invisible creatures and objects within 30 feet of you.</effect>
@@ -5786,10 +6099,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>All creatures within the area gain the effects of a protection from chaos spell, and chaotic summoned creatures cannot enter the area either.</effect>
 						<target>10-ft.-radius emanation from touched creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -5817,10 +6130,10 @@
 						<range>Touch</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>All creatures within the area gain the effects of a protection from evil spell, and evil summoned creatures cannot enter the area either.</effect>
 						<target>10-ft.-radius emanation from touched creature</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -5845,13 +6158,13 @@
 						<name>Magic Weapon (Greater)</name>
 						<outputname>Magic Weapon (Greater)</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S, M/DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 hours</duration>
+						<duration>10 hours</duration>
 						<effect>This spell functions like magic weapon, except that it gives a weapon an enhancement bonus on attack and damage rolls of +2.</effect>
 						<target>One weapon or 50 projectiles [all of which must be together at the time of casting]</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -5876,13 +6189,13 @@
 						<name>Marks of Forbiddance</name>
 						<outputname>Marks of Forbiddance</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Close (45 ft.)</range>
+						<range>Close (50 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>Makes 2 creatures pass Will saves in order to attack each other.</effect>
 						<target>one enemy and one ally</target>
 						<saveinfo>Will negates; see text</saveinfo>
@@ -5910,10 +6223,10 @@
 						<range>40 ft.</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>You bring special favor upon yourself and your allies while bringing disfavor to your enemies.</effect>
 						<target>All allies and foes within a 40-ft.-radius burst centered on you</target>
 						<saveinfo>None</saveinfo>
@@ -5941,8 +6254,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>Instantaneous</duration>
 						<effect>Remove blindness/deafness cures blindness or deafness.</effect>
@@ -5972,8 +6285,8 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
 						<duration>Instantaneous</duration>
 						<effect>Remove curse can remove all curses on an object or a creature.</effect>
@@ -6003,10 +6316,10 @@
 						<range>Touch</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>90 minutes</duration>
+						<duration>100 minutes</duration>
 						<effect>As resist energy, but you may divide the duration among creatures touched.</effect>
 						<target>creatures touched</target>
 						<saveinfo>Fortitude negates (harmless)</saveinfo>
@@ -6034,10 +6347,10 @@
 						<range>Touch</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>+2 AC.</effect>
 						<target>armor touched</target>
 						<saveinfo>Will negates (harmless, object)</saveinfo>
@@ -6065,10 +6378,10 @@
 						<range>Touch or 5 ft.; see text</range>
 						<components>V, S, DF</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>17</dc>
-						<duration>9 minutes</duration>
+						<duration>10 minutes</duration>
 						<effect>Subject shines and gets 2 on all saves.</effect>
 						<target>creature touched or all creatures within 5 ft.; see text</target>
 						<saveinfo>Will negates (harmless)</saveinfo>
@@ -6093,14 +6406,14 @@
 						<name>Searing Light</name>
 						<outputname>Searing Light</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Medium (190 ft.)</range>
+						<range>Medium (200 ft.)</range>
 						<components>V, S</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc></dc>
 						<duration>Instantaneous</duration>
-						<effect>Focusing divine power like a ray of the sun, you project a blast of light from your open palm dealing 4d8 points of damage.</effect>
+						<effect>Focusing divine power like a ray of the sun, you project a blast of light from your open palm dealing 5d8 points of damage.</effect>
 						<target>Ray</target>
 						<saveinfo>None</saveinfo>
 						<school>
@@ -6121,18 +6434,762 @@
 						<bonusspell></bonusspell>
 				</spell>
 			</level>
-			<level number="4" known="0" cast="0">
+			<level number="4" known="1" cast="1">
+				<spell>
+						<name>Bestow Grace of the Champion</name>
+						<outputname>Bestow Grace of the Champion</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 rounds [see text]</duration>
+						<effect>Target gains paladin abilities.</effect>
+						<target>Lawful good creature touched</target>
+						<saveinfo>Will negates (harmless)</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor>Good, Law</descriptor>
+							<fullschool>Transmutation [Good, Law]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Magic, p.208</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/bestowGraceOfTheChampion.html#_bestow-grace-of-the-champion</sourcelink>
+							<sourcepage>p.208</sourcepage>
+							<sourceshort>UM</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>Target gains paladin abilities.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Blaze of Glory</name>
+						<outputname>Blaze of Glory</outputname>
+						<times_memorized>1</times_memorized>
+						<range></range>
+						<components>V</components>
+						<castingtime>1 standard action or immediate action; see text</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous and 10 rounds; see text</duration>
+						<effect>Last stand cures good creatures, hurts evil.</effect>
+						<target>30-ft.-radius burst centered on you</target>
+						<saveinfo>Will partial</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor>Good, Mind-Affecting</descriptor>
+							<fullschool>Conjuration (Healing) [Good, Mind-Affecting]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.205</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/blazeOfGlory.html#_blaze-of-glory-</sourcelink>
+							<sourcepage>p.205</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>Last stand cures good creatures, hurts evil.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Break Enchantment</name>
+						<outputname>Break Enchantment</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 minute</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous</duration>
+						<effect>This spell frees victims from enchantments, transmutations, and curses.</effect>
+						<target>Up to one creature per level, all within 30 ft. of each other</target>
+						<saveinfo>See text</saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Abjuration</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.251</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/breakEnchantment.html#_break-enchantment</sourcelink>
+							<sourcepage>p.251</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>This spell frees victims from enchantments, transmutations, and curses.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Cure Serious Wounds</name>
+						<outputname>Cure Serious Wounds</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous</duration>
+						<effect>When laying your hand upon a living creature, you channel positive energy that cures 3d8+10 points of damage.</effect>
+						<target>Creature touched</target>
+						<saveinfo>Will half (harmless) or Will half; see text</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Healing)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.263</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/cureSeriousWounds.html#_cure-serious-wounds</sourcelink>
+							<sourcepage>p.263</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless) or yes; see text</spell_resistance>
+						<description>When laying your hand upon a living creature, you channel positive energy that cures 3d8+(min(15,CASTERLEVEL)) points of damage.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Death Ward</name>
+						<outputname>Death Ward</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 minutes</duration>
+						<effect>The subject gains a +4 morale bonus on saves against all death spells and magical death effects.</effect>
+						<target>Living creature touched</target>
+						<saveinfo>Will negates (harmless)</saveinfo>
+						<school>
+							<school>Necromancy</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Necromancy</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.264</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/deathWard.html#_death-ward</sourcelink>
+							<sourcepage>p.264</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>The subject gains a +4 morale bonus on saves against all death spells and magical death effects.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Dispel Chaos</name>
+						<outputname>Dispel Chaos</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 rounds or until discharged, whichever comes first</duration>
+						<effect>Shimmering, blue lawful energy surrounds you granting a +4 deflection bonus to AC against attacks by chaotic creatures and you can choose to drive chaotic creatures back to their home plane on making a successful melee touch attack.</effect>
+						<target>You and a touched chaotic creature from another plane, or you and an enchantment or chaotic spell on a touched creature or object</target>
+						<saveinfo>See text</saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor>Lawful</descriptor>
+							<fullschool>Abjuration [Lawful]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.271</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/dispelChaos.html#_dispel-chaos</sourcelink>
+							<sourcepage>p.271</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>See text</spell_resistance>
+						<description>Shimmering, blue lawful energy surrounds you granting a +4 deflection bonus to AC against attacks by chaotic creatures and you can choose to drive chaotic creatures back to their home plane on making a successful melee touch attack.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Dispel Evil</name>
+						<outputname>Dispel Evil</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 rounds or until discharged, whichever comes first</duration>
+						<effect>Shimmering, white holy energy surrounds you granting a +4 deflection bonus to AC against attacks by evil creatures and you can choose to drive evil creatures back to their home plane on making a successful melee touch attack.</effect>
+						<target>You and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object</target>
+						<saveinfo>See text</saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor>Good</descriptor>
+							<fullschool>Abjuration [Good]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.271</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/dispelEvil.html#_dispel-evil</sourcelink>
+							<sourcepage>p.271</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>See text</spell_resistance>
+						<description>Shimmering, white holy energy surrounds you granting a +4 deflection bonus to AC against attacks by evil creatures and you can choose to drive evil creatures back to their home plane on making a successful melee touch attack.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Fire of Vengeance</name>
+						<outputname>Fire of Vengeance</outputname>
+						<times_memorized>1</times_memorized>
+						<range>special; see text</range>
+						<components>V, S</components>
+						<castingtime>1 swift action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>see text</duration>
+						<effect>Smited creature takes 3d8 damage.</effect>
+						<target>one creature</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Fire</descriptor>
+							<fullschool>Evocation [Fire]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.222</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/fireOfVengeance.html#_fire-of-vengeance</sourcelink>
+							<sourcepage>p.222</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>Smited creature takes 3d8 damage.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Forced Repentance</name>
+						<outputname>Forced Repentance</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 rounds</duration>
+						<effect>Target falls prone and confesses all of its sins.</effect>
+						<target>one evil creature without the evil subtype</target>
+						<saveinfo>Will negates</saveinfo>
+						<school>
+							<school>Enchantment</school>
+							<subschool>Compulsion</subschool>
+							<descriptor>Mind-Affecting, Emotion</descriptor>
+							<fullschool>Enchantment (Compulsion) [Mind-Affecting, Emotion]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.224</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/forcedRepentance.html#_forced-repentance</sourcelink>
+							<sourcepage>p.224</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>Target falls prone and confesses all of its sins.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Holy Sword</name>
+						<outputname>Holy Sword</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>10 rounds</duration>
+						<effect>This spell allows you to channel holy power into your sword, or any other melee weapon you choose.</effect>
+						<target>Melee weapon touched</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Good</descriptor>
+							<fullschool>Evocation [Good]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.297</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/holySword.html#_holy-sword</sourcelink>
+							<sourcepage>p.297</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>No</spell_resistance>
+						<description>This spell allows you to channel holy power into your sword, or any other melee weapon you choose.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>King&#39;s Castle</name>
+						<outputname>King&#39;s Castle</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous</duration>
+						<effect>Instantly switch places with a single ally.</effect>
+						<target>one creature</target>
+						<saveinfo>Will negates (harmless)</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Teleportation</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Teleportation)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.230</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/kingSCastle.html#_king&#39;s-castle</sourcelink>
+							<sourcepage>p.230</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>Instantly switch places with a single ally.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Litany of Thunder</name>
+						<outputname>Litany of Thunder</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 swift action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>1 round</duration>
+						<effect>A single target is deafened until the condition is removed, and is confused for 1 round.</effect>
+						<target>one creature</target>
+						<saveinfo>Fortitude negates</saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Language-Dependent, Sonic</descriptor>
+							<fullschool>Evocation [Language-Dependent, Sonic]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Combat</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfThunder.html#_litany-of-thunder</sourcelink>
+							<sourcepage>null</sourcepage>
+							<sourceshort>UC</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>A single target is deafened until the condition is removed, and is confused for 1 round.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Litany of Vengeance</name>
+						<outputname>Litany of Vengeance</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 swift action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>1 round</duration>
+						<effect>Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</effect>
+						<target>one creature</target>
+						<saveinfo>no</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor>Language-Dependent</descriptor>
+							<fullschool>Transmutation [Language-Dependent]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Combat, p.235</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html#_litany-of-vengeance</sourcelink>
+							<sourcepage>p.235</sourcepage>
+							<sourceshort>UC</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Magic Siege Engine (Greater)</name>
+						<outputname>Magic Siege Engine (Greater)</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, M/DF (black powder)</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 hours</duration>
+						<effect>Siege engine gains +2 on targeting and damage rolls.</effect>
+						<target>one siege engine touched</target>
+						<saveinfo>Will negates (harmless, object)</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Transmutation</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Combat, p.236</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/magicSiegeEngine.html#_magic-siege-engine,-greater</sourcelink>
+							<sourcepage>p.236</sourcepage>
+							<sourceshort>UC</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless, object)</spell_resistance>
+						<description>Siege engine gains +(min(5,floor(CASTERLEVEL/4))) on targeting and damage rolls.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Mark of Justice</name>
+						<outputname>Mark of Justice</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>10 minutes</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>Permanent; see text</duration>
+						<effect>You mark a subject and state some behavior on the part of the subject that will activate the mark.</effect>
+						<target>Creature touched</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Necromancy</school>
+							<subschool></subschool>
+							<descriptor>Curse</descriptor>
+							<fullschool>Necromancy [Curse]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.312</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/markOfJustice.html#_mark-of-justice</sourcelink>
+							<sourcepage>p.312</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>You mark a subject and state some behavior on the part of the subject that will activate the mark.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Neutralize Poison</name>
+						<outputname>Neutralize Poison</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, M/DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous or 100 minutes; see text</duration>
+						<effect>You detoxify any sort of venom in the creature or object touched.</effect>
+						<target>Creature or object of up to 10 cu. ft. touched</target>
+						<saveinfo>Will negates (harmless, object)</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Healing)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.316</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/neutralizePoison.html#_neutralize-poison</sourcelink>
+							<sourcepage>p.316</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless, object)</spell_resistance>
+						<description>You detoxify any sort of venom in the creature or object touched.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Oath of Peace</name>
+						<outputname>Oath of Peace</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Personal</range>
+						<components>V, S</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>10 rounds</duration>
+						<effect>Grants +5 AC and DR 10/evil, can&#39;t attack.</effect>
+						<target>You</target>
+						<saveinfo></saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Abjuration</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.234</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/oathOfPeace.html#_oath-of-peace</sourcelink>
+							<sourcepage>p.234</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance></spell_resistance>
+						<description>Grants +5 AC and DR 10/evil, can&#39;t attack.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Raise Animal Companion</name>
+						<outputname>Raise Animal Companion</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, M (1,000 gp diamond)</components>
+						<castingtime>1 minute</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous</duration>
+						<effect>As raise dead, but on an animal.</effect>
+						<target>Dead animal companion or bonded mount</target>
+						<saveinfo>None, see text</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Healing)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Magic, p.233</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/raiseAnimalCompanion.html#_raise-animal-companion</sourcelink>
+							<sourcepage>p.233</sourcepage>
+							<sourceshort>UM</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>As raise dead, but on an animal.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Reprobation</name>
+						<outputname>Reprobation</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Close (50 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 minute</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>Permanent</duration>
+						<effect>Marked target is shunned by your religion.</effect>
+						<target>One creature of your faith</target>
+						<saveinfo>None</saveinfo>
+						<school>
+							<school>Transmutation</school>
+							<subschool></subschool>
+							<descriptor>Curse</descriptor>
+							<fullschool>Transmutation [Curse]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Magic, p.234</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/reprobation.html#_reprobation</sourcelink>
+							<sourcepage>p.234</sourcepage>
+							<sourceshort>UM</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>Marked target is shunned by your religion.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Restoration</name>
+						<outputname>Restoration</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, M</components>
+						<castingtime>3 rounds</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>Instantaneous</duration>
+						<effect>This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level.</effect>
+						<target>Creature touched</target>
+						<saveinfo>Will negates (harmless)</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Healing)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Core Rulebook, p.334</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/spells/restoration.html#_restoration</sourcelink>
+							<sourcepage>p.334</sourcepage>
+							<sourceshort>CR</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Sacrificial Oath</name>
+						<outputname>Sacrificial Oath</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Touch</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 minutes</duration>
+						<effect>Take damage for an ally for many rounds.</effect>
+						<target>creature touched</target>
+						<saveinfo>Fortitude negates (harmless)</saveinfo>
+						<school>
+							<school>Abjuration</school>
+							<subschool></subschool>
+							<descriptor></descriptor>
+							<fullschool>Abjuration</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.240</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/sacrificialOath.html#_sacrificial-oath</sourcelink>
+							<sourcepage>p.240</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>Take damage for an ally for many rounds.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Shield of the Dawnflower</name>
+						<outputname>Shield of the Dawnflower</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Personal</range>
+						<components>V, S, DF</components>
+						<castingtime>1 standard action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc></dc>
+						<duration>10 rounds</duration>
+						<effect>Create disk of sunlight on one arm that provides illumination as a torch. Melee attackers suffer 1d6 + 10 points of fire damage on striking you.</effect>
+						<target>You</target>
+						<saveinfo></saveinfo>
+						<school>
+							<school>Evocation</school>
+							<subschool></subschool>
+							<descriptor>Fire, Good, Light</descriptor>
+							<fullschool>Evocation [Fire, Good, Light]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Inner Sea World Guide, p.296</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink></sourcelink>
+							<sourcepage>p.296</sourcepage>
+							<sourceshort>ISWG</sourceshort>
+						</source>
+						<spell_resistance></spell_resistance>
+						<description>Create disk of sunlight on one arm that provides illumination as a torch. Melee attackers suffer 1d6 + (min(CASTERLEVEL,15)) points of fire damage on striking you.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Stay the Hand</name>
+						<outputname>Stay the Hand</outputname>
+						<times_memorized>1</times_memorized>
+						<range>Medium (200 ft.)</range>
+						<components>V, S, DF</components>
+						<castingtime>1 immediate action</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>10 rounds and special; see text</duration>
+						<effect>Subject cannot attack with melee weapon.</effect>
+						<target>one creature</target>
+						<saveinfo>Will partial</saveinfo>
+						<school>
+							<school>Enchantment</school>
+							<subschool>Compulsion</subschool>
+							<descriptor>Mind-Affecting</descriptor>
+							<fullschool>Enchantment (Compulsion) [Mind-Affecting]</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Advanced Player&#39;s Guide, p.246</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/advanced/spells/stayTheHand.html#_stay-the-hand</sourcelink>
+							<sourcepage>p.246</sourcepage>
+							<sourceshort>APG</sourceshort>
+						</source>
+						<spell_resistance>Yes</spell_resistance>
+						<description>Subject cannot attack with melee weapon.</description>
+						<bonusspell></bonusspell>
+				</spell>
+				<spell>
+						<name>Symbol of Healing</name>
+						<outputname>Symbol of Healing</outputname>
+						<times_memorized>1</times_memorized>
+						<range>0 ft.; see text</range>
+						<components>V, S, M (500 gp powdered diamond and opal)</components>
+						<castingtime>10 minutes</castingtime>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
+						<dc>18</dc>
+						<duration>See text</duration>
+						<effect>Triggered rune heals living creatures.</effect>
+						<target>One symbol</target>
+						<saveinfo>Will half (harmless)</saveinfo>
+						<school>
+							<school>Conjuration</school>
+							<subschool>Healing</subschool>
+							<descriptor></descriptor>
+							<fullschool>Conjuration (Healing)</fullschool>
+						</school>
+						<source>
+							<source>Paizo Inc. - Ultimate Magic, p.241</source>
+							<sourcelevel>Pld4</sourcelevel>
+							<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateMagic/spells/symbolOfHealing.html#_symbol-of-healing</sourcelink>
+							<sourcepage>p.241</sourcepage>
+							<sourceshort>UM</sourceshort>
+						</source>
+						<spell_resistance>Yes (harmless)</spell_resistance>
+						<description>Triggered rune heals living creatures.</description>
+						<bonusspell></bonusspell>
+				</spell>
 				<spell>
 						<name>Halt Undead</name>
 						<outputname>Halt Undead</outputname>
 						<times_memorized>1</times_memorized>
-						<range>Medium (190 ft.)</range>
+						<range>Medium (200 ft.)</range>
 						<components>V, S, M</components>
 						<castingtime>1 standard action</castingtime>
-						<casterlevel>9</casterlevel>
-						<concentration>+13</concentration>
+						<casterlevel>10</casterlevel>
+						<concentration>+14</concentration>
 						<dc>18</dc>
-						<duration>9 rounds</duration>
+						<duration>10 rounds</duration>
 						<effect>This spell renders as many as three undead creatures immobile.</effect>
 						<target>Up to three undead creatures, no two of which can be more than 30 ft. apart</target>
 						<saveinfo>Will negates (see text)</saveinfo>
@@ -6167,7 +7224,7 @@
 			<!-- FOR,0,COUNT[SPELLSINBOOK0.2.0],COUNT[SPELLSINBOOK0.2.0],1,1 -->
 			<!-- Either we do not have a innate race, or if we do we do not have any 0 level spell for the innate race -->
 			<spellbook number="2" name="Class">
-			<class number="0" spelllistclass="Paladin" spellcasterlevel="12" spellcastertype="Divine" memorize="true">
+			<class number="0" spelllistclass="Paladin" spellcasterlevel="13" spellcastertype="Divine" memorize="true">
 				<level number="0" spellcount="0"/>
 				<level number="1" spellcount="0"/>
 				<level number="2" spellcount="0"/>
@@ -6184,7 +7241,7 @@
 			<!-- FOR,0,COUNT[SPELLSINBOOK0.3.0],COUNT[SPELLSINBOOK0.3.0],1,1 -->
 			<!-- Either we do not have a innate race, or if we do we do not have any 0 level spell for the innate race -->
 			<spellbook number="3" name="Alone">
-			<class number="0" spelllistclass="Paladin" spellcasterlevel="12" spellcastertype="Divine" memorize="true">
+			<class number="0" spelllistclass="Paladin" spellcasterlevel="13" spellcastertype="Divine" memorize="true">
 				<level number="0" spellcount="0"/>
 				<level number="1" spellcount="2">
 					<spell>
@@ -6195,8 +7252,8 @@
 							<components>V</components>
 							<castingtime>1 swift action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc></dc>
 							<duration>see text</duration>
 							<effect>Movement doesn&#39;t provoke attacks of opportunity.</effect>
@@ -6222,13 +7279,13 @@
 					<spell>
 							<name>Hero&#39;s Defiance</name>
 							<outputname>Hero&#39;s Defiance</outputname>
-							<times_memorized>1</times_memorized>
+							<times_memorized>2</times_memorized>
 							<range>Personal</range>
 							<components>V</components>
 							<castingtime>1 immediate action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc></dc>
 							<duration>Instantaneous</duration>
 							<effect>Allows the use of lay on hands while falling unconscious.</effect>
@@ -6261,8 +7318,8 @@
 							<components>V, S, DF</components>
 							<castingtime>1 standard action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc>16</dc>
 							<duration>10/minutes per level</duration>
 							<effect>Increases strength of a paladin&#39;s aura of courage.</effect>
@@ -6289,12 +7346,12 @@
 							<name>Litany of Righteousness</name>
 							<outputname>Litany of Righteousness</outputname>
 							<times_memorized>1</times_memorized>
-							<range>Close (45 ft.)</range>
+							<range>Close (50 ft.)</range>
 							<components>V, S, DF</components>
 							<castingtime>1 swift action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc>16</dc>
 							<duration>1 round</duration>
 							<effect>A single evil creature takes more damage from creatures with a good aura.</effect>
@@ -6321,12 +7378,12 @@
 							<name>Paladin&#39;s Sacrifice</name>
 							<outputname>Paladin&#39;s Sacrifice</outputname>
 							<times_memorized>1</times_memorized>
-							<range>Close (45 ft.)</range>
+							<range>Close (50 ft.)</range>
 							<components>V, DF</components>
 							<castingtime>1 immediate action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc>16</dc>
 							<duration>Instantaneous</duration>
 							<effect>Take the damage and effects for another creature.</effect>
@@ -6355,12 +7412,12 @@
 							<name>Litany of Escape</name>
 							<outputname>Litany of Escape</outputname>
 							<times_memorized>1</times_memorized>
-							<range>Close (45 ft.)</range>
+							<range>Close (50 ft.)</range>
 							<components>V, S, DF</components>
 							<castingtime>1 swift action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc>17</dc>
 							<duration>instantaneous</duration>
 							<effect>Teleports a friend out of a grapple.</effect>
@@ -6391,8 +7448,8 @@
 							<components>V, S, DF</components>
 							<castingtime>1 swift action</castingtime>
 							<times_unit>null</times_unit>
-							<casterlevel>9</casterlevel>
-							<concentration>+13</concentration>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
 							<dc>17</dc>
 							<duration>1 round</duration>
 							<effect>You can see invisible creatures and objects within 30 feet of you.</effect>
@@ -6416,7 +7473,40 @@
 							<bonusspell></bonusspell>
 						</spell>
 				</level>
-				<level number="4" spellcount="0"/>
+				<level number="4" spellcount="1">
+					<spell>
+							<name>Litany of Vengeance</name>
+							<outputname>Litany of Vengeance</outputname>
+							<times_memorized>1</times_memorized>
+							<range>Close (50 ft.)</range>
+							<components>V, S, DF</components>
+							<castingtime>1 swift action</castingtime>
+							<times_unit>null</times_unit>
+							<casterlevel>10</casterlevel>
+							<concentration>+14</concentration>
+							<dc>18</dc>
+							<duration>1 round</duration>
+							<effect>Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</effect>
+							<target>one creature</target>
+							<saveinfo>no</saveinfo>
+							<school>
+								<school>Transmutation</school>
+								<subschool></subschool>
+								<descriptor>Language-Dependent</descriptor>
+								<fullschool>Transmutation [Language-Dependent]</fullschool>
+							</school>
+							<source>
+								<source>Paizo Inc. - Ultimate Combat, p.235</source>
+								<sourcelevel>Pld4</sourcelevel>
+								<sourcelink>http://paizo.com/pathfinderRPG/prd/ultimateCombat/spells/litanyOfVengeance.html#_litany-of-vengeance</sourcelink>
+								<sourcepage>p.235</sourcepage>
+								<sourceshort>UC</sourceshort>
+							</source>
+							<spell_resistance>Yes</spell_resistance>
+							<description>Allies attacking the target of the spell gain a +5 bonus on damage rolls for 1 round.</description>
+							<bonusspell></bonusspell>
+						</spell>
+				</level>
 			</class>
 			<class number="1" spelllistclass="" spellcasterlevel="" spellcastertype="" memorize="">
 				<level number="0" spellcount="0"/>
