@@ -70,6 +70,7 @@ EXPERIENCETABLE:Medium
 TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
 TEMPLATESAPPLIED:[NAME:FACE_5]
 TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
 
 # Character Region
 REGION:None
@@ -119,26 +120,26 @@ SKILL:Sense Motive|OUTPUTORDER:44|
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:47|
-SKILL:Sleight of Hand|CLASSBOUGHT:[CLASS:Alchemist|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sleight of Hand|OUTPUTORDER:49|CLASSBOUGHT:[CLASS:Alchemist|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Spellcraft|OUTPUTORDER:50|CLASSBOUGHT:[CLASS:Alchemist|RANKS:1.0|COST:1|CLASSSKILL:Y]
-SKILL:Stealth|OUTPUTORDER:51|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:52|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:53|
-SKILL:Stealth (Jungle)|OUTPUTORDER:54|
-SKILL:Survival|OUTPUTORDER:55|
-SKILL:Swim|OUTPUTORDER:56|
-SKILL:Untrained Charisma|OUTPUTORDER:57|
-SKILL:Untrained Dexterity|OUTPUTORDER:58|
-SKILL:Untrained Intelligence|OUTPUTORDER:59|
-SKILL:Untrained Strength|OUTPUTORDER:60|
-SKILL:Untrained Wisdom|OUTPUTORDER:61|
+SKILL:Stealth|OUTPUTORDER:52|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:53|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:54|
+SKILL:Stealth (Jungle)|OUTPUTORDER:55|
+SKILL:Survival|OUTPUTORDER:56|
+SKILL:Swim|OUTPUTORDER:57|
+SKILL:Untrained Charisma|OUTPUTORDER:58|
+SKILL:Untrained Dexterity|OUTPUTORDER:59|
+SKILL:Untrained Intelligence|OUTPUTORDER:60|
+SKILL:Untrained Strength|OUTPUTORDER:61|
+SKILL:Untrained Wisdom|OUTPUTORDER:62|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:48|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:49|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
-SKILL:Use Magic Device|OUTPUTORDER:63|CLASSBOUGHT:[CLASS:Alchemist|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:63|
+SKILL:Use Magic Device|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Alchemist|RANKS:1.0|COST:1|CLASSSKILL:Y]
 
 # Character Languages
 LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elven|LANGUAGE:Infernal|LANGUAGE:Orc
@@ -147,6 +148,12 @@ LANGUAGE:Abyssal|LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Dwarven|LANGUAGE:Elv
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven,Draconic,Abyssal,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven,Draconic,Abyssal,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven,Draconic,Abyssal,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven,Draconic,Abyssal,Dwarven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Orc,Elven,Draconic,Abyssal,Dwarven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Alchemist Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Alchemist Archetype ~ Grenadier|TYPE:Archetype.AlchemistArchetype.AlchemistBrewPotion.AlchemistPoisonResistance.AlchemistPoisonUse.AlchemistSwiftPoison.AlchemistPoisonImmunity|DESC:Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon attacks with their alchemical magic, and sacrifice skill with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills. As an unusual side effect of their skill at handling bombs and alchemical items with increased speed, grenadiers master the ability to drink potions, elixirs, and mutagens quickly and safely, without exposing themselves to peril while doing so.
 USERPOOL:Alchemist Archetype|POOLPOINTS:0.0
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Bombs|APPLIEDTO:|TYPE:General|DESC:You can throw more bombs per day.
@@ -176,11 +183,21 @@ WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spe
 WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
 
 # Character Equipment
-MONEY:900.00
+MONEY:80.00
+EQUIPNAME:Alchemist's Fire (Flask)|OUTPUTORDER:6|COST:20|WT:1.0|QUANTITY:2.0|NOTE:
 EQUIPNAME:Bomb|OUTPUTORDER:0|COST:0|WT:0.0|QUANTITY:1.0|NOTE:
-EQUIPNAME:Formula Book|OUTPUTORDER:0|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Formula Book|DATA:NAME=Formula Book]
-EQUIPNAME:Outfit (Scholar's)|OUTPUTORDER:0|COST:0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Scholar's)|DATA:COSTMOD=-5]
+EQUIPNAME:Formula Book|OUTPUTORDER:7|COST:15|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Formula Book|DATA:NAME=Formula Book]
+EQUIPNAME:Masterwork Buckler|OUTPUTORDER:4|COST:155.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Masterwork Buckler$EQMOD=STEEL.MWORKA]
+EQUIPNAME:Masterwork Chain Shirt|OUTPUTORDER:2|COST:250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Masterwork Chain Shirt$EQMOD=STEEL.MWORKA]
+EQUIPNAME:Masterwork Longbow|OUTPUTORDER:1|COST:375.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow|DATA:NAME=Masterwork Longbow$EQMOD=WOOD.MWORKW]
+EQUIPNAME:Outfit (Scholar's)|OUTPUTORDER:3|COST:0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Scholar's)|DATA:NAME=Outfit (Scholar's)$COSTMOD=-5]
 EQUIPSET:Configuração Padrão|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.02|VALUE:Masterwork Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Scholar's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.04|VALUE:Masterwork Buckler|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.05|VALUE:Masterwork Longbow|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Bomb|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Alchemist's Fire (Flask)|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.1|VALUE:Formula Book|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
@@ -193,6 +210,17 @@ DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors S
 
 # Character Spells Information
 SPELLBOOK:Formula Book|TYPE:3
+SPELLBOOK:Padrão|TYPE:2
+SPELLNAME:Bomber's Eye|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Crafter's Fortune|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Alchemist|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Enlarge Person|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Shield|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Shield|TIMES:1|CLASS:Alchemist|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Targeted Bomb Admixture|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:Targeted Bomb Admixture|TIMES:1|CLASS:Alchemist|BOOK:Padrão|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
+SPELLNAME:True Strike|TIMES:1|CLASS:Alchemist|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Alchemist]
 
 # Character Description/Bio/History
 CHARACTERBIO:
