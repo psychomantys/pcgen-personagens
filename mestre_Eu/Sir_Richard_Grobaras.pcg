@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Faiths of Purity|CAMPAIGN:Faiths of Corruption|CAMPAIGN:Faiths of Balance|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Rise of the Runelords Adventure Path|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Book of the Faithful
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Homebrew|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:My Pathfinder Campaign
 VERSION:6.04.01
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
@@ -59,11 +59,12 @@ ALIGN:NG
 RACE:Human
 
 # Character Class(es)
-CLASS:Fighter|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Fighter|LEVEL:2|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:0
+EXPERIENCE:2000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -77,7 +78,7 @@ TEMPLATESAPPLIED:[NAME:Human Ethnicity (Varisian)]
 REGION:None
 
 # Character Skills
-SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
 SKILL:Appraise|OUTPUTORDER:3|
 SKILL:Bluff|OUTPUTORDER:4|
@@ -89,14 +90,14 @@ SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
 SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
 SKILL:Climb|OUTPUTORDER:11|
 SKILL:Craft (Untrained)|OUTPUTORDER:12|
-SKILL:Diplomacy|OUTPUTORDER:13|
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
 SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
 SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
 SKILL:Disguise|OUTPUTORDER:19|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
-SKILL:Escape Artist|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Escape Artist|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:N]
 SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:22|
 SKILL:Fly|OUTPUTORDER:23|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
@@ -108,34 +109,30 @@ SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
 SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
-SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Perception (Dim Light)|OUTPUTORDER:36|
-SKILL:Perform (Dance)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
-SKILL:Perform (Untrained)|OUTPUTORDER:38|
-SKILL:Profession (Untrained)|OUTPUTORDER:39|
-SKILL:Ride|OUTPUTORDER:40|
-SKILL:Samurai Mount|OUTPUTORDER:41|
-SKILL:Sense Motive|OUTPUTORDER:42|
-SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
-SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
-SKILL:Sense Motive (Resist feint)|OUTPUTORDER:45|
-SKILL:Stealth|OUTPUTORDER:48|
-SKILL:Stealth (Cane Fields)|OUTPUTORDER:49|
-SKILL:Stealth (Dim Light)|OUTPUTORDER:50|
-SKILL:Stealth (Jungle)|OUTPUTORDER:51|
-SKILL:Survival|OUTPUTORDER:52|
-SKILL:Swim|OUTPUTORDER:53|
-SKILL:Untrained Charisma|OUTPUTORDER:54|
-SKILL:Untrained Dexterity|OUTPUTORDER:55|
-SKILL:Untrained Intelligence|OUTPUTORDER:56|
-SKILL:Untrained Strength|OUTPUTORDER:57|
-SKILL:Untrained Wisdom|OUTPUTORDER:58|
+SKILL:Perception|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Dance)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Fighter|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:37|
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:44|
+SKILL:Stealth|OUTPUTORDER:47|
+SKILL:Survival|OUTPUTORDER:48|
+SKILL:Swim|OUTPUTORDER:49|
+SKILL:Untrained Charisma|OUTPUTORDER:50|
+SKILL:Untrained Dexterity|OUTPUTORDER:51|
+SKILL:Untrained Intelligence|OUTPUTORDER:52|
+SKILL:Untrained Strength|OUTPUTORDER:53|
+SKILL:Untrained Wisdom|OUTPUTORDER:54|
 SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
 SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
 SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
-SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:46|
-SKILL:Untrained ~ Spellcraft|OUTPUTORDER:47|
-SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:45|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:46|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Varisian
@@ -149,16 +146,18 @@ USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
 USERPOOL:Ability Bonus|POOLPOINTS:0.0
 ABILITY:Bonus CMD Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD Disarm|APPLIEDTO:|TYPE:FighterBonusCMDChoice
-ABILITY:Bonus CMD Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD Sunder|APPLIEDTO:|TYPE:FighterBonusCMDChoice
+ABILITY:Bonus CMD Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD Grapple|APPLIEDTO:|TYPE:FighterBonusCMDChoice
+ABILITY:Bonus CMD Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD Sunder|APPLIEDTO:,|TYPE:FighterBonusCMDChoice
 USERPOOL:Bonus CMD Choice|POOLPOINTS:0.0
-ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.KoboldBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longsword|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fighter|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
-ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD|APPLIEDTO:|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassFighter|DESC:Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ CMD|APPLIEDTO:,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassFighter|DESC:Add +1 to the fighter's CMD when resisting two combat maneuvers of the character's choice.
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Slashing Grace|APPLIEDTO:Longsword|TYPE:Combat|DESC:You can stab your enemies with your sword or another slashing weapon.
 USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
 ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Varisian|TYPE:HumanEthnicity
 USERPOOL:Human Ethnicity|POOLPOINTS:0.0
@@ -169,33 +168,31 @@ ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Rich Parents|TYP
 USERPOOL:Traits|POOLPOINTS:0.0
 
 # Character Weapon proficiencies
-WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Boarding)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet]
-WEAPONPROF:[WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Boarding Pike|WEAPON:Brass Knife|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails]
-WEAPONPROF:[WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart]
-WEAPONPROF:[WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius]
-WEAPONPROF:[WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)]
-WEAPONPROF:[WEAPON:Handaxe|WEAPON:Hook Hand|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit]
-WEAPONPROF:[WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
-WEAPONPROF:[WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum]
-WEAPONPROF:[WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
-WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
-WEAPONPROF:[WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)]
-WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)]
-WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
+WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake]
+WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
 
 # Character Equipment
-MONEY:21.00
+MONEY:26.00
 EQUIPNAME:Buckler|OUTPUTORDER:1|COST:5.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler$EQMOD=STEEL]
-EQUIPNAME:Dagger|OUTPUTORDER:5|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:EQMOD=STEEL]
+EQUIPNAME:Dagger|OUTPUTORDER:5|COST:2.0|WT:1.0|QUANTITY:2.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger$EQMOD=STEEL]
 EQUIPNAME:Masterwork Agile Breastplate|OUTPUTORDER:3|COST:550.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Masterwork Agile Breastplate$EQMOD=STEEL.MWORKA]
-EQUIPNAME:Masterwork Rapier|OUTPUTORDER:2|COST:320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Masterwork Rapier$EQMOD=STEEL.MWORKW]
+EQUIPNAME:Masterwork Longsword|OUTPUTORDER:0|COST:315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Masterwork Longsword$EQMOD=STEEL.MWORKW]
 EQUIPNAME:Uniform (Soldier's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Uniform (Soldier's)|DATA:NAME=Uniform (Soldier's)$COSTMOD=-1]
 EQUIPSET:Configuração Padrão|ID:0.1|USETEMPMODS:Y
 EQUIPSET:Secondary Hand|ID:0.1.02|VALUE:Buckler|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Carried|ID:0.1.03|VALUE:Dagger|QUANTITY:2.0|USETEMPMODS:Y
 EQUIPSET:Armor|ID:0.1.04|VALUE:Masterwork Agile Breastplate|QUANTITY:1.0|USETEMPMODS:Y
 EQUIPSET:Torso|ID:0.1.05|VALUE:Uniform (Soldier's)|QUANTITY:1.0|USETEMPMODS:Y
-EQUIPSET:Primary Hand|ID:0.1.06|VALUE:Masterwork Rapier|QUANTITY:1.0|USETEMPMODS:Y
 CALCEQUIPSET:0.1
 
 # Temporary Bonuses
