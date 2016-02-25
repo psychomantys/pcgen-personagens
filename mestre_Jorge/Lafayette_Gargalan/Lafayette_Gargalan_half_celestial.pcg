@@ -1,0 +1,291 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)
+VERSION:6.04.01
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm
+POOLPOINTS:0
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Lafayette Gargalan
+TABNAME:
+PLAYERNAME:Baltazar Tavares Vanderlei
+HEIGHT:70
+WEIGHT:180
+AGE:19
+GENDER:Male
+HANDED:Left
+SKINCOLOR:Branco um pouco cinza
+EYECOLOR:Verdes
+HAIRCOLOR:Preto
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:/home/psycho/FAI17_Charming.png
+PORTRAITTHUMBNAILRECT:117,145,100,100
+
+# Character Attributes
+STAT:STR|SCORE:13
+STAT:DEX|SCORE:19
+STAT:CON|SCORE:15
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:14
+ALIGN:TN
+RACE:Human
+
+# Character Class(es)
+CLASS:Bard|LEVEL:6|SKILLPOOL:7|SPELLBASE:CHA|CANCASTPERDAY:0,4,3
+CLASS:Fighter|LEVEL:2|SKILLPOOL:-1|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Bard=1|HITPOINTS:8|PRESTAT:WIS=0|PRESTAT:DEX=0|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=1|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Fighter=2|HITPOINTS:8|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=2|HITPOINTS:7|PRESTAT:DEX=1|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=3|HITPOINTS:7|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=4|HITPOINTS:6|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=5|HITPOINTS:7|SKILLSGAINED:9|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Bard=6|HITPOINTS:6|PRESTAT:DEX=1|PRESTAT:STR=1|PRESTAT:DEX=2|PRESTAT:CON=0|PRESTAT:INT=-2|PRESTAT:WIS=-4|PRESTAT:CHA=0|SKILLSGAINED:9|SKILLSREMAINING:8
+
+# Character Experience
+EXPERIENCE:51000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Masterpiece Activation]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
+TEMPLATESAPPLIED:[NAME:Half-Celestial]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Bard|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Fool someone)|OUTPUTORDER:5|
+SKILL:Bluff (Pass messages)|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Craft (Weapons)|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Bard|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:18|
+SKILL:Disguise|OUTPUTORDER:20|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:21|
+SKILL:Escape Artist|OUTPUTORDER:22|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:23|
+SKILL:Fly|OUTPUTORDER:24|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:25|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:27|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:28|
+SKILL:Heal|OUTPUTORDER:29|
+SKILL:Intimidate|OUTPUTORDER:30|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Untrained)|OUTPUTORDER:34|
+SKILL:Perception|OUTPUTORDER:36|
+SKILL:Perform (Act)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Dance)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Oratory)|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Percussion Instruments)|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Sing)|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:49|
+SKILL:Spellcraft|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Bard|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Bard|RANKS:6.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Fighter|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:54|
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:19|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:26|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:35|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:62|
+SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Bard|RANKS:8.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Read Lips
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Read Lips,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Read Lips,Celestial|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Read Lips,Celestial|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Bard Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Bard Archetype ~ Dawnflower Dervish|TYPE:Archetype.BardArchetype.BardWeaponProficiencies.BardBardicKnowledge.BardLoreMaster|DESC:Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh. Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics who use a spinning dance as part of their worship. Many bards of her faith hone their skills with dance and scimitar to become dervish dancers, but some tread a similar path focused more on magic and healing than swordplay. These are the Dawnflower dervishes.
+USERPOOL:Bard Archetype|POOLPOINTS:0.0
+ABILITY:Bard Favored Bonus Spell|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bard Spell Level 1|APPLIEDTO:,,|TYPE:BonusSpellKnownBard
+USERPOOL:Bard Favored Bonus Spell|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Agile Maneuvers|TYPE:Combat.ProteanBloodline|DESC:You learned to use your quickness in place of brute force when performing combat maneuvers.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Butterfly's Sting|TYPE:Critical|DESC:You can forgo a critical hit in order to pass it on to an ally.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Performance|APPLIEDTO:|TYPE:General|DESC:You can use your bardic performance ability more often than normal
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Two-Weapon Fighting|TYPE:Combat|DESC:You are skilled at fighting with two weapons.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Bard|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Bard Spell|APPLIEDTO:,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassBard|DESC:Add one spell known from the bard spell list. This spell must be at least one level below the highest spell level the bard can cast.
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Fighter Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Fighter Archetype ~ Lore Warden|TYPE:Archetype.FighterArchetype.FighterCFBravery.FighterBravery1.FighterArmorTraining1.FighterArmorTraining2.FighterArmorTraining3.FighterArmorTraining4.FighterArmorMastery.FighterMediumArmorProficiency.FighterHeavyArmorProficiency.FighterShieldProficiency.FighterTowerShieldProficiency|DESC:Quick thinking and deception can often carry the day where raw force might not. Lore wardens are the bodyguards, guardians, and soldiers of the Pathfinder Society. Not only are they often called upon to protect and watch over important repositories of lore, but they themselves are impressive keepers of all manner of knowledge. Lore wardens are fighters who benefit from learning to outsmart and outmaneuver their foes rather than just overpower them. Even out of combat, lore wardens have a quick wit and a surprising breadth of knowledge that can often grant them significant advantages over enemies even before a battle begins. Indeed, for many lore wardens, a fight that can be won without a single weapon being drawn is the best kind of victory. A lore warden has the following class features.
+USERPOOL:Fighter Archetype|POOLPOINTS:0.0
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Arcane Strike|TYPE:Combat.DestinedBloodline.BorealBloodline|DESC:As a swift action, you can imbue your weapons with a fraction of your power. For 1 round, you gain a +%1 damage bonus and your weapons are treated as magic for the purpose of overcoming damage reduction.&pipe;ArcaneStrikeDamageBonus
+ABILITY:Fighter Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Two-Weapon Fighting|TYPE:Combat|DESC:You can fight with a weapon in each of your hands. You can make one extra attack each round with the secondary weapon.
+USERPOOL:Fighter Bonus Feat|POOLPOINTS:0.0
+ABILITY:Half-Celestial Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Template ~ +2 Charisma|TYPE:TemplateAbilityBonus
+ABILITY:Half-Celestial Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Template ~ +2 Constitution|TYPE:TemplateAbilityBonus
+ABILITY:Half-Celestial Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Template ~ +2 Dexterity|TYPE:TemplateAbilityBonus
+USERPOOL:Half-Celestial Ability Bonus|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Intelligence-Based Skill|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Skills ~ Int Based|APPLIEDTO:Craft (Weapons),Spellcraft,Craft (Weapons),Spellcraft|TYPE:IntBaseSkill
+USERPOOL:Intelligence-Based Skill|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Magical Knack|APPLIEDTO:Bard|TYPE:Trait.BasicTrait.MagicTrait|DESC:You were raised, either wholly or in part, by a magical creature, either after it found you abandoned in the woods or because your parents often left you in the care of a magical minion. This constant exposure to magic has made its mysteries easy for you to understand, even when you turn your mind to other devotions and tasks. Your caster level in %1 gains a +2 trait bonus as long as this bonus doesn't raise your caster level above your current Hit Dice.&pipe;%LIST
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Act|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Act) skill in place of your bonus in the Bluff or Disguise skills. When substituting in this way, you use your total Perform (Act) skill bonus, including class skill bonus, in place of your Bluff or Disguise skill bonus, whether or not you have ranks in that skill or if it is a class skill.
+ABILITY:Versatile Performance|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Versatile Performance ~ Oratory|TYPE:BardClassFeatures.SpecialQuality.Extraordinary.VersatilePerformance|DESC:You can use your bonus in the Perform (Oratory) skill in place of your bonus in the Diplomacy or Sense Motive skills. When substituting in this way, you use your total Perform (Oratory) skill bonus, including class skill bonus, in place of your Diplomacy or Sense Motive skill bonus, whether or not you have ranks in that skill or if it is a class skill.
+USERPOOL:Versatile Performance|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Amentum (Javelin)|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Great Terbutje|WEAPON:Greataxe]
+WEAPONPROF:[WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush]
+WEAPONPROF:[WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
+WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear]
+WEAPONPROF:[WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake]
+WEAPONPROF:[WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:-279899.98999999999068677425384521484375
+EQUIPNAME:Agile Breastplate +5 (Champion/Comfort/Dastard/Etherealness/Expeditious/Moderate Fortification/Glamered/Harmonizing/Jousting/Noqual/Poison-resistant/Energy Resistance (Sonic/Greater)/Improved Shadow/Slick/Armor Spikes)|OUTPUTORDER:0|COST:279900.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Agile Breastplate +5 (Champion/Comfort/Dastard/Etherealness/Expeditious/Moderate Fortification/Glamered/Harmonizing/Jousting/Noqual/Poison-resistant/Energy Resistance (Sonic/Greater)/Improved Shadow/Slick/Armor Spikes)$EQMOD=NOQUAL_ARMR_MED.PLUS5A.SLK.SHDW_IMP.PSN_RST.JSTNG.HRMZG.GLAM.EXPED.ETHERE.DSTRD.COMFORT.CHAMP.SPIKE_A.FRT_MOD.RES_SNC_GRT]
+EQUIPNAME:Chain Shirt|OUTPUTORDER:3|COST:100.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Chain Shirt$EQMOD=STEEL]
+EQUIPNAME:Kukri|OUTPUTORDER:1|COST:8.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri$EQMOD=STEEL]
+EQUIPNAME:Kukri of dawn|OUTPUTORDER:0|COST:217808.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Kukri|DATA:NAME=Kukri of dawn$EQMOD=PLUS5W.TRANSFORM.DUELING.DEFEND.GLMRD_W.MIMETIC.LIVING_ST_WEAP.KEEN.IMPERVIOUS.AGILE$SPROP=(Kukri +5 (Agile/Dueling/Glamered/Impervious/Keen/Living Steel/Mimetic/Transformative/Defending))]
+EQUIPNAME:Outfit (Traveler's)|OUTPUTORDER:4|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Traveler's)|DATA:NAME=Outfit (Traveler's)$COSTMOD=-1]
+EQUIPNAME:Pick (Light)|OUTPUTORDER:2|COST:4.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick (Light)$EQMOD=STEEL]
+EQUIPNAME:Pick of destiny|OUTPUTORDER:0|COST:207804.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pick (Light)|DATA:NAME=Pick of destiny$EQMOD=PLUS5W.AGILE.LIVING_ST_WEAP.IMPERVIOUS.ICY_BRST.SHK_BRST.GLMRD_W$SPROP=(Pick +5 (Light/Agile/Icy Burst/Impervious/Living Steel/Shocking Burst)), (Pick +5 (Light/Agile/Glamered/Icy Burst/Impervious/Living Steel/Shocking Burst))]
+EQUIPNAME:Scimitar|OUTPUTORDER:5|COST:15.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Scimitar|DATA:NAME=Scimitar$EQMOD=STEEL]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Scimitar|ID:0.2|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.2.01|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.2.02|VALUE:Pick (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.2.03|VALUE:Kukri|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.2.04|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.2.05|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:two hands|ID:0.3|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.3.01|VALUE:Kukri|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.3.02|VALUE:Pick (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.3.03|VALUE:Scimitar|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.3.04|VALUE:Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.3.05|VALUE:Outfit (Traveler's)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.3
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Sarenrae|DEITYDOMAINS:[DOMAIN:Fire|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Healing|DOMAIN:Sun|DOMAIN:Agathion Subdomain|DOMAIN:Day Subdomain|DOMAIN:Heroism Subdomain|DOMAIN:Light Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain]|ALIGNALLOW:|DESC:Goddess of the sun, redemption, honesty, healing|HOLYITEM:|DEITYFAVWEAP:[WEAPON:Scimitar]|DEITYALIGN:NG
+
+# Character Spells Information
+SPELLNAME:Abstemiousness|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Acute Senses|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Allegro|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Cure Light Wounds|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Darkness|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Disguise Self|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Know Direction|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Masterpiece (Dance of 23 Steps)|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Mending|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Message|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Saving Finale|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Summon Instrument|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Toilsome Chant|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Vanish|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+SPELLNAME:Windy Escape|TIMES:1|CLASS:Bard|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Bard]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:Raça&colon;&nl;http&colon;//www.d20pfsrd.com/races/other-races/featured-races/arg-fetchling&nl;&nl;Dados de vida&colon;&nl;8 8 8 7 7 6,5 6,5 6,5&nl;&nl;Pontos gastos&colon;&nl;&nl;STR&colon; 13&nl;CHA&colon; 14&nl;CON&colon; 15&nl;&nl;15 points&colon;&nl;&nl;WIS&colon; 10&nl;INT&colon; 12&nl;DEX&colon; 17&nl;&nl;&nl;
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+NOTE:Coisas a adiquirir|ID:1|PARENTID:-1|VALUE:Proximos talentos possiveis&colon;&nl;* Greater Two weapon fighting&nl;&nl;* Extra performance&nl;* Master Performance&nl;* Grand Master Performance&nl;&nl;* Piranha strike&nl;* Discordant Voice&nl;&nl;&nl;???&colon;&nl;* Double Slice&nl;* Improved Critical&nl;&nl;&nl;Master Performer&colon; &nl;When using your bardic performance abilities, you grant your allies greater bonuses. &nl;Prerequisites&colon; Bardic performance class feature, Extra Performance, Kitharodian Academy 15 TPA. &nl;Benefit&colon; When any of your bardic performance abilities grant your allies a bonus, that bonus is increased by +1.&nl;&nl;&nl;Grand Master Performer&colon; &nl;You grant your allies even greater bonuses when using your bardic performance abilities. &nl;Prerequisites&colon; Bardic performance class feature, Extra Performance, Master Performer, bard level 8th, Kitharodian Academy 20 TPA. &nl;Benefit&colon; When any of your bardic performance abilities grant your allies a bonus, that bonus increases by +1. This bonus stacks with the bonus from the Master Performer feat.&nl;&nl;&nl;Master piece&colon;&nl;&nl;*The Dance of 23 Steps (Dance)&colon;&nl;Prerequisite&colon; Perform (dance) 4 ranks.&nl;Cost&colon; Feat or 2nd-level bard spell known.&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/the-dance-of-23-steps-dance&nl;&nl;*The House of the Imaginary Walls (Act)&nl;Prerequisite&colon; Perform (act) 10 ranks.&nl;Cost&colon; Feat or 4th-level bard spell known.&nl;Massa, mas não quero comprar por motivos de&colon; Escroto demais &colon;p&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/the-house-of-the-imaginary-walls-act&nl;&nl;*Legato Piece on the Infernal Bargain (String)&nl;Prerequisite&colon; Perform (string) 11 ranks.&nl;Cost&colon; Feat or 4th-level bard spell known.&nl;http&colon;//www.d20pfsrd.com/classes/core-classes/bard/bardic-masterpieces/masterpieces/legato-piece-on-the-infernal-bargain-string&nl;&nl;&nl;Spells&colon;&nl;3th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/exquisiteAccompaniment.html#exquisite-accompaniment&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/glibness.html#glibness&nl;4th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/virtuosoPerformance.html#virtuoso-performance&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/shadowConjuration.html#shadow-conjuration&nl;5th&colon;&nl;http&colon;//paizo.com/pathfinderRPG/prd/spells/shadowEvocation.html#shadow-evocation&nl;http&colon;//paizo.com/pathfinderRPG/prd/advanced/spells/bardSEscape.html#bard's-escape&nl;http&colon;//paizo.com/pathfinderRPG/prd/ultimateMagic/spells/shadowbard.html#shadowbard&nl;
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

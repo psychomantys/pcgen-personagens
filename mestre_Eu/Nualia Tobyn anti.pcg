@@ -1,0 +1,253 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Bestiary 3|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Ultimate Magic|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Advanced Options: Inquisitors' Judgments|CAMPAIGN:Blood of Angels|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Faiths of Purity|CAMPAIGN:Mythic Adventures|CAMPAIGN:Mythic Adventures|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Ultimate Campaign|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:Remarkable Races|CAMPAIGN:DSP - Ultimate Psionics|CAMPAIGN:My Pathfinder Campaign
+VERSION:6.07.00-dev
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:25
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Nualia Tobyn
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:110
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:10
+STAT:CON|SCORE:12
+STAT:INT|SCORE:7
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:19
+ALIGN:CE
+RACE:Aasimar
+
+# Character Class(es)
+CLASS:Antipaladin|LEVEL:6|SKILLPOOL:0
+CLASSABILITIESLEVEL:Antipaladin=1|HITPOINTS:10|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Antipaladin=2|HITPOINTS:10|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Antipaladin=3|HITPOINTS:5|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Antipaladin=4|HITPOINTS:9|PRESTAT:CHA=1|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Antipaladin=5|HITPOINTS:10|SKILLSGAINED:1|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Antipaladin=6|HITPOINTS:5|SKILLSGAINED:1|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:23000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:Agathion]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Aasimar ~ Angel-Blooded]
+TEMPLATESAPPLIED:[NAME:Regional Affinity (Varisia)]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
+TEMPLATESAPPLIED:[NAME:Claws 1d6]
+
+# Character Region
+REGION:Varisia
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Fool someone)|OUTPUTORDER:7|
+SKILL:Bluff (Pass messages)|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:10|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:11|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:12|
+SKILL:Climb|OUTPUTORDER:13|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:31|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:42|
+SKILL:Craft (Untrained)|OUTPUTORDER:14|
+SKILL:Diplomacy|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:18|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:19|
+SKILL:Disguise|OUTPUTORDER:21|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:22|
+SKILL:Escape Artist|OUTPUTORDER:23|
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:24|
+SKILL:Fly|OUTPUTORDER:25|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
+SKILL:Heal|OUTPUTORDER:30|
+SKILL:Intimidate|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:33|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
+SKILL:Knowledge (Religion)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Antipaladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
+SKILL:Linguistics|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Antipaladin|RANKS:1.0|COST:1|CLASSSKILL:N]|ASSOCIATEDDATA:Goblin
+SKILL:Perception|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Antipaladin|RANKS:2.0|COST:1|CLASSSKILL:N]
+SKILL:Perform (Untrained)|OUTPUTORDER:41|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:49|
+SKILL:Spellcraft|CLASSBOUGHT:[CLASS:Antipaladin|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:52|
+SKILL:Survival|OUTPUTORDER:53|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:54|
+SKILL:Swim|OUTPUTORDER:55|
+SKILL:Untrained Charisma|OUTPUTORDER:56|
+SKILL:Untrained Dexterity|OUTPUTORDER:57|
+SKILL:Untrained Intelligence|OUTPUTORDER:58|
+SKILL:Untrained Strength|OUTPUTORDER:59|
+SKILL:Untrained Wisdom|OUTPUTORDER:60|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:20|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:51|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:61|
+
+# Character Languages
+LANGUAGE:Celestial|LANGUAGE:Common|LANGUAGE:Goblin
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Aasimar Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Aasimar ~ Variant Ability|TYPE:SpecialQuality.AasimarRacialTrait.AasimarSLA.SpellLike|DESC:Some aasimars are blessed or cursed with unusual abilities.
+USERPOOL:Aasimar Racial Trait|POOLPOINTS:0.0
+ABILITY:Aasimar Subrace|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Aasimar ~ Angel-Blooded|TYPE:AasimarSubrace|DESC:Angel Blooded Aasimars Receive a +2 bonus to Strength and Charisma and a +2 bonus to Heal and Knowledge (planes) checks. They can cast Alter Self as a spell like ability.
+USERPOOL:Aasimar Subrace|POOLPOINTS:0.0
+ABILITY:Aasimar Variant Ability|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Aasimar ~ Racial CHA bonus|TYPE:AasimarVariantAbility.SpecialQuality|DESC:You gain an additional +2 Racial bonus to your Charisma score.
+USERPOOL:Aasimar Variant Ability|POOLPOINTS:0.0
+ABILITY:Cruelty|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cruelty ~ Fatigued|TYPE:AntipaladinClassFeatures.SpecialAttack.Supernatural.Cruelty.LayOnHands|DESC:Whenever you use Touch of Corruption to deal damage to one target, the target is also fatigued.
+ABILITY:Cruelty|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cruelty ~ Sickened|TYPE:AntipaladinClassFeatures.SpecialAttack.Supernatural.Cruelty.LayOnHands|DESC:Whenever you use Touch of Corruption to deal damage to one target, the target is also sickened for %1 rounds.&pipe;CrueltyLVL
+USERPOOL:Cruelty|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Exotic Weapon Proficiency|APPLIEDTO:Sword (Bastard)|TYPE:Combat.BorealBloodline.MarksmanBonus|DESC:You understand how to use your chosen exotic weapon in combat, and can utilize any special tricks or qualities that exotic weapon might allow.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Noble Scion|TYPE:General|DESC:You are a member of a proud noble family, whether or not you remain in good standing with your family. +2 on Knowledge (nobility) plus gain a nobility-related boon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Antipaladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Fiendish Boon|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Fiendish Boon ~ Enhance Weapon|TYPE:AntipaladinClassFeatures.SpecialQuality.FiendishBoon|DESC:Your fiendish boon allows you to enhance your weapon as a standard action by calling upon the aid of a fiendish spirit for %1 minutes. When called, the spirit causes the weapon to shed unholy light as a torch. This spirit grants the weapon a +%2 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or they can be used to add any of the following weapon properties&colon; flaming, keen, vicious (+1), anarchic, flaming burst, unholy, wounding (+2), speed (+3), and vorpal (+5). Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The fiendish spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability %3 times per day. If a weapon bonded with a fiendish spirit is destroyed, you lose the use of this ability for 30 days, or until you gains a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;EnhanceWeaponDuration&pipe;EnhanceWeaponBonus&pipe;FiendishBoonTimes
+USERPOOL:Fiendish Boon|POOLPOINTS:0.0
+ABILITY:Noble Scion Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Scion of War|TYPE:SpecialQuality.NobleScion|DESC:You use your Charisma modifier to adjust Initiative checks instead of your Dexterity modifier.
+USERPOOL:Noble Scion Choice|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Varisia|TYPE:Region|DESC:Wild Frontier Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin|WEAPON:Bill]
+WEAPONPROF:[WEAPON:Blowgun|WEAPON:Blunderbuss|WEAPON:Boar Spear|WEAPON:Bombard (Heavy)|WEAPON:Bombard (Light)|WEAPON:Bombard (Standard)|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Buckler Gun|WEAPON:Butterfly Sword]
+WEAPONPROF:[WEAPON:Cannon|WEAPON:Cannon (Fiend's Mouth)|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Claw|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Culverin|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Double Hackbut|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Fire Lance|WEAPON:Flail]
+WEAPONPROF:[WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub]
+WEAPONPROF:[WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Khakkhara|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Musket|WEAPON:Musket (Axe)]
+WEAPONPROF:[WEAPON:Musket (Double-Barreled)|WEAPON:Musket (Warhammer)|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pepperbox|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Pistol]
+WEAPONPROF:[WEAPON:Pistol (Coat)|WEAPON:Pistol (Dagger)|WEAPON:Pistol (Double-Barreled)|WEAPON:Pistol (Dragon)|WEAPON:Pistol (Sword Cane)|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Revolver]
+WEAPONPROF:[WEAPON:Rhomphaia|WEAPON:Rifle|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Shotgun|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Tepoztopilli]
+WEAPONPROF:[WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute]
+WEAPONPROF:[WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:-95170.00
+EQUIPNAME:Agile Breastplate +1 (Mithral)|OUTPUTORDER:4|COST:5400.0|WT:12.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Agile Breastplate|DATA:NAME=Agile Breastplate +1 (Mithral)$EQMOD=MITHRAL_ARMR_MED.PLUS1A]
+EQUIPNAME:Claw (Natural/Primary)|OUTPUTORDER:3|COST:0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Claw|DATA:KEY=Claw]
+EQUIPNAME:Composite Longbow STR +3|OUTPUTORDER:7|COST:18400.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow STR +3$KEY=Longbow +3 (Composite)$EQMOD=WOOD.PLUS3W]
+EQUIPNAME:Sihedron medalion|OUTPUTORDER:1|COST:69000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Sihedron medalion$EQMOD=BNS_SAV_RES&pipe;+1.SPL_ACT&pipe;SPELLNAME&lbracket;False Life&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;5&rbracket; .SPL_CON_STANDARD.SPL_CMD&pipe;SPELLNAME&lbracket;Gentle Repose&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=(Amulet ( Save Bonus (Resistance) (+1))), (Amulet ( Save Bonus (Resistance) (+1)/False Life/Wizard/5th/Gentle Repose/Wizard/5th))]
+EQUIPNAME:Sword, Bastard|OUTPUTORDER:6|COST:35.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:KEY=Sword (Bastard)$EQMOD=STEEL]
+EQUIPNAME:Sword, Bastard +1|OUTPUTORDER:2|COST:2335.0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sword (Bastard)|DATA:NAME=Sword, Bastard +1$KEY=Sword +1 (Bastard)$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Uniform (Soldier's)|OUTPUTORDER:5|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Uniform (Soldier's)|DATA:NAME=Uniform (Soldier's)$KEY=Uniform (Soldier_s)$COSTMOD=-1]
+EQUIPSET:Configuração Padrão|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.02|VALUE:Sihedron medalion|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.04|VALUE:Uniform (Soldier's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.05|VALUE:Sword, Bastard|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Composite Longbow STR +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.08|VALUE:Sword, Bastard +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Natural-Secondary|ID:0.1.09|VALUE:Claw (Natural/Primary)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.10|VALUE:Agile Breastplate +1 (Mithral)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Power Attack (Light)|TBTARGET:Claw (Natural/Primary)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;2*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Power Attack (Off-Hand)|TBTARGET:Claw (Natural/Primary)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Lamashtu|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Evil|DOMAIN:Madness|DOMAIN:Strength|DOMAIN:Trickery|DOMAIN:Deception Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Ferocity Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Thievery Subdomain]|ALIGNALLOW:|DESC:Goddess of madness, monsters, nightmares|DEITYFAVWEAP:[WEAPON:Falchion]|DEITYALIGN:CE
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

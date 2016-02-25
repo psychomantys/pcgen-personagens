@@ -1,7 +1,7 @@
 PCGVERSION:2.0
 
 # System Information
-CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Paizo - Inner Sea Magic|CAMPAIGN:Inner Sea Gods|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Homebrew|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:My Pathfinder Campaign
 VERSION:6.04.01
 ROLLMETHOD:2|EXPRESSION:Epic Fantasy
 PURCHASEPOINTS:Y|TYPE:Epic Fantasy
@@ -59,8 +59,8 @@ ALIGN:LG
 RACE:Vishkanya
 
 # Character Class(es)
-CLASS:Paladin|LEVEL:13|SKILLPOOL:0
-CLASS:Holy Vindicator|LEVEL:1|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Paladin|LEVEL:14|SKILLPOOL:28
+CLASS:Holy Vindicator|LEVEL:1|SKILLPOOL:2|SPELLBASE:None|CANCASTPERDAY:
 CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
@@ -75,9 +75,10 @@ CLASSABILITIESLEVEL:Holy Vindicator=1|HITPOINTS:5|SKILLSGAINED:4|SKILLSREMAINING
 CLASSABILITIESLEVEL:Paladin=11|HITPOINTS:3|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=12|HITPOINTS:10|SKILLSGAINED:4|SKILLSREMAINING:0
 CLASSABILITIESLEVEL:Paladin=13|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=14|HITPOINTS:10|PRESTAT:CON=0|SKILLSGAINED:4|SKILLSREMAINING:0
 
 # Character Experience
-EXPERIENCE:445000
+EXPERIENCE:635000
 EXPERIENCETABLE:Medium
 
 # Character Templates
@@ -88,6 +89,7 @@ TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Intelligence)|CHOSENTEMPLATE:[NAM
 TEMPLATESAPPLIED:[NAME:Inherent Intelligence Bonus +4]
 TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Charisma)|CHOSENTEMPLATE:[NAME:Inherent Charisma Bonus +4]]
 TEMPLATESAPPLIED:[NAME:Inherent Charisma Bonus +4]
+TEMPLATESAPPLIED:[NAME:Bypass Advanced Race Spell Restrictions]
 
 # Character Region
 REGION:None
@@ -112,7 +114,7 @@ SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
 SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
 SKILL:Disguise|OUTPUTORDER:19|
 SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
-SKILL:Escape Artist|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Paladin|RANKS:13.0|COST:1|CLASSSKILL:N]
+SKILL:Escape Artist|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Paladin|RANKS:14.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:22|
 SKILL:Fly|OUTPUTORDER:23|
 SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
@@ -123,10 +125,10 @@ SKILL:Intimidate|OUTPUTORDER:29|
 SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:30|
 SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:31|
 SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:32|
-SKILL:Knowledge (Planes)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:5.0|COST:1|CLASSSKILL:N]
-SKILL:Knowledge (Religion)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:6.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Paladin|RANKS:5.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Paladin|RANKS:7.0|COST:1|CLASSSKILL:Y]
 SKILL:Knowledge (Untrained)|OUTPUTORDER:35|
-SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Paladin|RANKS:13.0|COST:1|CLASSSKILL:N]
+SKILL:Perception|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Paladin|RANKS:14.0|COST:1|CLASSSKILL:N]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:N]
 SKILL:Perform (Untrained)|OUTPUTORDER:38|
 SKILL:Profession (Untrained)|OUTPUTORDER:39|
 SKILL:Ride|OUTPUTORDER:40|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]
@@ -135,7 +137,7 @@ SKILL:Sense Motive|OUTPUTORDER:42|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CL
 SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:43|
 SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:44|
 SKILL:Sense Motive (Resist feint)|OUTPUTORDER:45|
-SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Paladin|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Spellcraft|OUTPUTORDER:48|CLASSBOUGHT:[CLASS:Paladin|RANKS:7.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Holy Vindicator|RANKS:1.0|COST:1|CLASSSKILL:Y]
 SKILL:Stealth|OUTPUTORDER:49|
 SKILL:Survival|OUTPUTORDER:50|
 SKILL:Swim|OUTPUTORDER:51|
@@ -150,7 +152,7 @@ SKILL:Untrained ~ Linguistics|OUTPUTORDER:36|
 SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:46|
 SKILL:Untrained ~ Spellcraft|OUTPUTORDER:47|
 SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:57|
-SKILL:Use Magic Device|CLASSBOUGHT:[CLASS:Paladin|RANKS:4.0|COST:1|CLASSSKILL:N]
+SKILL:Use Magic Device|OUTPUTORDER:58|CLASSBOUGHT:[CLASS:Paladin|RANKS:5.0|COST:1|CLASSSKILL:N]
 
 # Character Languages
 LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Vishkanya
@@ -159,6 +161,9 @@ LANGUAGE:Common|LANGUAGE:Draconic|LANGUAGE:Elven|LANGUAGE:Vishkanya
 FEATPOOL:0.0
 
 # Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Elven|TYPE:
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Draconic,Elven|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
 ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Celestial Spirit|TYPE:PaladinClassFeatures.SpecialQuality.SpellLike.DivineBond.Divine Bond|DESC:Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for %1 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +%2 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties&colon; defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability %3 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;CelestialSpiritDuration&pipe;CelestialSpiritBonus&pipe;DivineBondTimes
 USERPOOL:Divine Bond|POOLPOINTS:0.0
 ABILITY:Extra Channel|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin Extra Channel|TYPE:ExtraChannel
@@ -168,11 +173,13 @@ ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Extra Channel|TYPE:General.UndeadLord
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fey Foundling|TYPE:General|DESC:You were found in the wilds as a child, bearing a mark of the First World. Magical healing works better on you.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Piranha Strike|TYPE:Combat|DESC:You make a combination of quick strikes, sacrificing accuracy for multiple, minor wounds that prove exceptionally deadly.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Slashing Grace|APPLIEDTO:Kukri|TYPE:Combat|DESC:You can stab your enemies with your sword or another slashing weapon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Unsanctioned Knowledge(Calista)|TYPE:General|DESC:You have searched though forbidden texts and are privy to powerful but proscribed magic.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Finesse|TYPE:Combat.CelestialBloodline.ElementalBloodline.ShadowBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You are trained in using your agility in melee combat, as opposed to brute strength.
 ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Kukri|TYPE:Combat.WeaponFocus.DestinedBloodline.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
 USERPOOL:FEAT|POOLPOINTS:0.0
 ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
 USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
 ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive,Sense Motive|TYPE:FavoredClassBonus
 USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
 ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Blinded|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer blinded.
@@ -238,15 +245,15 @@ SPELLBOOK:Class|TYPE:4
 SPELLBOOK:Alone|TYPE:2
 SPELLBOOK:Magic Item|TYPE:4
 SPELLNAME:Aura of Greater Courage|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin]
+SPELLNAME:Dance of a Hundred Cuts|TIMES:2|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Paladin]
+SPELLNAME:Fly|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin]
 SPELLNAME:Grace|TIMES:2|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin]
 SPELLNAME:Hero's Defiance|TIMES:2|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin]
 SPELLNAME:Litany of Escape|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin]
-SPELLNAME:Litany of Righteousness|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin]
-SPELLNAME:Litany of Sight|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:3|SOURCE:[TYPE:CLASS|NAME:Paladin]
-SPELLNAME:Litany of Vengeance|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:4|SOURCE:[TYPE:CLASS|NAME:Paladin]
+SPELLNAME:Mirror Image|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin]
 SPELLNAME:Paladin's Sacrifice|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin]
+SPELLNAME:Reduce Person|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin]
 SPELLNAME:Shield Other|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Paladin]
-SPELLNAME:Stalwart Resolve|TIMES:1|CLASS:Paladin|BOOK:Alone|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Paladin]
 
 # Character Description/Bio/History
 CHARACTERBIO:
@@ -254,7 +261,7 @@ CHARACTERDESC:
 CHARACTERCOMP:
 CHARACTERASSET:
 CHARACTERMAGIC:
-CHARACTERDMNOTES:Talentos a adquirir&colon;&nl;Extra channel&nl;Fearless aura&nl;Unsanctioned Knowledge(tem que ter inteligencia 13)&nl;&nl;1th)&nl;Vanish talvez&nl;2th)&nl;Bladed Dash&nl;* Muito talvez....&nl;&nl;3th)&nl;jester jaunt&nl;* teleporte de 30ft&nl;Magic vestment&nl;* jester jaunt eh mehor...&nl;4th)&nl;Dance of hundered cuts&nl;* Dura pouco, mais o buff eh absurdo&nl;Echolocation&nl;* blindsigth e dura bastante&nl;Freedom of movement&nl;* dura bastante&nl;* tem componentes gestuais ainda
+CHARACTERDMNOTES:Talentos a adquirir&colon;&nl;Extra channel&nl;Fearless aura&nl;Unsanctioned Knowledge(tem que ter inteligencia 13)&nl;&nl;1th)&nl;Vanish talvez&nl;2th)&nl;Bladed Dash&nl;* Muito talvez....&nl;&nl;3th)&nl;jester jaunt&nl;* teleporte de 30ft&nl;Magic vestment&nl;* jester jaunt eh mehor...&nl;Fly&nl;4th)&nl;Dance of hundered cuts&nl;* Dura pouco, mais o buff eh absurdo&nl;Echolocation&nl;* blindsigth e dura bastante&nl;Freedom of movement&nl;* dura bastante&nl;* tem componentes gestuais ainda
 
 # Kits
 
