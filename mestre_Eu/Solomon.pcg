@@ -1,0 +1,296 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Core Rulebook|CAMPAIGN:Advanced Player's Guide|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary|CAMPAIGN:Bestiary 2|CAMPAIGN:Ultimate Combat|CAMPAIGN:Ultimate Magic|CAMPAIGN:Ultimate Equipment|CAMPAIGN:Bestiary 3|CAMPAIGN:Bestiary 3|CAMPAIGN:Pathfinder Society Field Guide|CAMPAIGN:Advanced Race Guide|CAMPAIGN:Advanced Class Guide|CAMPAIGN:Pathfinder Unchained|CAMPAIGN:Inner Sea World Guide|CAMPAIGN:Carrion Crown Player's Guide|CAMPAIGN:Faiths of Purity|CAMPAIGN:Sargava the Lost Colony|CAMPAIGN:Rise of the Runelords Player's Guide|CAMPAIGN:Ultimate Campaign|CAMPAIGN:Second Darkness Player's Guide (Conversion)|CAMPAIGN:Dwarves of Golarion|CAMPAIGN:Mythic Adventures|CAMPAIGN:Mythic Adventures|CAMPAIGN:Council of Thieves Player's Guide|CAMPAIGN:Curse of the Crimson Throne Player's Guide (Conversion)|CAMPAIGN:PF - Weapon Master's Handbook|CAMPAIGN:Pirates of the Inner Sea|CAMPAIGN:Pathfinder Campaign Setting - Inner Sea Gods|CAMPAIGN:Inner Sea Primer|CAMPAIGN:Inner Sea Magic|CAMPAIGN:Inner Sea Combat|CAMPAIGN:Inner Sea Bestiary|CAMPAIGN:Second Darkness, Chapter 2 - Children of the Void (Conversion)|CAMPAIGN:Second Darkness, Chapter 3 - The Armageddon Echo (Conversion)|CAMPAIGN:DSP - Ultimate Psionics|CAMPAIGN:My Pathfinder Campaign
+VERSION:6.07.00-dev
+ROLLMETHOD:2|EXPRESSION:Epic Fantasy
+PURCHASEPOINTS:Y|TYPE:Epic Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:statblock_pathfinder.htm.ftl
+POOLPOINTS:25
+POOLPOINTSAVAIL:25
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Solomon
+TABNAME:
+PLAYERNAME:
+HEIGHT:0
+WEIGHT:0
+AGE:16
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:22
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Paladin|LEVEL:20|SKILLPOOL:0
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:7|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:5|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:9|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:3|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=6|HITPOINTS:6|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=7|HITPOINTS:9|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=8|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=9|HITPOINTS:8|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=10|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=11|HITPOINTS:9|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=12|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=13|HITPOINTS:8|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=14|HITPOINTS:8|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=15|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=16|HITPOINTS:9|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=17|HITPOINTS:9|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=18|HITPOINTS:2|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=19|HITPOINTS:1|SKILLSGAINED:3|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=20|HITPOINTS:1|PRESTAT:CHA=1|SKILLSGAINED:3|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:3600000
+EXPERIENCETABLE:Medium
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Constitution)|CHOSENTEMPLATE:[NAME:Inherent Constitution Bonus +5]]
+TEMPLATESAPPLIED:[NAME:Inherent Constitution Bonus +5]
+TEMPLATESAPPLIED:[NAME:Inherent Ability Bonus (Charisma)|CHOSENTEMPLATE:[NAME:Inherent Charisma Bonus +5]]
+TEMPLATESAPPLIED:[NAME:Inherent Charisma Bonus +5]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|
+SKILL:Bluff (Fool someone)|OUTPUTORDER:7|
+SKILL:Bluff (Pass messages)|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:10|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:11|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:12|
+SKILL:Climb|OUTPUTORDER:13|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:31|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:42|
+SKILL:Craft (Untrained)|OUTPUTORDER:14|
+SKILL:Diplomacy|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:17|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:18|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:19|
+SKILL:Disguise|OUTPUTORDER:21|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:22|
+SKILL:Escape Artist|OUTPUTORDER:23|
+SKILL:Escape Artist (Escape bonds/grapple)|OUTPUTORDER:24|
+SKILL:Fly|OUTPUTORDER:25|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:28|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:29|
+SKILL:Heal|OUTPUTORDER:30|
+SKILL:Intimidate|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:33|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:34|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:35|
+SKILL:Knowledge (Dungeoneering)|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Religion)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Paladin|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:37|
+SKILL:Perception|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Paladin|RANKS:20.0|COST:1|CLASSSKILL:N]
+SKILL:Perception (Dim Light)|OUTPUTORDER:40|
+SKILL:Perform (Untrained)|OUTPUTORDER:41|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Sense Motive (Resist feint)|OUTPUTORDER:49|
+SKILL:Spellcraft|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Paladin|RANKS:19.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:53|
+SKILL:Stealth (Cane Fields)|OUTPUTORDER:54|
+SKILL:Stealth (Dim Light)|OUTPUTORDER:55|
+SKILL:Stealth (Jungle)|OUTPUTORDER:56|
+SKILL:Survival|OUTPUTORDER:57|
+SKILL:Swim|OUTPUTORDER:58|
+SKILL:Untrained Charisma|OUTPUTORDER:59|
+SKILL:Untrained Dexterity|OUTPUTORDER:60|
+SKILL:Untrained Intelligence|OUTPUTORDER:61|
+SKILL:Untrained Strength|OUTPUTORDER:62|
+SKILL:Untrained Wisdom|OUTPUTORDER:63|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:20|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:27|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:38|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:50|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:52|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:65|
+SKILL:Use Magic Device|OUTPUTORDER:64|CLASSBOUGHT:[CLASS:Paladin|RANKS:15.0|COST:1|CLASSSKILL:N]
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Charisma|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Celestial Spirit|TYPE:PaladinClassFeatures.SpecialQuality.SpellLike.DivineBond.Divine Bond|DESC:Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for %1 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +%2 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties&colon; defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability %3 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;CelestialSpiritDuration&pipe;CelestialSpiritBonus&pipe;DivineBondTimes
+USERPOOL:Divine Bond|POOLPOINTS:0.0
+ABILITY:Drawbacks|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Drawback ~ Paranoid|TYPE:Drawback|DESC:You believe that someone or something is always out to get you, so you have a hard time truly trusting anyone. Anyone who attempts an aid another action of any type to assist you must succeed at a DC 15 check instead of the normal DC 10 check.
+USERPOOL:Drawbacks|POOLPOINTS:0.0
+ABILITY:Eldritch Heritage Bloodline Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Eldritch Heritage Bloodline ~ Aberrant|TYPE:EldritchHeritageSelection
+USERPOOL:Eldritch Heritage Bloodline Choice|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Aberrant Tumor|TYPE:General|DESC:To the surprise of others, that strange growth on you is actually your spellcasting companion.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Eldritch Heritage|TYPE:General|DESC:You are descended from a long line of sorcerers, and some portion of their power flows in your veins.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Fey Foundling|TYPE:General|DESC:You were found in the wilds as a child, bearing a mark of the First World. Magical healing works better on you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Noble Scion|TYPE:General|DESC:You are a member of a proud noble family, whether or not you remain in good standing with your family. +2 on Knowledge (nobility) plus gain a nobility-related boon.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Selective Channeling|TYPE:General|DESC:You can choose whom to affect when you channel energy.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Skill Focus|APPLIEDTO:Knowledge (Dungeoneering)|TYPE:General.SkillFocus.Liberator|DESC:You are particularly adept at your chosen skill.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,,,,,,,,,,,,|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Headband of Intellect Skill Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Headband of Intellect Skill Selection|APPLIEDTO:Sense Motive,Perform (Dance),Diplomacy|TYPE:HeadbandSkill
+USERPOOL:Headband of Intellect Skill Choice|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ Unknown|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Blinded|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer blinded.
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Cursed|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the ability also acts as Remove Curse with a caster level of %1.&pipe;MercyLVL
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Exhausted|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer exhausted.
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Fatigued|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer fatigued.
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Sickened|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer sickened.
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Staggered|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer staggered, unless it is at exactly 0 hit points.
+USERPOOL:Mercy|POOLPOINTS:0.0
+ABILITY:Noble Scion Choice|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Scion of War|TYPE:SpecialQuality.NobleScion|DESC:You use your Charisma modifier to adjust Initiative checks instead of your Dexterity modifier.
+USERPOOL:Noble Scion Choice|POOLPOINTS:0.0
+ABILITY:Paladin Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Paladin Archetype ~ Hospitaler|TYPE:Archetype.PaladinArchetype.PaladinSmiteEvil.PaladinChannelPositiveEnergy.PaladinAuraOfJustice|DESC:Paladins are known for their charity and for tending to the sick. The hospitaler takes to this calling above all others, spending much of her time healing the poor, and giving aid and succor to those in need. The hospitaler has the following class features.
+USERPOOL:Paladin Archetype|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Fate's Favored|TYPE:Trait.BasicTrait.FaithTrait|DESC:The fates watch over you. Whenever you are under the effect of a luck bonus of any kind, that bonus increases by 1.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Optimistic Gambler|TYPE:Trait|DESC:Effects that grant you morale bonuses persist 1d4 rounds longer than they normally would as a result.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Reactionary|TYPE:Trait.BasicTrait.CombatTrait|DESC:You were bullied often as a child, but never quite developed an offensive response. Instead, you became adept at anticipating sudden attacks and reacting to danger quickly. You gain a +2 trait bonus on Initiative checks.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Boarding)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Boarding Pike|WEAPON:Brass Knife|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus]
+WEAPONPROF:[WEAPON:Chakram|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer]
+WEAPONPROF:[WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Handaxe|WEAPON:Hook Hand]
+WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Khakkhara|WEAPON:Klar]
+WEAPONPROF:[WEAPON:Klar (as weapon)|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)]
+WEAPONPROF:[WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum]
+WEAPONPROF:[WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore]
+WEAPONPROF:[WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear]
+WEAPONPROF:[WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)]
+WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:-667105.00
+EQUIPNAME:Amulet of Natural Armor +5|OUTPUTORDER:2|COST:50000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Physical Perfection +6|OUTPUTORDER:7|COST:144000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Boots of Teleportation|OUTPUTORDER:9|COST:49000|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of the Merciful Knight|OUTPUTORDER:4|COST:15600|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Buckler +5 (Ghost Touch/Mithral)|OUTPUTORDER:10|COST:38505.0|WT:2.5|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler +5 (Ghost Touch/Mithral)$EQMOD=PLUS5S.MITHRAL_ITEM.GHOST]
+EQUIPNAME:Cloak of Resistance +5|OUTPUTORDER:6|COST:25000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Full Plate +5 (Comfort/Determination/Dastard/Deathless/Ghost touch/Mithral/Restful)|OUTPUTORDER:8|COST:150000.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +5 (Comfort/Determination/Dastard/Deathless/Ghost touch/Mithral/Restful)$EQMOD=PLUS5A.DSTRD.DTHLS.COMFORT.MITHRAL_ARMR_HVY.DETERM.GHOST_A.Restful]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Headband of Mental Superiority +6|OUTPUTORDER:1|COST:144000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Outfit (Explorer's)|OUTPUTORDER:5|COST:0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Outfit (Explorer's)|DATA:NAME=Outfit (Explorer's)$KEY=Outfit (Explorer_s)$COSTMOD=-10]
+EQUIPNAME:Potion of Fly|OUTPUTORDER:11|COST:750|WT:0.0|QUANTITY:8.0|NOTE:
+EQUIPNAME:Ring of Evasion|OUTPUTORDER:3|COST:25000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Stone of Good Luck (Luckstone)|OUTPUTORDER:12|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Configuração Padrão|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.01|VALUE:Ring of Evasion|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.02|VALUE:Potion of Fly|QUANTITY:8.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.03|VALUE:Outfit (Explorer's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.04|VALUE:Headband of Mental Superiority +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.05|VALUE:Cloak of Resistance +5|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Wrist|ID:0.1.06|VALUE:Bracers of the Merciful Knight|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.07|VALUE:Boots of Teleportation|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.08|VALUE:Belt of Physical Perfection +6|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.09|VALUE:Amulet of Natural Armor +5|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.10|VALUE:Full Plate +5 (Comfort/Determination/Dastard/Deathless/Ghost touch/Mithral/Restful)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.11|VALUE:Buckler +5 (Ghost Touch/Mithral)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Gauntlet|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.13|VALUE:Stone of Good Luck (Luckstone)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Apsu|DEITYDOMAINS:[DOMAIN:Artifice|DOMAIN:Earth|DOMAIN:Good|DOMAIN:Law|DOMAIN:Travel|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Construct Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Exploration Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Trade Subdomain]|ALIGNALLOW:|DESC:God of dragons, glory, leadership, peace|DEITYFAVWEAP:[WEAPON:Bite|WEAPON:Quarterstaff]|DEITYALIGN:LG
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+SPELLBOOK:Magic Item|TYPE:4
+SPELLBOOK:Boots of Teleportation|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
